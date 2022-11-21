@@ -6,8 +6,6 @@ import ColorsPage from "./pages/ColorsPage";
 import IconPage from "./pages/IconPage";
 import TypographyPage from "./pages/TypographyPage";
 import ButtonPage from "./pages/ButtonPage";
-import AvatarPage from "./pages/AvatarPage";
-import InputPage from "./pages/InputPage";
 import GridPage from "./pages/GridPage";
 
 const Routes = () => {
@@ -30,12 +28,6 @@ const Routes = () => {
             </Route>
             <Route exact path="/button">
                 <ButtonPage />
-            </Route>
-            <Route exact path="/avatar">
-                <AvatarPage />
-            </Route>
-            <Route exact path="/input">
-                <InputPage />
             </Route>
             <Route exact path="/grid">
                 <GridPage />

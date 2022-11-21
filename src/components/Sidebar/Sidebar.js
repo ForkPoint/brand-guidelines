@@ -156,18 +156,6 @@ const linksArray = [
     notification: 0,
   },
   {
-    label: "Avatar",
-    icon: <GiEgyptianProfile />,
-    to: "/avatar",
-    notification: 0,
-  },
-  {
-    label: "Input",
-    icon: <BsCardText />,
-    to: "/input",
-    notification: 0,
-  },
-  {
     label: "Grid",
     icon: <BsGrid1X2Fill />,
     to: "/grid",

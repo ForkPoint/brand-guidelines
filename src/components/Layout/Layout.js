@@ -4,7 +4,7 @@ import { SLayout, SMain } from "./styles";
 
 const Layout = ({ children }) => {
     return (
-        <SLayout>
+        <SLayout display="flex">
             <Sidebar />
             <SMain>{children}</SMain>
         </SLayout>

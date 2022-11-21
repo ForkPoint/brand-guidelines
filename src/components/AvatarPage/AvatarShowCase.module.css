@@ -1,0 +1,91 @@
+.sectionAvatars {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+
+  .avatarsBox {
+    padding: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .items {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .items li {
+    margin: 0 10px 10px 0;
+    display: inline-block;
+  }
+
+  .boxSmall {
+    overflow: hidden;
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 207, 49);
+  }
+
+  .boxMedium {
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 207, 49);
+  }
+
+  .boxBig {
+    font-size: 30px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 207, 49);
+  }
+
+  .boxLarge {
+    font-size: 40px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 207, 49);
+  }
+
+  .boxExtraLarge {
+    font-size: 50px;
+    overflow: hidden;
+    border-radius: 100px;
+    width: 95px;
+    height: 95px;
+    vertical-align: middle;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 207, 49);
+  }

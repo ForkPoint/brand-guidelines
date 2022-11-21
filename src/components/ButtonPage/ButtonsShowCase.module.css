@@ -1,0 +1,40 @@
+.sectionButtons {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .buttonsContent {
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  .actions {
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .actions select {
+    margin: 0 7px;
+  }
+
+  .textContent {
+    padding: 30px;
+  }
+
+  .buttons {
+    padding: 30px 0;
+  }
+
+  .items {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .items li {
+    flex: 1 6%;
+    margin: 4px;
+  }

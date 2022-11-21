@@ -1,0 +1,12 @@
+.logosSection {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 10px 65px;
+}
+
+.row {
+    padding: 20px 0;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}

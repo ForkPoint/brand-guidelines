@@ -3,9 +3,10 @@ import styles from "./Brand.module.css";
 
 const Brand = ({}) => {
   return (
-    <div className={styles.sectionContainer}>
+    // <div className={styles.cover}>
 
-    </div>
+      <div className={styles.sectionContainer} />
+    // </div>
   );
 };
 

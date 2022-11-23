@@ -5,7 +5,6 @@ import Brand from "../components/HomePage/Brand";
 
 const HomePage = () => {
     return <div className={styles.brandingHero}>
-        <Heading text="Home page"/>
         <Brand />
     </div>
 };

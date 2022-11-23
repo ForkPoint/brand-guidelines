@@ -4,45 +4,49 @@ import styles from "./ButtonsShowCase.module.css";
 const ButtonsShowCase = ({}) => {
   return (
     <div className={styles.sectionButtons}>
-      <div className={styles.buttonsContent}>
-        <div className={styles.actions}>
-          <span>Color</span>
-          <select>
-            <option value="primary">Primary</option>
-            <option value="secondary">Secondary</option>
-          </select>
-
-          <span>Size</span>
-          <select>
-            <option value="primary">Primary</option>
-            <option value="secondary">Secondary</option>
-          </select>
-        </div>
-        <div className={styles.textContent}>
+      <div className={styles.wrapper}>
+        <div className={styles.content}>
           <p>
-            Contained buttons are high-emphasis, distinguished by their use of
-            elevation and fill. They contain actions that are primary to your
-            app.
+            The size of buttons depends on the base font size used which can be
+            adapted to the viewport width.
+          </p>
+          <ul>
+            <li>
+              Small button at a base font size of 16 px, e.g. in a smartphone
+              app.
+            </li>
+            <li>
+              Medium sized button at a base font size of 18 px, e.g. in a tablet
+              app.
+            </li>
+            <li>
+              Large button at a base font size of 20 px, e.g. on a website which
+              is rendered in a wide viewport.
+            </li>
+          </ul>
+          <p>
+            The minimum width of primary and secondary buttons is defined as
+            nine times the base font size. Thus, with a base font size of 16 px,
+            the minimum button width is 9 × 16 px = 144 px.
+          </p>
+          <p>
+            For small viewports, the font size and padding for the label can be
+            adjusted on the left and right.
           </p>
         </div>
         <div className={styles.buttons}>
-          <ul className={styles.items}>
-            <li>
-              <button>Primary</button>
-            </li>
-            <li>
-              <button>Secondary</button>
-            </li>
-            <li>
-              <button>Disabled</button>
-            </li>
-            <li>
-              <button>Default</button>
-            </li>
-            <li>
-              <button>Submit</button>
-            </li>
-          </ul>
+          <div className={styles.small}>
+            <p>S</p>
+            <button className={styles.btnSmall}>Button</button>
+          </div>
+          <div className={styles.medium}>
+            <p>M</p>
+            <button className={styles.btnMedium}>Button</button>
+          </div>
+          <div className={styles.large}>
+            <p>L</p>
+            <button className={styles.btnLarge}>Button</button>
+          </div>
         </div>
       </div>
     </div>

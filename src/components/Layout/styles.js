@@ -20,7 +20,16 @@ export const SMain = styled.main`
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
         margin: 5px 0;
+    }
+
+    ul {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    li {
+        margin-bottom: 10px;
     }
 `;

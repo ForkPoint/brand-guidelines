@@ -1,12 +1,17 @@
 .logosSection {
         max-width: 980px;
         margin: 0 auto;
-        padding: 10px 65px;
+        padding: 10px 10px;
 }
 
 .row {
     padding: 20px 0;
-    height: 200px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+.col {
+    flex: 1 22%;
 }

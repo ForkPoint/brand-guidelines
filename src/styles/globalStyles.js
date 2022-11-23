@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
         background: ${({ theme }) => theme.bg2};
         color: ${({ theme }) => theme.text};
         font-family: 'Open Sans', sans-serif;
-        letter-spacing: .6px;
+        letter-spacing: 1.1px;
     }
 `;

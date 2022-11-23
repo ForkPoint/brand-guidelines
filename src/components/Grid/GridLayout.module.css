@@ -1,0 +1,72 @@
+.sectionContainer {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.vertical {
+  display: grid;
+  grid-template-columns: 3.6fr 1.8fr;
+  grid-template-rows: 250px;
+}
+
+.one {
+  padding: 10px;
+  border: 1px solid #000000;
+  background-color: #9d9d9d;
+}
+
+.two {
+  padding: 10px;
+  background-color: #8acf31;
+  border: 1px solid #000000;
+}
+
+.three {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 100px;
+}
+
+.test {
+    padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.horizontal {
+  display: grid;
+  grid-template-rows: 1.3fr 0.7fr;
+  grid-template-columns: 335px;
+  height: 250px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 150px;
+}
+
+.blocksSecondary {
+    display: grid;
+    grid-template-columns: 335px;
+}
+
+.side {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(2, 170px);
+    height: 250px;
+}

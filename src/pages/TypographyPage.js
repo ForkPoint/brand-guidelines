@@ -8,13 +8,8 @@ const TypographyPage = () => {
     <div>
       <Heading
         text="Typography"
-        label="Maecenas vitae ullamcorper diam, eu efficitur orci. Suspendisse molestie,
-     nulla imperdiet gravida condimentum, sem ex convallis diam, ut auctor tellus lectus sed elit. Quisque ut imperdiet leo.
-      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-
-    Cras vitae lacus metus. Aliquam erat volutpat. Aliquam viverra tristique nisi, ut pharetra lectus ultrices quis.
-     Pellentesque feugiat elit et vulputate scelerisque. Donec malesuada mauris sed enim iaculis facilisis. Maecenas urna leo,
-      tincidunt eget urna et, sagittis tincidunt magna."
+        label="Striking and loud. Or reduced and elegant – the ForkPoint Type font styles allow a wide variety of scenarios and moods. In this way,
+         concrete applications can be geared even more consistently to the target group and the message being conveyed."
       />
       <FontVariants />
     </div>

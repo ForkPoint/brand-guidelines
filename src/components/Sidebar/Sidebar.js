@@ -25,14 +25,10 @@ import {
   AiOutlineFontColors,
   AiOutlineLeft,
   AiOutlineSearch,
-  AiOutlineSetting,
 } from "react-icons/ai";
 import { IoLogoSlack } from "react-icons/io";
 import { BiConfused } from "react-icons/bi";
-import { BsFillMenuButtonWideFill, BsCardText, BsGrid1X2Fill } from "react-icons/bs";
-import { GiEgyptianProfile } from "react-icons/gi";
-import { MdLogout, MdOutlineAnalytics } from "react-icons/md";
-import { BsPeople } from "react-icons/bs";
+import { BsFillMenuButtonWideFill, BsGrid1X2Fill } from "react-icons/bs";
 
 import { ThemeContext } from "./../../App";
 import { useLocation } from "react-router-dom";

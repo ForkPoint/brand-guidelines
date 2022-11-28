@@ -15,7 +15,7 @@
   }
   
   .boxPrimary div {
-      background-color: #000000;
+      background-color: #11a1e0;
       color: #fff;
   }
   
@@ -26,9 +26,8 @@
   }
   
   .boxSecondary div {
-      background-color: #ffffff;
       border: 1px solid #000000;
-      opacity: 50%;
+      /* opacity: 50%; */
   }
   
   .main {

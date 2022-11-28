@@ -16,9 +16,6 @@ const PrimaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> 8acf31
             </p>
-            <p>
-              <strong>PANTONE:</strong> 375 C
-            </p>
           </div>
           <div className={styles.light}>
             <span>90%</span>
@@ -39,16 +36,13 @@ const PrimaryColorCard = ({}) => {
         <div className={styles.boxSecondary}>
           <div className={styles.main}>
             <p>
-              <strong>RGB:</strong> 138 207 490
+              <strong>RGB:</strong> 87 87 87
             </p>
             <p>
-              <strong>CMYK:</strong> 60 0 100 0
+              <strong>CMYK:</strong> 0 0 0 80
             </p>
             <p>
-              <strong>HEX:</strong> 8acf31
-            </p>
-            <p>
-              <strong>PANTONE:</strong> 375 C
+              <strong>HEX:</strong> 575757
             </p>
           </div>
           <div className={styles.light}>

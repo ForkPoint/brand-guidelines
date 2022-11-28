@@ -6,10 +6,26 @@
 
   .iconsGrid {
     display: flex;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(17,156,21,0.737154236694678) 100%);
+    background: linear-gradient(
+    to right,
+    #8acf31,
+    #11a1e0,
+    #ffffff
+  );
     flex-wrap: wrap;
+    background-size: 500% 100%;
     border-radius: 6px;
+    animation: cobler 7s 0s linear infinite alternate;
+  }
+
+  @keyframes cobler {
+    0% {
+      background-position: 0% 0%;
+    }
+  
+    100% {
+      background-position: 100% 0%;
+    }
   }
 
   .gridColumn {

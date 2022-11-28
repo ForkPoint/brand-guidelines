@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout";
 import Routes from "./Routes";
 import { GlobalStyle } from "./styles/globalStyles";
 import { darkTheme, lightTheme } from "./styles/theme";
+import { muli } from "../src/fonts/fonts";
 
 export const ThemeContext = React.createContext(null);
 
@@ -16,6 +17,7 @@ const App = () => {
         <ThemeContext.Provider value={{ setTheme, theme }}>
             <ThemeProvider theme={themeStyle}>
                 <GlobalStyle />
+                <muli />
                 <Helmet>
                     <title>ForkPoint Brand Guide</title>
                     <link rel="preconnect" href="https://fonts.googleapis.com" />

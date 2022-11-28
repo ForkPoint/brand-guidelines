@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import muli from "../fonts/fonts";
 
 export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {
@@ -9,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: ${({ theme }) => theme.bg2};
         color: ${({ theme }) => theme.text};
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Muli', sans-serif;
         letter-spacing: 1.1px;
     }
 `;

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.c4f1f281.css",
-    "main.js": "/brand-guidelines/static/js/main.3d0771df.js",
+    "main.css": "/brand-guidelines/static/css/main.cf7e458d.css",
+    "main.js": "/brand-guidelines/static/js/main.4b6b03e5.js",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
     "static/media/flags.png": "/brand-guidelines/static/media/flags.23aee02bfc8c4b8fe694.png",
@@ -14,6 +14,7 @@
     "static/media/cartoonHero.png": "/brand-guidelines/static/media/cartoonHero.8fa13959c06cab302ce7.png",
     "static/media/cartoon1.svg": "/brand-guidelines/static/media/cartoon1.1e0fcbe8350fac949c86fdac84405471.svg",
     "static/media/constructionLogo.png": "/brand-guidelines/static/media/constructionLogo.8157fe96b938c055eb61.png",
+    "static/media/Muli.ttf": "/brand-guidelines/static/media/Muli.4829cf81e2b513fc1b64.ttf",
     "static/media/place.png": "/brand-guidelines/static/media/place.c93941f24813760374d5.png",
     "static/media/mono-negative.png": "/brand-guidelines/static/media/mono-negative.0241bf86a6c1d615c15b.png",
     "static/media/full-positive.png": "/brand-guidelines/static/media/full-positive.bf618b2a96f08c5d01b6.png",
@@ -31,11 +32,11 @@
     "static/media/cartoonLogo.svg": "/brand-guidelines/static/media/cartoonLogo.f3e473ee0e0d7fbfef72f3288b92815d.svg",
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
-    "main.c4f1f281.css.map": "/brand-guidelines/static/css/main.c4f1f281.css.map",
-    "main.3d0771df.js.map": "/brand-guidelines/static/js/main.3d0771df.js.map"
+    "main.cf7e458d.css.map": "/brand-guidelines/static/css/main.cf7e458d.css.map",
+    "main.4b6b03e5.js.map": "/brand-guidelines/static/js/main.4b6b03e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4f1f281.css",
-    "static/js/main.3d0771df.js"
+    "static/css/main.cf7e458d.css",
+    "static/js/main.4b6b03e5.js"
   ]
 }

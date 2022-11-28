@@ -12,10 +12,21 @@ import banner3 from "./banner3.png"
 import banner4 from "./banner4.png"
 import cartoon1 from "./cartoon1.svg"
 import cartoon2 from "./cartoon2.svg"
+import cartoon3 from "./cartoon3.svg"
+import cartoon4 from "./cartoon4.svg"
+import cartoon5 from "./cartoon5.svg"
+import cartoon6 from "./cartoon6.svg"
+import cartoon7 from "./cartoonLogo.svg"
 import place from "./place.png"
 import salesforce from "./salesforce.png"
 import cartoonHero from "./cartoonHero.png"
 import forkpointGrandpa from "./forkpointGrandpa.png"
+import logoType from './constructionLogo.png'
+import pencil from "./pencil.svg"
+import webDraw from "./webArt.svg"
+import cssPaint from "./cssPaint.svg"
+import text from "./text.svg"
+import logoDraw from "./logo.svg"
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -30,8 +41,19 @@ export const cover2 = banner2;
 export const cover3 = banner3;
 export const cover4 = banner4;
 export const drawPrimary = cartoon1;
-export const drawSondary = cartoon2;
+export const drawSecondary = cartoon2;
+export const draw3 = cartoon3;
+export const draw4 = cartoon4;
+export const draw5 = cartoon5;
+export const draw6 = cartoon6;
+export const cartoonLogo = cartoon7;
 export const location = place;
 export const salesforceCover = salesforce;
 export const cartoonCover = cartoonHero;
 export const grandpaForkpoint = forkpointGrandpa;
+export const constructionLogo = logoType;
+export const css = cssPaint;
+export const pencilArt = pencil;
+export const webArt = webDraw;
+export const penArt = text;
+export const logoArt = logoDraw;

@@ -49,6 +49,35 @@ const ButtonsShowCase = ({}) => {
           </div>
         </div>
       </div>
+      <div className={styles.showcase}>
+        <div className={styles.primary}>
+          <h5>Primary Buttons</h5>
+          <h6>S</h6>
+          <button className={styles.btnSmall}>#8acf31</button>
+          <h6>M</h6>
+          <button className={styles.btnMedium}>RGB: 138 207 490</button>
+          <h6>L</h6>
+          <button className={styles.btnLarge}>CMYK: 60 0 100 0</button>
+        </div>
+        <div className={styles.secondary}>
+          <h5>Secondary Buttons</h5>
+          <h6>S</h6>
+          <button className={styles.btnSmall}>#575757</button>
+          <h6>M</h6>
+          <button className={styles.btnMedium}>RGB: 87 87 87</button>
+          <h6>L</h6>
+          <button className={styles.btnLarge}>CMYK: 0 0 0 80</button>
+        </div>
+        <div className={styles.tertiary}>
+          <h5>Tertiary Buttons</h5>
+          <h6>S</h6>
+          <button className={styles.btnSmall}>#11a1e0</button>
+          <h6>M</h6>
+          <button className={styles.btnMedium}>RGB: 17 161 224</button>
+          <h6>L</h6>
+          <button className={styles.btnLarge}>CMYK: 92 28 0 12</button>
+        </div>
+      </div>
     </div>
   );
 };

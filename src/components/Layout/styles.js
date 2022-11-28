@@ -12,11 +12,37 @@ export const SMain = styled.main`
     h1 {
         font-size: 36px;
         margin: 7px 0px;
+        font-weight: 600;
     }
 
     h2 {
+        font-size: 32px;
+        margin: 7px 0px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin: 7px 0px;
+        font-weight: 400;
+    }
+
+    h4 {
         font-size: 24px;
         margin: 7px 0px;
+        font-weight: 300;
+    }
+
+    h5 {
+        font-size: 22px;
+        margin: 7px 0px;
+        font-weight: 200;
+    }
+
+    h6 {
+        font-size: 20px;
+        margin: 7px 0px;
+        font-weight: 100;
     }
 
     p {

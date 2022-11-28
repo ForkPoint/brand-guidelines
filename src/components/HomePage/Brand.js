@@ -1,14 +1,20 @@
 import React from "react";
-import { Fragment } from "react/cjs/react.production.min";
 import styles from "./Brand.module.css";
+import { homePageHero, css, pencilArt, webArt, penArt, logoArt } from "../../assets";
 
 const Brand = ({}) => {
   return (
-    <Fragment>
-      <div className={styles.sectionContainer} />
-      <div className={styles.cover1} />
-      <div className={styles.cover2} />
-    </Fragment>
+    <div className={styles.container}>
+      <div className={styles.heroesLayout}>
+        <div className={styles.blob}>
+        </div>
+        <div className={styles.content}>
+          <p>It all starts here. Use this guide as a high-level overview
+            of how the ForkPoint brand comes to life.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
 

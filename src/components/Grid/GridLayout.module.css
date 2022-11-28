@@ -1,34 +1,36 @@
 .sectionContainer {
-  max-width: 1180px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: 10px 10px;
 }
 
 .cardVertical {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 350px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 525px;
   margin-bottom: 10px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(17,156,21,0.737154236694678) 100%);
+    border-radius: 6px;
 }
 
 .leftVertical {
-  grid-column: 1 / 2;
-  border: 1px solid black;
+  grid-column: 1 / 3;
+  text-align: center;
 }
 
 .leftVertical img {
  width: 100%;
- height: 100%; 
+ height: 60%; 
 }
 
 .rightVertical {
-  grid-column: 2 / -1;
-  border: 1px solid black;
+  grid-column: 3 / -1;
+  padding: 10px;
 }
 
 .rightVertical img {
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .cardHorizontal {
@@ -36,12 +38,12 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 175px);
   margin-bottom: 10px;
+  border-radius: 6px;
 }
 
 .topHorizontal {
   grid-column: 1 / -1;
   grid-row: 1 / 3;
-  border: 1px solid black;
 }
 
 .topHorizontal img {
@@ -51,7 +53,6 @@
 
 .bottomHorizontal {
   grid-column: 1 / -1;
-  border: 1px solid black;
 }
 
 .bottomHorizontal img {
@@ -62,14 +63,26 @@
 .cardGridPrimary {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 400px 200px;
-  background-color: #62b7f8;
+  grid-template-rows: 350px 200px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(17,17,156,0.737154236694678) 100%);
   border-radius: 6px;
+}
+
+.block {
+  text-align: center;
+  padding: 20px 10px;
 }
 
 .block img {
   width: 100%;
   height: 100%;
+}
+
+.block1 {
+  text-align: center;
+  padding-top: 40px;
+  rotate: -20deg;
 }
 
 .block1 img {
@@ -89,4 +102,29 @@
 
 .block3 {
   grid-column: 1 / -1;
+}
+
+.block4 {
+  grid-column: 1 / 2;
+}
+
+.block4 img {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.cardGridSecondary {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 150px 0px 300px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(17,156,21,0.737154236694678) 100%);
+  border-radius: 6px;
+
 }

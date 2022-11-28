@@ -1,18 +1,41 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.bbb5a02f.css",
-    "main.js": "/brand-guidelines/static/js/main.e7a5e7d5.js",
+    "main.css": "/brand-guidelines/static/css/main.c4f1f281.css",
+    "main.js": "/brand-guidelines/static/js/main.3d0771df.js",
+    "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
+    "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
+    "static/media/flags.png": "/brand-guidelines/static/media/flags.23aee02bfc8c4b8fe694.png",
+    "static/media/card.png": "/brand-guidelines/static/media/card.8ae91b0c13a6cee30a3f.png",
+    "static/media/banner4.png": "/brand-guidelines/static/media/banner4.7baa693976e5efd10362.png",
+    "static/media/forkpointGrandpa.png": "/brand-guidelines/static/media/forkpointGrandpa.88177b312266a95bb081.png",
+    "static/media/banner2.png": "/brand-guidelines/static/media/banner2.dd08449397cddfef6245.png",
+    "static/media/banner3.png": "/brand-guidelines/static/media/banner3.72822f9a8c4f78421139.png",
     "static/media/branding-hero.jpg": "/brand-guidelines/static/media/branding-hero.4197a325b6afe565e095.jpg",
+    "static/media/cartoonHero.png": "/brand-guidelines/static/media/cartoonHero.8fa13959c06cab302ce7.png",
+    "static/media/cartoon1.svg": "/brand-guidelines/static/media/cartoon1.1e0fcbe8350fac949c86fdac84405471.svg",
+    "static/media/constructionLogo.png": "/brand-guidelines/static/media/constructionLogo.8157fe96b938c055eb61.png",
+    "static/media/place.png": "/brand-guidelines/static/media/place.c93941f24813760374d5.png",
     "static/media/mono-negative.png": "/brand-guidelines/static/media/mono-negative.0241bf86a6c1d615c15b.png",
     "static/media/full-positive.png": "/brand-guidelines/static/media/full-positive.bf618b2a96f08c5d01b6.png",
     "static/media/full-negative.png": "/brand-guidelines/static/media/full-negative.f09d5e8b915fb762d2bc.png",
     "static/media/mono-positive.png": "/brand-guidelines/static/media/mono-positive.f9fbb5985a76ccb27656.png",
+    "static/media/cssPaint.svg": "/brand-guidelines/static/media/cssPaint.e38f044caec0d713194cad254fe628ff.svg",
+    "static/media/text.svg": "/brand-guidelines/static/media/text.00bbf08cb18f4eff76ac95c81ef6e0d4.svg",
+    "static/media/pencil.svg": "/brand-guidelines/static/media/pencil.da43ca416f223976f01743eae2a79a04.svg",
+    "static/media/cartoon5.svg": "/brand-guidelines/static/media/cartoon5.0690bc821d28b9e16424e2d2694bb25c.svg",
+    "static/media/cartoon2.svg": "/brand-guidelines/static/media/cartoon2.2c1111806c39a75dd92cbc8719abc90b.svg",
+    "static/media/logo.svg": "/brand-guidelines/static/media/logo.860c8562f547676ad12cafce23fb19e8.svg",
+    "static/media/webArt.svg": "/brand-guidelines/static/media/webArt.b1a8ed1fdb0d28b06523156ba3d7157a.svg",
+    "static/media/cartoon3.svg": "/brand-guidelines/static/media/cartoon3.8b718f1913ab89a18bde2423feff2bfd.svg",
+    "static/media/cartoon4.svg": "/brand-guidelines/static/media/cartoon4.da5bce2c38f19162f439ea13f0367b69.svg",
+    "static/media/cartoonLogo.svg": "/brand-guidelines/static/media/cartoonLogo.f3e473ee0e0d7fbfef72f3288b92815d.svg",
+    "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
-    "main.bbb5a02f.css.map": "/brand-guidelines/static/css/main.bbb5a02f.css.map",
-    "main.e7a5e7d5.js.map": "/brand-guidelines/static/js/main.e7a5e7d5.js.map"
+    "main.c4f1f281.css.map": "/brand-guidelines/static/css/main.c4f1f281.css.map",
+    "main.3d0771df.js.map": "/brand-guidelines/static/js/main.3d0771df.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbb5a02f.css",
-    "static/js/main.e7a5e7d5.js"
+    "static/css/main.c4f1f281.css",
+    "static/js/main.3d0771df.js"
   ]
 }

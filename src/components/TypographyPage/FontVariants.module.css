@@ -1,40 +1,73 @@
 .sectionContainer {
-    max-width: 980px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 10px 10px;
-  }
+}
 
-  .typographyTable {
-    width: 100%;
-    background-color: #ffffff;
-  }
+.sectionContainer div {
+  margin-bottom: 20px;
+  background-color: white;
+}
 
-  .typographyTable td {
-    height: 50px;
-    border-bottom: 2px solid #ccc;
-    background-color: #F4F4F4;
-    padding: 23px;
-    font-size: 28px;
-    text-align: center;
-    margin: 8px;
-  }
+.openSans {
+  width: 100%;
+}
 
-  .light {
-    font-weight: 100;
-  }
+.muli {
+  font-family: 'Muli';
+}
 
-  .regular {
-    font-weight: 300;
-  }
+.roboto {
+  font-family: 'Roboto';
+}
 
-  .semibold {
-    font-weight: 400;
-  }
+.oswald {
+  font-family: 'Oswald';
+}
 
-  .bold {
-    font-weight: 500;
-  }
+.publicSans {
+  font-family: 'Public Sans';
+}
 
-  .extrabold {
-    font-weight: 600;
-  }
+.saintGeorge {
+  font-family: 'Saint George';
+}
+
+.arkibalSerif {
+  font-family: 'Arkibal Serif';
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 15px 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.font {
+  flex: 1 20%
+}
+
+.info {
+  flex: 1 70%
+}
+
+.divider {
+  background-color: #575757;
+  height: 5px;
+  width: 100%;
+}
+
+.intro {
+  flex: 1 20%;
+  font-size: 80px;
+  text-align: left;
+}
+
+.example {
+  flex: 1 70%;
+  font-size: 35px;
+  text-align: left;
+}

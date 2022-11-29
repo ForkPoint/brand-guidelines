@@ -8,7 +8,7 @@ const PrimaryColorCard = ({}) => {
         <div className={styles.boxPrimary}>
           <div className={styles.a}>
             <div className={styles.b}>
-            <div className={styles.c}></div>
+              <div className={styles.c}></div>
             </div>
           </div>
           <div className={styles.main}>
@@ -24,7 +24,7 @@ const PrimaryColorCard = ({}) => {
           </div>
         </div>
         <div className={styles.boxSecondary}>
-        <div className={styles.a}>
+          <div className={styles.a}>
             <div className={styles.b}>
               <div className={styles.c}></div>
             </div>

@@ -4,93 +4,202 @@ import styles from "./FontVariants.module.css";
 const FontVariants = ({}) => {
   return (
     <div className={styles.sectionContainer}>
-      <table className={styles.typographyTable}>
-        <tbody>
-          <tr>
-            <td className={styles.light}>Open Sans Light</td>
-            <td className={styles.light}>
-              abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
-              !@#$%^&*()
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.regular}>Open Sans Regular</td>
-            <td className={styles.regular}>
-              abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
-              !@#$%^&*()
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.semibold}>Open Sans Semibold</td>
-            <td className={styles.semibold}>
-              abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
-              !@#$%^&*()
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.bold}>Open Sans Bold</td>
-            <td className={styles.bold}>
-              abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
-              !@#$%^&*()
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.extrabold}>Open Sans Extrabold</td>
-            <td className={styles.extrabold}>
-              abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789
-              !@#$%^&*()
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.extrabold}>
-              <h1>H1 (36px)</h1>
-            </td>
-            <td className={styles.extrabold}>
-              <h1>Extrabold Heading</h1>
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.bold}>
-              <h2>H2 (32px)</h2>
-            </td>
-            <td className={styles.bold}>
-              <h2>Bold Heading</h2>
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.semibold}>
-              <h3>H3 (28px)</h3>
-            </td>
-            <td className={styles.semibold}>
-              <h3>Semibold Heading</h3>
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.regular}>
-              <h4>H4 (24px)</h4>
-            </td>
-            <td className={styles.regular}>
-              <h4>Regular Heading</h4>
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.light}>
-              <h5>H5 (22px)</h5>
-            </td>
-            <td className={styles.light}>
-              <h5>Light Heading</h5>
-            </td>
-          </tr>
-          <tr>
-            <td className={styles.light}>
-              <h6>H6 (20px)</h6>
-            </td>
-            <td className={styles.light}>
-              <h6>Light Heading</h6>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div className={styles.openSans}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Open Sans</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+            <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.muli}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Muli</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.oswald}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Oswald</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.roboto}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Roboto</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.publicSans}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Public Sans</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.saintGeorge}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Saint George</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.arkibalSerif}>
+        <div className={styles.row}>
+          <div className={styles.font}>
+            <h1>Arkibal Serif</h1>
+          </div>
+          <div className={styles.info}>
+            <p>
+              This font is mainly focused for paragraphs and labels, it combines
+              well with Muli font.
+            </p>
+          </div>
+        </div>
+        <hr className={styles.divider} />
+        <div className={styles.row}>
+          <div className={styles.intro}>
+            <span>Aa</span>
+          </div>
+          <div className={styles.example}>
+          <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>
+              01 02 03 04 05 06 07 08 09
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

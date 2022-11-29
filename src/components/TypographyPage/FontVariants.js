@@ -175,7 +175,7 @@ const FontVariants = ({}) => {
       <div className={styles.arkibalSerif}>
         <div className={styles.row}>
           <div className={styles.font}>
-            <h1>Arkibal Serif</h1>
+            <h1>Arkibal</h1>
           </div>
           <div className={styles.info}>
             <p>

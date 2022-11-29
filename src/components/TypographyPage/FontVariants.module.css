@@ -6,7 +6,7 @@
 
 .sectionContainer div {
   margin-bottom: 20px;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .openSans {
@@ -47,7 +47,8 @@
 }
 
 .font {
-  flex: 1 20%
+  flex: 1 20%;
+  color:#8acf31;
 }
 
 .info {

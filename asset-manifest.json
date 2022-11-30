@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.2431accc.css",
-    "main.js": "/brand-guidelines/static/js/main.d4527f4d.js",
+    "main.css": "/brand-guidelines/static/css/main.a8434ac9.css",
+    "main.js": "/brand-guidelines/static/js/main.2ef83ce6.js",
     "static/media/layoutCover4.jpg": "/brand-guidelines/static/media/layoutCover4.490a4135e3cee71b008f.jpg",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
@@ -11,6 +11,7 @@
     "static/media/card.png": "/brand-guidelines/static/media/card.8ae91b0c13a6cee30a3f.png",
     "static/media/banner4.png": "/brand-guidelines/static/media/banner4.7baa693976e5efd10362.png",
     "static/media/layoutCover3.jpg": "/brand-guidelines/static/media/layoutCover3.06b6ca5c2b8d0a7af7f6.jpg",
+    "static/media/layoutCover6.jpg": "/brand-guidelines/static/media/layoutCover6.a85792f99e8464913764.jpg",
     "static/media/forkpointGrandpa.png": "/brand-guidelines/static/media/forkpointGrandpa.88177b312266a95bb081.png",
     "static/media/banner2.png": "/brand-guidelines/static/media/banner2.dd08449397cddfef6245.png",
     "static/media/layoutCover1.jpg": "/brand-guidelines/static/media/layoutCover1.62fe41304a0a9cf73b71.jpg",
@@ -43,11 +44,11 @@
     "static/media/cartoonLogo.svg": "/brand-guidelines/static/media/cartoonLogo.f3e473ee0e0d7fbfef72f3288b92815d.svg",
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
-    "main.2431accc.css.map": "/brand-guidelines/static/css/main.2431accc.css.map",
-    "main.d4527f4d.js.map": "/brand-guidelines/static/js/main.d4527f4d.js.map"
+    "main.a8434ac9.css.map": "/brand-guidelines/static/css/main.a8434ac9.css.map",
+    "main.2ef83ce6.js.map": "/brand-guidelines/static/js/main.2ef83ce6.js.map"
   },
   "entrypoints": [
-    "static/css/main.2431accc.css",
-    "static/js/main.d4527f4d.js"
+    "static/css/main.a8434ac9.css",
+    "static/js/main.2ef83ce6.js"
   ]
 }

@@ -5,8 +5,7 @@
 }
 
 .sectionContainer div {
-  margin-bottom: 20px;
-  /* background-color: white; */
+  /* margin-bottom: 20px; */
 }
 
 .openSans {
@@ -48,22 +47,42 @@
 
 .font {
   flex: 1 20%;
-  color:#8acf31;
+  color:#587236;
 }
 
 .info {
-  flex: 1 70%
+  flex: 1 70%;
 }
 
 .divider {
-  background-color: #575757;
+  background: linear-gradient(
+    to right,
+    #8acf31,
+    #11a1e0,
+    #ffffff,
+    #587236
+  );
+    flex-wrap: wrap;
+    background-size: 500% 100%;
+    animation: cobler 1s 0s linear infinite alternate;
   height: 5px;
   width: 100%;
 }
 
+@keyframes cobler {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+
 .intro {
   flex: 1 20%;
-  font-size: 80px;
+  font-size: 60px;
   text-align: left;
 }
 
@@ -71,4 +90,16 @@
   flex: 1 70%;
   font-size: 35px;
   text-align: left;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 100;
 }

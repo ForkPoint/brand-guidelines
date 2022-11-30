@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 import Muli from "./Muli.woff";
+import MuliLight from "./Muli-Light.woff";
 import Roboto from "./Roboto-Black.woff";
 import Oswald from "./Oswald-Regular.woff";
 import PublicSans from "./PublicSans-Regular.woff";
@@ -10,9 +11,9 @@ import ArkibalSerif from "./ArkibalSerif-Regular.woff";
 export default createGlobalStyle `
     @font-face {
         font-family: 'Muli';
-        src: local('Muli'),
-        url(${Muli}) format('woff');
-        font-weight: 300;
+        src: local('Muli'), local('Muli'),
+        url(${Muli}) format('woff'),
+        url(${MuliLight}) format('woff');
         font-style: normal;
     }
 

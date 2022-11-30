@@ -19,17 +19,16 @@
 }
 
 .boxSecondary .a {
-  background-color: #9fa1a5;
+  background-color: #aab696;
 }
 .boxSecondary .b {
-  background-color: #7f838a;
+  background-color: #738855;
 }
 .boxSecondary .c {
-  background-color: #575757;
+  background-color: #587236;
 }
 
 .main {
-  /* height: 140px; */
   width: 100%;
   padding: 10px;
 }

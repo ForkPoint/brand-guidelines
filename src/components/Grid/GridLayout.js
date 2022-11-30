@@ -18,61 +18,60 @@ import {
   salesforceCover,
   cartoonCover,
   grandpaForkpoint,
-  cartoonLogo
+  cartoonLogo,
 } from "../../assets";
 
 const GridLayout = ({}) => {
   return (
     <div className={styles.sectionContainer}>
-      <div className={styles.container}>
-        <div className={styles.cardVertical}>
-          <div className={styles.leftVertical}>
-            <img src={draw5}></img>
-            <h1>All sorts of content. All to help you grow.</h1>
+      <div className={styles.grid}>
+        <div className={styles.card1}>
+          <div className={styles.col}>
+          <img src={draw5} width="100" height="100"></img>
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button>Shop Now</button>
           </div>
-          <div className={styles.rightVertical}>
-          <h1>Choose to do it your way!</h1>
-            <img src={cartoonLogo}></img>
+          <div className={styles.col}></div>
+        </div>
+        <div className={styles.card2}>
+          <div className={styles.row}>
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div className={styles.row}>
+            <button>Shop Now</button>
           </div>
         </div>
-        <div className={styles.cardHorizontal}>
-          <div className={styles.topHorizontal}>
-            <img src={forkpointCard}></img>
-          </div>
-          <div className={styles.bottomHorizontal}>
-            <img src={cover1}></img>
-          </div>
-        </div>
-      </div>
-      <div className={styles.container}>
-        <div className={styles.cardGridPrimary}>
-          <div className={styles.block}>
-            <img src={drawPrimary}></img>
-          </div>
-          <div className={styles.block1}>
-            <h3>We build teams to cover your needs!</h3>
-               <p>Ensuring
-               prompt delivery and project dedication.</p>
-          </div>
-          <div className={styles.block2}>
-          <img src={draw4}></img>
-          </div>
-          <div className={styles.block3}>
-            <img src={cover2}></img>
+        <div className={styles.card3}>
+          <div className={styles.col}></div>
+          <div className={styles.col}>
+            <img src={cartoonLogo} width="100" height="100"></img>
+            <h1>What is Lorem Ipsum?</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
           </div>
         </div>
-        <div className={styles.cardGridSecondary}>
-          <div className={styles.block}>
-            <h1>BE FOCUSED, SMART, AND PROGRESSIVE</h1>
-            <p>Find the perfect solution for you</p>
-          </div>
-          <div className={styles.block1}></div>
-          <div className={styles.block4}>
-            <img src={drawSecondary}></img>
-          </div>
-          <div className={styles.block4}>
-            <img src={cover3}></img>
-          </div>
+        <div className={styles.card4}>
+          <div className={styles.row}></div>
+          <div className={styles.row}></div>
+        </div>
+        <div className={styles.card5}>
+          <div className={styles.col1}></div>
+          <div className={styles.col2}></div>
+          <div className={styles.row}></div>
+        </div>
+        <div className={styles.card6}>
+          <div className={styles.col}></div>
+          <div className={styles.col}></div>
         </div>
       </div>
     </div>

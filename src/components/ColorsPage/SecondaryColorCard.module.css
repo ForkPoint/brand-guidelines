@@ -1,5 +1,5 @@
 .colorsSection {
-  max-width: 980px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: 10px 65px;
 }
@@ -15,8 +15,23 @@
   }
 
 .boxSecondary {
-  flex: 1 10%;
+  flex: 1 22%;
 }
+
+.boxTertiary {
+  flex: 1 22%;
+}
+
+.boxTertiary .a {
+  background-color: #fefeca;
+}
+.boxTertiary .b {
+  background-color: #fdfdab;
+}
+.boxTertiary .c {
+  background-color: #FDFD96;
+}
+
 
 .boxSecondary .a {
   background-color: #aab696;

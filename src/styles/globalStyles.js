@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import muli from "../fonts/fonts";
 
 export const GlobalStyle = createGlobalStyle`
     *, *::before, *::after {

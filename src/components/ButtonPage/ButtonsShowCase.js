@@ -77,6 +77,15 @@ const ButtonsShowCase = ({}) => {
           <h6>L</h6>
           <button className={styles.btnLarge}>CMYK: 92 28 0 12</button>
         </div>
+        <div className={styles.fourth}>
+          <h5>Fourth Buttons</h5>
+          <h6>S</h6>
+          <button className={styles.btnSmall}>#FDFD96</button>
+          <h6>M</h6>
+          <button className={styles.btnMedium}>RGB: 0 0 0.41 0.01</button>
+          <h6>L</h6>
+          <button className={styles.btnLarge}>CMYK: 92 28 0 12</button>
+        </div>
       </div>
     </div>
   );

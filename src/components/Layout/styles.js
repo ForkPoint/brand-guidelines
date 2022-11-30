@@ -58,8 +58,4 @@ export const SMain = styled.main`
     li {
         margin-bottom: 10px;
     }
-
-    /* p {
-        font-family: 'Oswald';
-    } */
 `;

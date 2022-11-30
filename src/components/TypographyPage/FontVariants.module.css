@@ -1,11 +1,17 @@
 .sectionContainer {
-    max-width: 1080px;
+    max-width: 1380px;
     margin: 0 auto;
     padding: 10px 10px;
 }
 
-.sectionContainer div {
-  /* margin-bottom: 20px; */
+.elementsShowcase {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 20px 0;
+  height: 50px;
+  background-color: #FDFD96;
+  text-align: center;
 }
 
 .openSans {
@@ -55,28 +61,9 @@
 }
 
 .divider {
-  background: linear-gradient(
-    to right,
-    #8acf31,
-    #11a1e0,
-    #ffffff,
-    #587236
-  );
-    flex-wrap: wrap;
-    background-size: 500% 100%;
-    animation: cobler 1s 0s linear infinite alternate;
+  background-color: #587236;
   height: 5px;
   width: 100%;
-}
-
-@keyframes cobler {
-  0% {
-    background-position: 0% 0%;
-  }
-
-  100% {
-    background-position: 100% 0%;
-  }
 }
 
 
@@ -88,7 +75,7 @@
 
 .example {
   flex: 1 70%;
-  font-size: 35px;
+  font-size: 20px;
   text-align: left;
 }
 

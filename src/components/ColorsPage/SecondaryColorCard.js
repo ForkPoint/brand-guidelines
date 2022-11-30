@@ -31,13 +31,31 @@ const SecondaryColorCard = ({}) => {
           </div>
           <div className={styles.main}>
             <p>
-              <strong>RGB:</strong> 255 255 255
+              <strong>RGB:</strong> 88 114 54
             </p>
             <p>
-              <strong>CMYK:</strong> 0 0 0 0
+              <strong>CMYK:</strong> 0.23 0 0.53 0.55
             </p>
             <p>
-              <strong>HEX:</strong> ffffff
+              <strong>HEX:</strong> 587236
+            </p>
+          </div>
+        </div>
+        <div className={styles.boxTertiary}>
+        <div className={styles.a}>
+            <div className={styles.b}>
+            <div className={styles.c}></div>
+            </div>
+          </div>
+          <div className={styles.main}>
+            <p>
+              <strong>RGB:</strong> 253 253 150
+            </p>
+            <p>
+              <strong>CMYK:</strong> 0 0 0.41 0.01
+            </p>
+            <p>
+              <strong>HEX:</strong> FDFD96
             </p>
           </div>
         </div>

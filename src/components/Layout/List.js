@@ -1,15 +1,15 @@
 import React from "react";
-import styles from "./List.module.css";
+import { Container } from "./styles";
 
 const List = ({item1, item2, heading}) => {
   return (
-    <div className={styles.containerLarge}>
+    <Container>
       <h2>{heading}</h2>
-      <ul className={styles.list}>
+      <ul>
         <li>{item1}</li>
         <li>{item2}</li>
       </ul>
-    </div>
+    </Container>
   );
 };
 

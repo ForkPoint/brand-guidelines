@@ -1,11 +1,29 @@
 import React from "react";
-import styles from "./FontVariants.module.css";
+import { Container } from "../Layout/styles";
+import {
+  TypeStyle,
+  PublicSansFont,
+  MuliFont,
+  RobotoFont,
+  OswaldFont,
+  ArkibalFont,
+  SaintGeorgeFont,
+  Row,
+  FontDeclaration,
+  ContentExample,
+  FontShowcase,
+  AlphabetIntro,
+  FontDivider,
+  BoldType,
+  RegularType,
+  LightType
+} from "./styles";
 
 const FontVariants = ({}) => {
   return (
-    <div className={styles.sectionContainer}>
+    <Container>
       <h5>Type styles</h5>
-      <div className={styles.elementsShowcase}>
+      <TypeStyle>
         <div>
           <spam>H1 (36px)</spam>
         </div>
@@ -30,16 +48,16 @@ const FontVariants = ({}) => {
         <div>
           <spam>Footnote (16px)</spam>
         </div>
-      </div>
-      <div className={styles.openSans}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+      </TypeStyle>
+      <div>
+        <Row>
+          <FontDeclaration>
             <h1>Open Sans</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -49,31 +67,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
+          </FontShowcase>
+        </Row>
+        <FontDivider />
       </div>
-      <div className={styles.publicSans}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+      <PublicSansFont>
+        <Row>
+          <FontDeclaration>
             <h1>Public Sans</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -83,31 +101,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-      <div className={styles.muli}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </PublicSansFont>
+      <MuliFont>
+        <Row>
+          <FontDeclaration>
             <h1>Muli</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -117,31 +135,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-      <div className={styles.roboto}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </MuliFont>
+      <RobotoFont>
+        <Row>
+          <FontDeclaration>
             <h1>Roboto</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -151,31 +169,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-      <div className={styles.oswald}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </RobotoFont>
+      <OswaldFont>
+        <Row>
+          <FontDeclaration>
             <h1>Oswald</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -185,31 +203,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-      <div className={styles.arkibalSerif}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </OswaldFont>
+      <ArkibalFont>
+        <Row>
+          <FontDeclaration>
             <h1>Arkibal</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -219,31 +237,31 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-      <div className={styles.saintGeorge}>
-        <div className={styles.row}>
-          <div className={styles.font}>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </ArkibalFont>
+      <SaintGeorgeFont>
+        <Row>
+          <FontDeclaration>
             <h1>Saint George</h1>
-            <p className={styles.bold}>Bold</p>
-            <p className={styles.regular}>Regular</p>
-            <p className={styles.light}>Light</p>
-          </div>
-          <div className={styles.info}>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -253,23 +271,22 @@ const FontVariants = ({}) => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-          </div>
-        </div>
-        <div className={styles.row}>
-          <div className={styles.intro}>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
             <span>Aa</span>
-          </div>
-          <div className={styles.example}>
+          </AlphabetIntro>
+          <FontShowcase>
             <span>
               Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
               Ww Xx Yy Zz
             </span>
             <p>01 02 03 04 05 06 07 08 09</p>
-          </div>
-        </div>
-        <hr className={styles.divider} />
-      </div>
-    </div>
+          </FontShowcase>
+        </Row>
+      </SaintGeorgeFont>
+    </Container>
   );
 };
 

@@ -1,17 +1,28 @@
 import React from "react";
-import styles from "./PrimaryColorCard.module.css";
+import { Container } from "../Layout/styles";
+import {
+  ColorBright,
+  ColorColumn,
+  ColorGrid,
+  ColorPale,
+  ColorSaturade,
+  ColorDescription,
+  ColorSaturadeSecondary,
+  ColorPaleSecondary,
+  ColorBrightSecondary,
+} from "./stylesPrimary";
 
 const PrimaryColorCard = ({}) => {
   return (
-    <div className={styles.colorsSection}>
-      <div className={styles.grid}>
-        <div className={styles.boxPrimary}>
-          <div className={styles.a}>
-            <div className={styles.b}>
-              <div className={styles.c}></div>
-            </div>
-          </div>
-          <div className={styles.main}>
+    <Container>
+      <ColorGrid>
+        <ColorColumn>
+          <ColorBright>
+            <ColorPale>
+              <ColorSaturade />
+            </ColorPale>
+          </ColorBright>
+          <ColorDescription>
             <p>
               <strong>RGB:</strong> 138 207 490
             </p>
@@ -21,15 +32,15 @@ const PrimaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> 8acf31
             </p>
-          </div>
-        </div>
-        <div className={styles.boxSecondary}>
-          <div className={styles.a}>
-            <div className={styles.b}>
-              <div className={styles.c}></div>
-            </div>
-          </div>
-          <div className={styles.main}>
+          </ColorDescription>
+        </ColorColumn>
+        <ColorColumn>
+          <ColorBrightSecondary>
+            <ColorPaleSecondary>
+              <ColorSaturadeSecondary />
+            </ColorPaleSecondary>
+          </ColorBrightSecondary>
+          <ColorDescription>
             <p>
               <strong>RGB:</strong> 87 87 87
             </p>
@@ -39,10 +50,10 @@ const PrimaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> 575757
             </p>
-          </div>
-        </div>
-      </div>
-    </div>
+          </ColorDescription>
+        </ColorColumn>
+      </ColorGrid>
+    </Container>
   );
 };
 

@@ -1,10 +1,6 @@
-.sectionContainer {
-    max-width: 1380px;
-    margin: 0 auto;
-    padding: 10px 10px;
-  }
+import styled from "styled-components";
 
-  .iconsGrid {
+export const IconsGrid = styled.div`
     display: flex;
     background: linear-gradient(
     to right,
@@ -16,27 +12,17 @@
     background-size: 500% 100%;
     border-radius: 6px;
     animation: cobler 7s 0s linear infinite alternate;
-  }
+`;
 
-  @keyframes cobler {
-    0% {
-      background-position: 0% 0%;
-    }
-  
-    100% {
-      background-position: 100% 0%;
-    }
-  }
-
-  .gridColumn {
+export const GridColumn = styled.div`
     margin: 20px;
     display: inline-block;
     text-align: center;
     width: 93%;
     flex: 1 12%;
-  }
+`;
 
-  .icon {
+export const Icon = styled.div`
     font-size: 39px;
     color: #000000;
-  }
+`;

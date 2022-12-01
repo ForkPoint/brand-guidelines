@@ -1,11 +1,32 @@
 import React from "react";
-import styles from "./ButtonsShowCase.module.css";
+import { Container } from "../Layout/styles";
+import {
+  ContentWrapper,
+  Content,
+  ButtonPresentation,
+  BtnSmallPresent,
+  BtnMediumPresent,
+  BtnLargePresent,
+  BtnPrimarySmall,
+  BtnPrimaryMedium,
+  BtnPrimaryLarge,
+  BtnSecondarySmall,
+  BtnSecondaryMedium,
+  BtnSecondaryLarge,
+  BtnTertiarySmall,
+  BtnTertiaryMedium,
+  BtnTertiaryLarge,
+  BtnFourthSmall,
+  BtnFourthMedium,
+  BtnFourthLarge,
+  Showcase
+} from "./styles";
 
 const ButtonsShowCase = ({}) => {
   return (
-    <div className={styles.sectionButtons}>
-      <div className={styles.wrapper}>
-        <div className={styles.content}>
+    <Container>
+      <ContentWrapper>
+        <Content>
           <p>
             The size of buttons depends on the base font size used which can be
             adapted to the viewport width.
@@ -33,61 +54,61 @@ const ButtonsShowCase = ({}) => {
             For small viewports, the font size and padding for the label can be
             adjusted on the left and right.
           </p>
-        </div>
-        <div className={styles.buttons}>
-          <div className={styles.small}>
+        </Content>
+        <ButtonPresentation>
+          <div>
             <p>S</p>
-            <button className={styles.btnSmall}>Button</button>
+            <BtnSmallPresent>Button</BtnSmallPresent>
           </div>
-          <div className={styles.medium}>
+          <div>
             <p>M</p>
-            <button className={styles.btnMedium}>Button</button>
+            <BtnMediumPresent>Button</BtnMediumPresent>
           </div>
-          <div className={styles.large}>
+          <div>
             <p>L</p>
-            <button className={styles.btnLarge}>Button</button>
+            <BtnLargePresent>Button</BtnLargePresent>
           </div>
-        </div>
-      </div>
-      <div className={styles.showcase}>
-        <div className={styles.primary}>
+        </ButtonPresentation>
+      </ContentWrapper>
+      <Showcase>
+        <div>
           <h5>Primary Buttons</h5>
           <h6>S</h6>
-          <button className={styles.btnSmall}>#8acf31</button>
+          <BtnPrimarySmall>#8acf31</BtnPrimarySmall>
           <h6>M</h6>
-          <button className={styles.btnMedium}>RGB: 138 207 490</button>
+          <BtnPrimaryMedium>RGB: 138 207 490</BtnPrimaryMedium>
           <h6>L</h6>
-          <button className={styles.btnLarge}>CMYK: 60 0 100 0</button>
+          <BtnPrimaryLarge>CMYK: 60 0 100 0</BtnPrimaryLarge>
         </div>
-        <div className={styles.secondary}>
+        <div>
           <h5>Secondary Buttons</h5>
           <h6>S</h6>
-          <button className={styles.btnSmall}>#575757</button>
+          <BtnSecondarySmall>#575757</BtnSecondarySmall>
           <h6>M</h6>
-          <button className={styles.btnMedium}>RGB: 87 87 87</button>
+          <BtnSecondaryMedium>RGB: 87 87 87</BtnSecondaryMedium>
           <h6>L</h6>
-          <button className={styles.btnLarge}>CMYK: 0 0 0 80</button>
+          <BtnSecondaryLarge>CMYK: 0 0 0 80</BtnSecondaryLarge>
         </div>
-        <div className={styles.tertiary}>
+        <div>
           <h5>Tertiary Buttons</h5>
           <h6>S</h6>
-          <button className={styles.btnSmall}>#11a1e0</button>
+          <BtnTertiarySmall>#11a1e0</BtnTertiarySmall>
           <h6>M</h6>
-          <button className={styles.btnMedium}>RGB: 17 161 224</button>
+          <BtnTertiaryMedium>RGB: 17 161 224</BtnTertiaryMedium>
           <h6>L</h6>
-          <button className={styles.btnLarge}>CMYK: 92 28 0 12</button>
+          <BtnTertiaryLarge>CMYK: 92 28 0 12</BtnTertiaryLarge>
         </div>
-        <div className={styles.fourth}>
+        <div>
           <h5>Fourth Buttons</h5>
           <h6>S</h6>
-          <button className={styles.btnSmall}>#FDFD96</button>
+          <BtnFourthSmall>#FDFD96</BtnFourthSmall>
           <h6>M</h6>
-          <button className={styles.btnMedium}>RGB: 0 0 0.41 0.01</button>
+          <BtnFourthMedium>RGB: 0 0 0.41 0.01</BtnFourthMedium>
           <h6>L</h6>
-          <button className={styles.btnLarge}>CMYK: 92 28 0 12</button>
+          <BtnFourthLarge>CMYK: 92 28 0 12</BtnFourthLarge>
         </div>
-      </div>
-    </div>
+      </Showcase>
+    </Container>
   );
 };
 

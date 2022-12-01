@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "./IconsTable.module.css";
+import { IconsGrid, GridColumn, Icon } from "./styles";
+import { Container } from "../Layout/styles";
 
 import {
   AiTwotoneBuild,
@@ -16,195 +17,181 @@ import {
   BsCardText,
   BsGrid1X2Fill,
 } from "react-icons/bs";
-import { FiCheck, FiChevronDown, FiChevronLeft, FiChevronRight, FiChevronUp, FiCheckCircle, FiSearch,
-   FiRefreshCw, FiDownload, FiHelpCircle, FiLayout, FiVolume2, FiTrash2, FiUser, FiThumbsUp, FiXCircle } from "react-icons/fi";
+import {
+  FiCheck,
+  FiChevronDown,
+  FiChevronLeft,
+  FiChevronRight,
+  FiChevronUp,
+  FiCheckCircle,
+  FiSearch,
+  FiRefreshCw,
+  FiDownload,
+  FiHelpCircle,
+  FiLayout,
+  FiVolume2,
+  FiTrash2,
+  FiUser,
+  FiThumbsUp,
+  FiXCircle,
+} from "react-icons/fi";
 
 const IconsTable = ({}) => {
   return (
-    <div className={styles.sectionContainer}>
-      <div className={styles.iconsGrid}>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+    <Container>
+      <IconsGrid>
+        <GridColumn>
+          <Icon>
             <AiTwotoneBuild />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineBgColors />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineFontColors />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineLeft />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineSearch />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineSetting />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <IoLogoSlack />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <BiConfused />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <AiOutlineBgColors />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <BsFillMenuButtonWideFill />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <BsGrid1X2Fill />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <BsCardText />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiCheck />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiChevronDown />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiChevronRight />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiChevronUp />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiChevronLeft />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiCheckCircle />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiSearch />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiThumbsUp />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiRefreshCw />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiXCircle />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiDownload />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiUser />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiVolume2 />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiLayout />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiHelpCircle />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiTrash2 />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiTrash2 />
-          </div>
-          <span>icon</span>
-        </div>
-        <div className={styles.gridColumn}>
-          <div className={styles.icon}>
+          </Icon>
+        </GridColumn>
+        <GridColumn>
+          <Icon>
             <FiTrash2 />
-          </div>
-          <span>icon</span>
-        </div>
-      </div>
-    </div>
+          </Icon>
+        </GridColumn>
+      </IconsGrid>
+    </Container>
   );
 };
 

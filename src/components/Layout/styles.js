@@ -6,6 +6,12 @@ export const SLayout = styled.div`
     display: flex;
 `;
 
+export const Container = styled.div`
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 10px 10px;
+`;
+
 export const SMain = styled.main`
     padding: calc(${v.smSpacing} * 2);
 

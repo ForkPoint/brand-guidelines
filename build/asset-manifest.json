@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.a8434ac9.css",
-    "main.js": "/brand-guidelines/static/js/main.2ef83ce6.js",
+    "main.js": "/brand-guidelines/static/js/main.558e1da3.js",
     "static/media/layoutCover4.jpg": "/brand-guidelines/static/media/layoutCover4.490a4135e3cee71b008f.jpg",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
@@ -45,10 +45,10 @@
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
     "main.a8434ac9.css.map": "/brand-guidelines/static/css/main.a8434ac9.css.map",
-    "main.2ef83ce6.js.map": "/brand-guidelines/static/js/main.2ef83ce6.js.map"
+    "main.558e1da3.js.map": "/brand-guidelines/static/js/main.558e1da3.js.map"
   },
   "entrypoints": [
     "static/css/main.a8434ac9.css",
-    "static/js/main.2ef83ce6.js"
+    "static/js/main.558e1da3.js"
   ]
 }

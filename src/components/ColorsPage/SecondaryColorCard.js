@@ -1,17 +1,30 @@
 import React from "react";
-import styles from "./SecondaryColorCard.module.css";
+import { Container } from "../Layout/styles";
+import { ColorColumn, ColorDescription, ColorGrid } from "./stylesPrimary";
+
+import {
+  ColorPaleSecondary,
+  ColorSaturade,
+  ColorSaturadeSecondary,
+  ColorPale,
+  ColorBright,
+  ColorBrightSecondary,
+  ColorSaturadeTertiary,
+  ColorPaleTertiary,
+  ColorBrightTertiary,
+} from "./stylesSecondary";
 
 const SecondaryColorCard = ({}) => {
   return (
-    <div className={styles.colorsSection}>
-      <div className={styles.grid}>
-        <div className={styles.boxPrimary}>
-        <div className={styles.a}>
-            <div className={styles.b}>
-            <div className={styles.c}></div>
-            </div>
-          </div>
-          <div className={styles.main}>
+    <Container>
+      <ColorGrid>
+        <ColorColumn>
+          <ColorBright>
+            <ColorPale>
+              <ColorSaturade />
+            </ColorPale>
+          </ColorBright>
+          <ColorDescription>
             <p>
               <strong>RGB:</strong> 17 161 224
             </p>
@@ -21,15 +34,15 @@ const SecondaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> 11a1e0
             </p>
-          </div>
-        </div>
-        <div className={styles.boxSecondary}>
-        <div className={styles.a}>
-            <div className={styles.b}>
-            <div className={styles.c}></div>
-            </div>
-          </div>
-          <div className={styles.main}>
+          </ColorDescription>
+        </ColorColumn>
+        <ColorColumn>
+          <ColorBrightSecondary>
+            <ColorPaleSecondary>
+              <ColorSaturadeSecondary />
+            </ColorPaleSecondary>
+          </ColorBrightSecondary>
+          <ColorDescription>
             <p>
               <strong>RGB:</strong> 88 114 54
             </p>
@@ -39,15 +52,15 @@ const SecondaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> 587236
             </p>
-          </div>
-        </div>
-        <div className={styles.boxTertiary}>
-        <div className={styles.a}>
-            <div className={styles.b}>
-            <div className={styles.c}></div>
-            </div>
-          </div>
-          <div className={styles.main}>
+          </ColorDescription>
+        </ColorColumn>
+        <ColorColumn>
+          <ColorBrightTertiary>
+            <ColorPaleTertiary>
+              <ColorSaturadeTertiary />
+            </ColorPaleTertiary>
+          </ColorBrightTertiary>
+          <ColorDescription>
             <p>
               <strong>RGB:</strong> 253 253 150
             </p>
@@ -57,10 +70,10 @@ const SecondaryColorCard = ({}) => {
             <p>
               <strong>HEX:</strong> FDFD96
             </p>
-          </div>
-        </div>
-      </div>
-    </div>
+          </ColorDescription>
+        </ColorColumn>
+      </ColorGrid>
+    </Container>
   );
 };
 

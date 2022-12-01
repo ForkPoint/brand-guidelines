@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "./Heading.module.css";
+import { Container } from "./styles";
 
 
 const Heading = ({text, label, heading}) => {
 
   return (
-    <div className={styles.containerLarge}>
+    <Container>
         <h1>{text}</h1>
         <p>{label}</p>
-    </div>
+    </Container>
   );
 };
 

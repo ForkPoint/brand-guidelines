@@ -8,7 +8,10 @@ export const SSidebar = styled.div`
     background: ${({ theme }) => theme.bg};
     height: 100vh;
     padding: ${v.lgSpacing};
-    position: relative;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
 `;
 
 export const SSidebarButton = styled.button`

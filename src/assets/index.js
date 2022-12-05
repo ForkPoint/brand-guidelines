@@ -27,6 +27,12 @@ import webDraw from "./webArt.svg"
 import cssPaint from "./cssPaint.svg"
 import text from "./text.svg"
 import logoDraw from "./logo.svg"
+import forkpointVector1 from "./logoVector1.svg"
+import forkpointVector2 from "./logoVector2.svg"
+import forkpointVector3 from "./logoVector3.svg"
+import forkpointVector4 from "./logoVector4.svg"
+import forkpointClearspace from "./logoClearspaceVector.svg"
+import forkpointIconClearspace from "./iconClearspace.svg"
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -57,3 +63,9 @@ export const pencilArt = pencil;
 export const webArt = webDraw;
 export const penArt = text;
 export const logoArt = logoDraw;
+export const logoVector1 = forkpointVector1;
+export const logoVector2 = forkpointVector2;
+export const logoVector3 = forkpointVector3;
+export const logoVector4 = forkpointVector4;
+export const logoClearspaceVector = forkpointClearspace;
+export const iconClearspaceVector = forkpointIconClearspace

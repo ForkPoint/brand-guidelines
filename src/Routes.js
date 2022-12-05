@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LogosPage from "./pages/LogosPage";
 import ColorsPage from "./pages/ColorsPage";
@@ -11,24 +11,24 @@ import GridPage from "./pages/GridPage";
 const Routes = () => {
     return (
         <Switch>
-            <HashRouter exact path="/brand-guidelines/">
+            <Route exact path="/brand-guidelines/">
                 <HomePage />
-            </HashRouter>
+            </Route>
             <HashRouter exact path="/brand-guidelines/logos">
                 <LogosPage />
             </HashRouter>
-            <HashRouter exact path="/brand-guidelines/colors">
+            <Route exact path="/brand-guidelines/colors">
                 <ColorsPage />
-            </HashRouter>
-            <HashRouter exact path="/brand-guidelines/icon">
+            </Route>
+            <Route exact path="/brand-guidelines/icon">
                 <IconPage />
-            </HashRouter>
-            <HashRouter exact path="/brand-guidelines/typography">
+            </Route>
+            <Route exact path="/brand-guidelines/typography">
                 <TypographyPage />
-            </HashRouter>
-            <HashRouter exact path="/brand-guidelines/button">
+            </Route>
+            <Route exact path="/brand-guidelines/button">
                 <ButtonPage />
-            </HashRouter>
+            </Route>
             <Route exact path="/brand-guidelines/grid">
                 <GridPage />
             </Route>

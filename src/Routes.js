@@ -17,21 +17,21 @@ const Routes = () => {
             <HashRouter exact path="/brand-guidelines/logos">
                 <LogosPage />
             </HashRouter>
-            <Route exact path="/brand-guidelines/colors">
+            <HashRouter exact path="/brand-guidelines/colors">
                 <ColorsPage />
-            </Route>
-            <Route exact path="/brand-guidelines/icon">
+            </HashRouter>
+            <HashRouter exact path="/brand-guidelines/icon">
                 <IconPage />
-            </Route>
-            <Route exact path="/brand-guidelines/typography">
+            </HashRouter>
+            <HashRouter exact path="/brand-guidelines/typography">
                 <TypographyPage />
-            </Route>
-            <Route exact path="/brand-guidelines/button">
+            </HashRouter>
+            <HashRouter exact path="/brand-guidelines/button">
                 <ButtonPage />
-            </Route>
-            <Route exact path="/brand-guidelines/grid">
+            </HashRouter>
+            <HashRouter exact path="/brand-guidelines/grid">
                 <GridPage />
-            </Route>
+            </HashRouter>
         </Switch>
     );
 };

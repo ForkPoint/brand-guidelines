@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.d563a756.css",
-    "main.js": "/brand-guidelines/static/js/main.3b59c79a.js",
+    "main.js": "/brand-guidelines/static/js/main.5afd9c00.js",
     "static/media/layoutCover4.jpg": "/brand-guidelines/static/media/layoutCover4.490a4135e3cee71b008f.jpg",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
@@ -16,6 +16,7 @@
     "static/media/banner2.png": "/brand-guidelines/static/media/banner2.dd08449397cddfef6245.png",
     "static/media/layoutCover1.jpg": "/brand-guidelines/static/media/layoutCover1.62fe41304a0a9cf73b71.jpg",
     "static/media/banner3.png": "/brand-guidelines/static/media/banner3.72822f9a8c4f78421139.png",
+    "static/media/Montserrat-Regular.woff": "/brand-guidelines/static/media/Montserrat-Regular.21e541a4a652a7fa0d6a.woff",
     "static/media/branding-hero.jpg": "/brand-guidelines/static/media/branding-hero.4197a325b6afe565e095.jpg",
     "static/media/Roboto-Black.woff": "/brand-guidelines/static/media/Roboto-Black.c0379944e86304e2d36e.woff",
     "static/media/cartoonHero.png": "/brand-guidelines/static/media/cartoonHero.8fa13959c06cab302ce7.png",
@@ -51,10 +52,10 @@
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
     "main.d563a756.css.map": "/brand-guidelines/static/css/main.d563a756.css.map",
-    "main.3b59c79a.js.map": "/brand-guidelines/static/js/main.3b59c79a.js.map"
+    "main.5afd9c00.js.map": "/brand-guidelines/static/js/main.5afd9c00.js.map"
   },
   "entrypoints": [
     "static/css/main.d563a756.css",
-    "static/js/main.3b59c79a.js"
+    "static/js/main.5afd9c00.js"
   ]
 }

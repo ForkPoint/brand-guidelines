@@ -12,9 +12,9 @@ import PhotographyPage from "./pages/PhotographyPage"
 const Routes = () => {
     return (
         <Switch>
-            <Route exact path="/brand-guidelines/">
+            <HashRouter exact path="/brand-guidelines/">
                 <HomePage />
-            </Route>
+            </HashRouter>
             <HashRouter exact path="/brand-guidelines/logos">
                 <LogosPage />
             </HashRouter>

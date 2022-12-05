@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 import { v } from "../../styles/variables";
 
-export const SLayout = styled.div`
-    display: flex;
-`;
-
 export const Container = styled.div`
     max-width: 1380px;
     margin: 0 auto;

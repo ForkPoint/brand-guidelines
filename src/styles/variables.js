@@ -38,6 +38,7 @@ export const btnPrimarySmall = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnPrimaryMedium = css`
@@ -48,6 +49,7 @@ export const btnPrimaryMedium = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnPrimaryLarge = css`
@@ -58,6 +60,7 @@ export const btnPrimaryLarge = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnSecondarySmall = css`
@@ -68,6 +71,7 @@ export const btnSecondarySmall = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnSecondaryMedium = css`
@@ -78,6 +82,7 @@ export const btnSecondaryMedium = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnSecondaryLarge = css`
@@ -88,6 +93,7 @@ export const btnSecondaryLarge = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnTertiarySmall = css`
@@ -98,6 +104,7 @@ export const btnTertiarySmall = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnTertiaryMedium = css`
@@ -108,6 +115,7 @@ export const btnTertiaryMedium = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnTertiaryLarge = css`
@@ -118,6 +126,7 @@ export const btnTertiaryLarge = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnFourthSmall = css`
@@ -128,6 +137,7 @@ export const btnFourthSmall = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnFourthMedium = css`
@@ -138,6 +148,7 @@ export const btnFourthMedium = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;
 
 export const btnFourthLarge = css`
@@ -148,4 +159,5 @@ export const btnFourthLarge = css`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  cursor: pointer;
 `;

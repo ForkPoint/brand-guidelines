@@ -22,10 +22,6 @@ import {
   Showcase
 } from "./styles";
 
-const handleClick = () => {
-  console.log('heheheh')
-};
-
 const ButtonsShowCase = ({}) => {
   return (
     <Container>
@@ -62,7 +58,7 @@ const ButtonsShowCase = ({}) => {
         <ButtonPresentation>
           <div>
             <p>S</p>
-            <BtnSmallPresent type="button" onClick={handleClick}>Button</BtnSmallPresent>
+            <BtnSmallPresent>Button</BtnSmallPresent>
           </div>
           <div>
             <p>M</p>

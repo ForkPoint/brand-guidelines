@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { btnSecondarySmall } from "../../styles/variables";
 
 export const LogoRow = styled.div`
     padding: 20px 0;
@@ -12,4 +13,8 @@ export const LogoColumn = styled.div`
     margin-right: 10px;
     border-radius: 6px;
     padding: 20px 40px;
+`;
+
+export const BtnPrimarySmall = styled.button`
+    ${btnSecondarySmall}
 `;

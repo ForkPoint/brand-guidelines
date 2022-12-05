@@ -11,25 +11,25 @@ import GridPage from "./pages/GridPage";
 const Routes = () => {
     return (
         <Switch>
-            <Route exact path="/">
+            <Route exact path="/brand-guidelines/">
                 <HomePage />
             </Route>
-            <Route exact path="/logos">
+            <Route exact path="/brand-guidelines/logos">
                 <LogosPage />
             </Route>
-            <Route exact path="/colors">
+            <Route exact path="/brand-guidelines/colors">
                 <ColorsPage />
             </Route>
-            <Route exact path="/icon">
+            <Route exact path="/brand-guidelines/icon">
                 <IconPage />
             </Route>
-            <Route exact path="/typography">
+            <Route exact path="/brand-guidelines/typography">
                 <TypographyPage />
             </Route>
-            <Route exact path="/button">
+            <Route exact path="/brand-guidelines/button">
                 <ButtonPage />
             </Route>
-            <Route exact path="/grid">
+            <Route exact path="/brand-guidelines/grid">
                 <GridPage />
             </Route>
         </Switch>

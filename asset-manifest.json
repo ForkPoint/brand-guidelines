@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.d563a756.css",
-    "main.js": "/brand-guidelines/static/js/main.374e6629.js",
+    "main.js": "/brand-guidelines/static/js/main.3509e94d.js",
     "static/media/layoutCover4.jpg": "/brand-guidelines/static/media/layoutCover4.490a4135e3cee71b008f.jpg",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
@@ -33,11 +33,17 @@
     "static/media/Muli.woff": "/brand-guidelines/static/media/Muli.8f37b7fcc92f9c5a6810.woff",
     "static/media/cssPaint.svg": "/brand-guidelines/static/media/cssPaint.e38f044caec0d713194cad254fe628ff.svg",
     "static/media/text.svg": "/brand-guidelines/static/media/text.00bbf08cb18f4eff76ac95c81ef6e0d4.svg",
+    "static/media/logoClearspaceVector.svg": "/brand-guidelines/static/media/logoClearspaceVector.7e8691ced79bee8bfd96bead46d0af84.svg",
     "static/media/pencil.svg": "/brand-guidelines/static/media/pencil.da43ca416f223976f01743eae2a79a04.svg",
     "static/media/ArkibalSerif-Regular.woff": "/brand-guidelines/static/media/ArkibalSerif-Regular.10f9f66ac4bec8f2455a.woff",
     "static/media/cartoon5.svg": "/brand-guidelines/static/media/cartoon5.0690bc821d28b9e16424e2d2694bb25c.svg",
     "static/media/cartoon2.svg": "/brand-guidelines/static/media/cartoon2.2c1111806c39a75dd92cbc8719abc90b.svg",
+    "static/media/iconClearspace.svg": "/brand-guidelines/static/media/iconClearspace.9695dab4951d822c6596b29fa9ff1bba.svg",
     "static/media/logo.svg": "/brand-guidelines/static/media/logo.860c8562f547676ad12cafce23fb19e8.svg",
+    "static/media/logoVector2.svg": "/brand-guidelines/static/media/logoVector2.8723b6fbcaadd43385c0bc3dae6750a4.svg",
+    "static/media/logoVector1.svg": "/brand-guidelines/static/media/logoVector1.0d8209ce13b2c580cad01dbc30a02e26.svg",
+    "static/media/logoVector3.svg": "/brand-guidelines/static/media/logoVector3.34270c21f78a25d058e6d7b90bb9723c.svg",
+    "static/media/logoVector4.svg": "/brand-guidelines/static/media/logoVector4.80677897726091a40d6afc7add26d69c.svg",
     "static/media/webArt.svg": "/brand-guidelines/static/media/webArt.b1a8ed1fdb0d28b06523156ba3d7157a.svg",
     "static/media/cartoon3.svg": "/brand-guidelines/static/media/cartoon3.8b718f1913ab89a18bde2423feff2bfd.svg",
     "static/media/cartoon4.svg": "/brand-guidelines/static/media/cartoon4.da5bce2c38f19162f439ea13f0367b69.svg",
@@ -45,10 +51,10 @@
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
     "main.d563a756.css.map": "/brand-guidelines/static/css/main.d563a756.css.map",
-    "main.374e6629.js.map": "/brand-guidelines/static/js/main.374e6629.js.map"
+    "main.3509e94d.js.map": "/brand-guidelines/static/js/main.3509e94d.js.map"
   },
   "entrypoints": [
     "static/css/main.d563a756.css",
-    "static/js/main.374e6629.js"
+    "static/js/main.3509e94d.js"
   ]
 }

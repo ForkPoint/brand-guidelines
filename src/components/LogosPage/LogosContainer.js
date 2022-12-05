@@ -63,10 +63,10 @@ const LogosContainer = ({}) => {
       </LogoRow>
       <LogoRow>
         <LogoColumn>
-          <p>Mono color positive version</p>
-          <img src={logoVector3} width="100%" height="150" />
+          <p>Mono color negative version</p>
+          <img src={logoVector4} width="100%" height="150" />
           <a
-              href={logoVector3}
+              href={logoVector4}
               download="Logo"
               target="_blank"
             >
@@ -74,10 +74,10 @@ const LogosContainer = ({}) => {
             </a>
         </LogoColumn>
         <LogoColumn>
-          <p>Mono color negative version</p>
-          <img src={logoVector4} width="100%" height="150" />
+          <p>Mono color positive version</p>
+          <img src={logoVector3} width="100%" height="150" />
           <a
-              href={logoVector4}
+              href={logoVector3}
               download="Logo"
               target="_blank"
             >

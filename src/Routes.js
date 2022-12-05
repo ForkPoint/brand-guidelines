@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LogosPage from "./pages/LogosPage";
 import ColorsPage from "./pages/ColorsPage";
@@ -11,12 +11,12 @@ import GridPage from "./pages/GridPage";
 const Routes = () => {
     return (
         <Switch>
-            <Route exact path="/brand-guidelines/">
+            <HashRouter exact path="/brand-guidelines/">
                 <HomePage />
-            </Route>
-            <Route exact path="/brand-guidelines/logos">
+            </HashRouter>
+            <HashRouter exact path="/brand-guidelines/logos">
                 <LogosPage />
-            </Route>
+            </HashRouter>
             <Route exact path="/brand-guidelines/colors">
                 <ColorsPage />
             </Route>

@@ -29,9 +29,9 @@ const Routes = () => {
             <HashRouter exact path="/brand-guidelines/button">
                 <ButtonPage />
             </HashRouter>
-            <HashRouter exact path="/brand-guidelines/grid">
+            <Route exact path="/brand-guidelines/grid">
                 <GridPage />
-            </HashRouter>
+            </Route>
         </Switch>
     );
 };

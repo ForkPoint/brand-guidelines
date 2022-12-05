@@ -25,6 +25,7 @@ import {
 } from "react-icons/ai";
 import { IoLogoSlack } from "react-icons/io";
 import { BiConfused } from "react-icons/bi";
+import { MdPhotoCamera } from "react-icons/md";
 import { BsFillMenuButtonWideFill, BsGrid1X2Fill } from "react-icons/bs";
 
 import { ThemeContext } from "./../../App";
@@ -129,6 +130,12 @@ const linksArray = [
     label: "Grid",
     icon: <BsGrid1X2Fill />,
     to: "/brand-guidelines/grid",
+    notification: 0,
+  },
+  {
+    label: "Photography",
+    icon: <MdPhotoCamera />,
+    to: "/brand-guidelines/photography",
     notification: 0,
   },
 ];

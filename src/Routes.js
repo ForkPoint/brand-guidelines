@@ -7,6 +7,7 @@ import IconPage from "./pages/IconPage";
 import TypographyPage from "./pages/TypographyPage";
 import ButtonPage from "./pages/ButtonPage";
 import GridPage from "./pages/GridPage";
+import PhotographyPage from "./pages/PhotographyPage"
 
 const Routes = () => {
     return (
@@ -31,6 +32,9 @@ const Routes = () => {
             </Route>
             <Route exact path="/brand-guidelines/grid">
                 <GridPage />
+            </Route>
+            <Route exact path="/brand-guidelines/photography">
+                <PhotographyPage />
             </Route>
         </Switch>
     );

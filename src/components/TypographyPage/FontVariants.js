@@ -16,7 +16,8 @@ import {
   FontDivider,
   BoldType,
   RegularType,
-  LightType
+  LightType,
+  Montserrat
 } from "./styles";
 
 const FontVariants = ({}) => {
@@ -219,6 +220,40 @@ const FontVariants = ({}) => {
         </Row>
         <FontDivider />
       </OswaldFont>
+      <Montserrat>
+      <Row>
+          <FontDeclaration>
+            <h1>Montserrat</h1>
+            <BoldType>Bold</BoldType>
+            <RegularType>Regular</RegularType>
+            <LightType>Light</LightType>
+          </FontDeclaration>
+          <ContentExample>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </ContentExample>
+        </Row>
+        <Row>
+          <AlphabetIntro>
+            <span>Aa</span>
+          </AlphabetIntro>
+          <FontShowcase>
+            <span>
+              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
+              Ww Xx Yy Zz
+            </span>
+            <p>01 02 03 04 05 06 07 08 09</p>
+          </FontShowcase>
+        </Row>
+        <FontDivider />
+      </Montserrat>
       <ArkibalFont>
         <Row>
           <FontDeclaration>

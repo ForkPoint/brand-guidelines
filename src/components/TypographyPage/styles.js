@@ -26,6 +26,10 @@ export const OswaldFont = styled.div`
     font-family: 'Oswald';
 `;
 
+export const Montserrat = styled.div`
+    font-family: 'Montserrat';
+`;
+
 export const ArkibalFont = styled.div`
     font-family: 'Arkibal Serif';
 `;

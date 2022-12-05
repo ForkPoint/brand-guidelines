@@ -57,15 +57,15 @@ const ButtonsShowCase = ({}) => {
         </Content>
         <ButtonPresentation>
           <div>
-            <p>S</p>
+            <p>S (width: 135px, height: 35px)</p>
             <BtnSmallPresent>Button</BtnSmallPresent>
           </div>
           <div>
-            <p>M</p>
+            <p>M (width: 245px, height: 45px)</p>
             <BtnMediumPresent>Button</BtnMediumPresent>
           </div>
           <div>
-            <p>L</p>
+            <p>L (width: 285px, height: 55px)</p>
             <BtnLargePresent>Button</BtnLargePresent>
           </div>
         </ButtonPresentation>

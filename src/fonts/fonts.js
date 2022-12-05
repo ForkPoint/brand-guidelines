@@ -7,6 +7,7 @@ import Oswald from "./Oswald-Regular.woff";
 import PublicSans from "./PublicSans-Regular.woff";
 import SaintGeorge from "./Saint-George.woff";
 import ArkibalSerif from "./ArkibalSerif-Regular.woff";
+import Montserrat from "./Montserrat-Regular.woff";
 
 export default createGlobalStyle `
     @font-face {
@@ -53,6 +54,14 @@ export default createGlobalStyle `
         font-family: 'Arkibal Serif';
         src: local('Arkibal Serif'),
         url(${ArkibalSerif}) format('woff');
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Montserrat';
+        src: local('Montserrat'),
+        url(${Montserrat}) format('woff');
         font-weight: 300;
         font-style: normal;
     }

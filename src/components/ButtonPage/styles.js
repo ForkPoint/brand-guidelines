@@ -53,6 +53,8 @@ export const BtnSmallPresent = styled.button`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  width: 135px;
+  height: 35px;
 `;
 
 export const BtnMediumPresent = styled.button`
@@ -63,6 +65,8 @@ export const BtnMediumPresent = styled.button`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  width: 245px;
+  height: 45px;
 `;
 
 export const BtnLargePresent = styled.button`
@@ -73,6 +77,8 @@ export const BtnLargePresent = styled.button`
   border: none;
   border-radius: 1px;
   margin: 15px 0;
+  width: 285px;
+  height: 55px;
 `;
 
 export const Showcase = styled.div`

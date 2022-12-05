@@ -39,6 +39,8 @@ export const btnPrimarySmall = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 135px;
+  height: 35px;
 `;
 
 export const btnPrimaryMedium = css`
@@ -50,6 +52,8 @@ export const btnPrimaryMedium = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 245px;
+  height: 45px;
 `;
 
 export const btnPrimaryLarge = css`
@@ -61,6 +65,8 @@ export const btnPrimaryLarge = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 285px;
+  height: 55px;
 `;
 
 export const btnSecondarySmall = css`
@@ -72,6 +78,8 @@ export const btnSecondarySmall = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 135px;
+  height: 35px;
 `;
 
 export const btnSecondaryMedium = css`
@@ -83,6 +91,8 @@ export const btnSecondaryMedium = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 245px;
+  height: 45px;
 `;
 
 export const btnSecondaryLarge = css`
@@ -94,6 +104,8 @@ export const btnSecondaryLarge = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 285px;
+  height: 55px;
 `;
 
 export const btnTertiarySmall = css`
@@ -105,6 +117,8 @@ export const btnTertiarySmall = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 135px;
+  height: 35px;
 `;
 
 export const btnTertiaryMedium = css`
@@ -116,6 +130,8 @@ export const btnTertiaryMedium = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 245px;
+  height: 45px;
 `;
 
 export const btnTertiaryLarge = css`
@@ -127,6 +143,8 @@ export const btnTertiaryLarge = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 285px;
+  height: 55px;
 `;
 
 export const btnFourthSmall = css`
@@ -138,6 +156,8 @@ export const btnFourthSmall = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 135px;
+  height: 35px;
 `;
 
 export const btnFourthMedium = css`
@@ -149,6 +169,8 @@ export const btnFourthMedium = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 245px;
+  height: 45px;
 `;
 
 export const btnFourthLarge = css`
@@ -160,4 +182,6 @@ export const btnFourthLarge = css`
   border-radius: 1px;
   margin: 15px 0;
   cursor: pointer;
+  width: 285px;
+  height: 55px;
 `;

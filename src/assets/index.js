@@ -33,12 +33,12 @@ import forkpointVector3 from "./logoVector3.svg"
 import forkpointVector4 from "./logoVector4.svg"
 import forkpointClearspace from "./logoClearspaceVector.svg"
 import forkpointIconClearspace from "./iconClearspace.svg"
-import blackFriday from "./blackFriday.svg";
-import currentEcommerceTrends from "./current-eCommerceTrends.svg";
-import headlessCommerce from "./headlessCommerce.svg";
-import SFCC from "./SFCC.svg";
-import weAreHiring from "./weAreHiring.svg";
-import aaaaa from "./aaaaa.svg";
+import blackFriday from "./blackFriday.png";
+import currentEcommerceTrends from "./current-eCommerceTrends.png";
+import headlessCommerce from "./headlessCommerce.png";
+import SFCC from "./SFCC.png";
+import weAreHiring from "./weAreHiring.png";
+import implementing from "./implementing.png";
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -75,7 +75,7 @@ export const logoVector3 = forkpointVector3;
 export const logoVector4 = forkpointVector4;
 export const logoClearspaceVector = forkpointClearspace;
 export const iconClearspaceVector = forkpointIconClearspace;
-export const hero1 = aaaaa;
+export const hero1 = implementing;
 export const hero2 = blackFriday;
 export const hero3 = currentEcommerceTrends;
 export const hero4 = headlessCommerce;

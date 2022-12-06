@@ -1,44 +1,74 @@
-import logo from "./logo.png";
-import brandingHero from "./branding-hero.jpg"
-import fullNegative from "./full-negative.png"
-import fullPositive from "./full-positive.png"
-import manoNegative from "./mono-negative.png"
-import manoPositive from "./mono-positive.png"
-import flags from "./flags.png"
-import card from "./card.png"
-import banner1 from "./banner1.png"
-import banner2 from "./banner2.png"
-import banner3 from "./banner3.png"
-import banner4 from "./banner4.png"
-import cartoon1 from "./cartoon1.svg"
-import cartoon2 from "./cartoon2.svg"
-import cartoon3 from "./cartoon3.svg"
-import cartoon4 from "./cartoon4.svg"
-import cartoon5 from "./cartoon5.svg"
-import cartoon6 from "./cartoon6.svg"
-import cartoon7 from "./cartoonLogo.svg"
-import place from "./place.png"
-import salesforce from "./salesforce.png"
-import cartoonHero from "./cartoonHero.png"
-import forkpointGrandpa from "./forkpointGrandpa.png"
-import logoType from './constructionLogo.png'
-import pencil from "./pencil.svg"
-import webDraw from "./webArt.svg"
-import cssPaint from "./cssPaint.svg"
-import text from "./text.svg"
-import logoDraw from "./logo.svg"
-import forkpointVector1 from "./logoVector1.svg"
-import forkpointVector2 from "./logoVector2.svg"
-import forkpointVector3 from "./logoVector3.svg"
-import forkpointVector4 from "./logoVector4.svg"
-import forkpointClearspace from "./logoClearspaceVector.svg"
-import forkpointIconClearspace from "./iconClearspace.svg"
+import logo from "./logo.svg";
+import brandingHero from "./branding-hero.jpg";
+import fullNegative from "./full-negative.png";
+import fullPositive from "./full-positive.png";
+import manoNegative from "./mono-negative.png";
+import manoPositive from "./mono-positive.png";
+import flags from "./flags.png";
+import card from "./card.png";
+import banner1 from "./banner1.png";
+import banner2 from "./banner2.png";
+import banner3 from "./banner3.png";
+import banner4 from "./banner4.png";
+import cartoon1 from "./cartoon1.svg";
+import cartoon2 from "./cartoon2.svg";
+import cartoon3 from "./cartoon3.svg";
+import cartoon4 from "./cartoon4.svg";
+import cartoon5 from "./cartoon5.svg";
+import cartoon6 from "./cartoon6.svg";
+import cartoon7 from "./cartoonLogo.svg";
+import place from "./place.png";
+import salesforce from "./salesforce.png";
+import cartoonHero from "./cartoonHero.png";
+import forkpointGrandpa from "./forkpointGrandpa.png";
+import logoType from "./constructionLogo.png";
+import pencil from "./pencil.svg";
+import webDraw from "./webArt.svg";
+import cssPaint from "./cssPaint.svg";
+import text from "./text.svg";
+import logoDraw from "./logo.svg";
+import forkpointVector1 from "./logoVector1.svg";
+import forkpointVector2 from "./logoVector2.svg";
+import forkpointVector3 from "./logoVector3.svg";
+import forkpointVector4 from "./logoVector4.svg";
+import forkpointClearspace from "./logoClearspaceVector.svg";
+import forkpointIconClearspace from "./iconClearspace.svg";
 import blackFriday from "./blackFriday.png";
 import currentEcommerceTrends from "./current-eCommerceTrends.png";
 import headlessCommerce from "./headlessCommerce.png";
 import SFCC from "./SFCC.png";
 import weAreHiring from "./weAreHiring.png";
 import implementing from "./implementing.png";
+import icon1 from "./align-center.svg";
+import icon2 from "./align-justify.svg";
+import icon3 from "./align-left.svg";
+import icon4 from "./align-right.svg";
+import icon5 from "./bold.svg";
+import icon6 from "./calendar.svg";
+import icon7 from "./cloud.svg";
+import icon8 from "./code.svg";
+import icon9 from "./coffee.svg";
+import icon10 from "./copy.svg";
+import icon11 from "./crop.svg";
+import icon12 from "./edit.svg";
+import icon13 from "./facebook.svg";
+import icon14 from "./film.svg";
+import icon15 from "./gift.svg";
+import icon16 from "./globe.svg";
+import icon17 from "./headphones.svg";
+import icon18 from "./instagram.svg";
+import icon19 from "./link.svg";
+import icon20 from "./linkedin.svg";
+import icon21 from "./mail.svg";
+import icon22 from "./monitor.svg";
+import icon23 from "./search.svg";
+import icon24 from "./send.svg";
+import icon25 from "./slack.svg";
+import icon26 from "./trello.svg";
+import icon27 from "./twitter.svg";
+import icon28 from "./type.svg";
+import icon29 from "./underline.svg";
+import icon30 from "./youtube.svg";
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -81,3 +111,33 @@ export const hero3 = currentEcommerceTrends;
 export const hero4 = headlessCommerce;
 export const hero5 = SFCC;
 export const hero6 = weAreHiring;
+export const alignCenter = icon1;
+export const alignJustify = icon2;
+export const alignLeft = icon3;
+export const alignRight = icon4;
+export const bold = icon5;
+export const calendar = icon6;
+export const cloud = icon7;
+export const code = icon8;
+export const coffee = icon9;
+export const copy = icon10;
+export const crop = icon11;
+export const edit = icon12;
+export const facebook = icon13;
+export const film = icon14;
+export const gift = icon15;
+export const globe = icon16;
+export const headphones = icon17;
+export const instagram = icon18;
+export const link = icon19;
+export const linkedin = icon20;
+export const mail = icon21;
+export const monitor = icon22;
+export const search = icon23;
+export const send = icon24;
+export const slack = icon25;
+export const trello = icon26;
+export const twitter = icon27;
+export const type = icon28;
+export const underline = icon29;
+export const youtube = icon30;

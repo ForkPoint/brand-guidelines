@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.a27344c3.css",
-    "main.js": "/brand-guidelines/static/js/main.57198396.js",
+    "main.js": "/brand-guidelines/static/js/main.ed75b5b3.js",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
     "static/media/flags.png": "/brand-guidelines/static/media/flags.23aee02bfc8c4b8fe694.png",
@@ -33,8 +33,8 @@
     "static/media/Muli-Light.woff": "/brand-guidelines/static/media/Muli-Light.ae70eb2b1c5cd9775be1.woff",
     "static/media/Muli.woff": "/brand-guidelines/static/media/Muli.8f37b7fcc92f9c5a6810.woff",
     "static/media/cssPaint.svg": "/brand-guidelines/static/media/cssPaint.e38f044caec0d713194cad254fe628ff.svg",
+    "static/media/logoClearspaceVector.svg": "/brand-guidelines/static/media/logoClearspaceVector.2f9aeaa892b9ac37ad77b633e47de5cf.svg",
     "static/media/text.svg": "/brand-guidelines/static/media/text.00bbf08cb18f4eff76ac95c81ef6e0d4.svg",
-    "static/media/logoClearspaceVector.svg": "/brand-guidelines/static/media/logoClearspaceVector.7e8691ced79bee8bfd96bead46d0af84.svg",
     "static/media/pencil.svg": "/brand-guidelines/static/media/pencil.da43ca416f223976f01743eae2a79a04.svg",
     "static/media/ArkibalSerif-Regular.woff": "/brand-guidelines/static/media/ArkibalSerif-Regular.10f9f66ac4bec8f2455a.woff",
     "static/media/cartoon5.svg": "/brand-guidelines/static/media/cartoon5.0690bc821d28b9e16424e2d2694bb25c.svg",
@@ -52,10 +52,10 @@
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
     "index.html": "/brand-guidelines/index.html",
     "main.a27344c3.css.map": "/brand-guidelines/static/css/main.a27344c3.css.map",
-    "main.57198396.js.map": "/brand-guidelines/static/js/main.57198396.js.map"
+    "main.ed75b5b3.js.map": "/brand-guidelines/static/js/main.ed75b5b3.js.map"
   },
   "entrypoints": [
     "static/css/main.a27344c3.css",
-    "static/js/main.57198396.js"
+    "static/js/main.ed75b5b3.js"
   ]
 }

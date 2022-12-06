@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { btnSecondaryMedium } from "../../styles/variables";
+import { btnSecondaryMedium, btnPrimaryMedium } from "../../styles/variables";
 
 export const LogoRow = styled.div`
     padding: 20px 0;
@@ -17,6 +17,7 @@ export const LogoColumnNegative = styled.div`
     flex: 1 22%;
     text-align: left;
     padding: 20px 0px;
+    color: #ffffff;
 `;
 
 export const BackgroundDark = styled.div`
@@ -29,6 +30,10 @@ export const BackgroundBright = styled.div`
     padding: 10px 20px;
 `;
 
-export const BtnPrimarySmall = styled.button`
+export const BtnPrimaryMedium = styled.button`
+    ${btnPrimaryMedium}
+`;
+
+export const BtnSecondaryMedium = styled.button`
     ${btnSecondaryMedium}
 `;

@@ -11,13 +11,13 @@ import PhotographyPage from "./pages/PhotographyPage"
 
 const Routes = () => {
     return (
-        <Switch>
-            <HashRouter exact path="/brand-guidelines/">
+        <HashRouter>
+            <Route exact path="/brand-guidelines/">
                 <HomePage />
-            </HashRouter>
-            <HashRouter exact path="/brand-guidelines/logos">
+            </Route>
+            <Route exact path="/brand-guidelines/logos">
                 <LogosPage />
-            </HashRouter>
+            </Route>
             <Route exact path="/brand-guidelines/colors">
                 <ColorsPage />
             </Route>
@@ -36,7 +36,7 @@ const Routes = () => {
             <Route exact path="/brand-guidelines/photography">
                 <PhotographyPage />
             </Route>
-        </Switch>
+        </HashRouter>
     );
 };
 

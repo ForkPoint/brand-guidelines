@@ -19,6 +19,12 @@ import {
   cartoonCover,
   grandpaForkpoint,
   cartoonLogo,
+  hero1,
+  hero2,
+  hero3,
+  hero4,
+  hero5,
+  hero6,
 } from "../../assets";
 
 const GridLayout = ({}) => {
@@ -26,91 +32,22 @@ const GridLayout = ({}) => {
     <div className={styles.sectionContainer}>
       <div className={styles.grid}>
         <div className={styles.card1}>
-          <div className={styles.col}>
-            <img src={draw5} width="100" height="100"></img>
-            <h1>What is Lorem Ipsum?</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <button className={styles.btnTertiary}>Shop Now</button>
-          </div>
-          <div className={styles.col}></div>
+            <img src={hero2}></img>
         </div>
-        <div className={styles.card2}>
-          <div className={styles.row}>
-            <h1>What is Lorem Ipsum?</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-          <div className={styles.row}>
-            <button className={styles.btnPrimary}>Explore Now</button>
-          </div>
+        <div className={styles.card1}>
+        <img src={hero3}></img>
         </div>
-        <div className={styles.card3}>
-          <div className={styles.col}></div>
-          <div className={styles.col}>
-            <img src={cartoonLogo} width="100" height="100"></img>
-            <h1>What is Lorem Ipsum?</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <hr />
-            <h2>What is Lorem Ipsum?</h2>
-            <spam>Lorem ipsum dolor sit</spam>
-          </div>
+        <div className={styles.card1}>
+        <img src={hero4}></img>
         </div>
-        <div className={styles.card4}>
-          <div className={styles.row}>
-            <h1>What is Lorem Ipsum?</h1>
-            <h4>What is Lorem Ipsum?</h4>
-            <div className={styles.divider}></div>
-          </div>
-          <div className={styles.row}>
-            <h5>MARKETING STRATEGY</h5>
-            <ul>
-              <li>Sales</li>
-              <li>Income</li>
-            </ul>
-            <button className={styles.btnFourth}>Contact Us</button>
-          </div>
+        <div className={styles.card1}>
+        <img src={hero5}></img>
         </div>
-        <div className={styles.card5}>
-          <div className={styles.col1}></div>
-          <div className={styles.col2}>forkpoint.com</div>
-          <div className={styles.row}>
-            <h1>WE`RE HIRING</h1>
-            <hr />
-            <h1>Digital Marketing Expert</h1>
-            <hr />
-            <spam>Send your CV here:</spam>
-            <p>forkpoint@mail.com</p>
-          </div>
+        <div className={styles.card1}>
+        <img src={hero6}></img>
         </div>
-        <div className={styles.card6}>
-          <div className={styles.col}>
-            <h1>WE`RE HIRING</h1>
-            <hr />
-            <h2>Digital Marketing Expert</h2>
-            <ul>
-              <li>Sales</li>
-              <li>Income</li>
-              <li>Ecommerce</li>
-              <li>Design</li>
-              <li>Quality</li>
-            </ul>
-            <hr className={styles.line} />
-            <h3>Contacts</h3>
-            <img src={draw3}></img>
-            <ul>
-              <li>forkpoint.com</li>
-              <li>forkpoint@mail.com</li>
-            </ul>
-          </div>
-          <div className={styles.col}></div>
+        <div className={styles.card1}>
+        <img src={hero2}></img>
         </div>
       </div>
     </div>

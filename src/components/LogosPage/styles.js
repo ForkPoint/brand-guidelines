@@ -10,20 +10,23 @@ export const LogoRow = styled.div`
 export const LogoColumnPositive = styled.div`
     flex: 1 22%;
     text-align: left;
-    margin-right: 10px;
-    border-radius: 6px;
-    padding: 20px 40px;
-    background-color: #ffffff;
+    padding: 20px 0px;
 `;
 
 export const LogoColumnNegative = styled.div`
     flex: 1 22%;
     text-align: left;
-    margin-right: 10px;
-    border-radius: 6px;
-    padding: 20px 40px;
-    color: #ffffff;
-    background-color: #000000;
+    padding: 20px 0px;
+`;
+
+export const BackgroundDark = styled.div`
+    background-color: #575757;
+    padding: 10px 20px;
+`;
+
+export const BackgroundBright = styled.div`
+    background-color: #ffffff;
+    padding: 10px 20px;
 `;
 
 export const BtnPrimarySmall = styled.button`

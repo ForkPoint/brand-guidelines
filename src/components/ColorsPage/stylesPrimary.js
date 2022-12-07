@@ -19,6 +19,13 @@ export const ColorSaturade = styled.div`
   margin: 0 auto;
   border-radius: 160px;
   position: absolute;
+  &:hover {
+    height: 300px;
+    width: 300px;
+    transition: 2s;
+    top: -25px;
+    left: -25px;
+  }
 `;
 
 export const ColorPale = styled.div`
@@ -50,6 +57,13 @@ export const ColorSaturadeSecondary = styled.div`
   margin: 0 auto;
   border-radius: 160px;
   position: absolute;
+  &:hover {
+    height: 300px;
+    width: 300px;
+    transition: 2s;
+    top: -25px;
+    left: -25px;
+  }
 `;
 
 export const ColorPaleSecondary = styled.div`

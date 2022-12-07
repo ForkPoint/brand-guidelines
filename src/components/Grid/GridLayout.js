@@ -25,6 +25,10 @@ import {
   hero4,
   hero5,
   hero6,
+  gridLayout1,
+  gridLayout2,
+  gridLayout3,
+  gridLayout4,
 } from "../../assets";
 
 const GridLayout = ({}) => {
@@ -32,22 +36,16 @@ const GridLayout = ({}) => {
     <div className={styles.sectionContainer}>
       <div className={styles.grid}>
         <div className={styles.card1}>
-            <img src={hero2}></img>
+            <img src={gridLayout1}></img>
         </div>
         <div className={styles.card1}>
-        <img src={hero3}></img>
+        <img src={gridLayout2}></img>
         </div>
         <div className={styles.card1}>
-        <img src={hero4}></img>
+        <img src={gridLayout3}></img>
         </div>
         <div className={styles.card1}>
-        <img src={hero5}></img>
-        </div>
-        <div className={styles.card1}>
-        <img src={hero6}></img>
-        </div>
-        <div className={styles.card1}>
-        <img src={hero2}></img>
+        <img src={gridLayout4}></img>
         </div>
       </div>
     </div>

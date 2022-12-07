@@ -69,6 +69,10 @@ import icon27 from "./twitter.svg";
 import icon28 from "./type.svg";
 import icon29 from "./underline.svg";
 import icon30 from "./youtube.svg";
+import layout1 from "./layout1.jpg";
+import layout2 from "./layout2.jpg";
+import layout3 from "./layout3.jpg";
+import layout4 from "./layout4.jpg";
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -141,3 +145,7 @@ export const twitter = icon27;
 export const type = icon28;
 export const underline = icon29;
 export const youtube = icon30;
+export const gridLayout1 = layout1;
+export const gridLayout2 = layout2;
+export const gridLayout3 = layout3;
+export const gridLayout4 = layout4;

@@ -6,9 +6,8 @@
 
 .grid {
   display: grid;
-  grid-gap: 5px;
   grid-template-columns: repeat(2, minmax(50%, 1fr));
-  grid-template-rows: repeat(3, 600px);
+  grid-template-rows: repeat(2, 600px);
 }
 
 @media only screen and (max-width: 1080px) {

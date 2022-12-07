@@ -73,6 +73,7 @@ import layout1 from "./layout1.jpg";
 import layout2 from "./layout2.jpg";
 import layout3 from "./layout3.jpg";
 import layout4 from "./layout4.jpg";
+import buttonLayouts from "./buttonSizes.svg"
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -149,3 +150,4 @@ export const gridLayout1 = layout1;
 export const gridLayout2 = layout2;
 export const gridLayout3 = layout3;
 export const gridLayout4 = layout4;
+export const buttonSizes = buttonLayouts;

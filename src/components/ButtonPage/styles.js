@@ -30,12 +30,6 @@ export const Content = styled.div`
 export const ButtonPresentation = styled.div`
   flex: 1 20%;
   width: 100%;
-  background: rgb(138, 207, 49);
-  background: linear-gradient(
-    90deg,
-    rgba(138, 207, 49, 0.6951155462184874) 0%,
-    rgba(17, 161, 224, 0.7147233893557423) 100%
-  );
   padding: 20px 40px;
   text-align: center;
   border-radius: 6px;

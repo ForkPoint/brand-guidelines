@@ -1,4 +1,5 @@
 import React from "react";
+import { buttonSizes } from "../../assets";
 import { Container } from "../Layout/styles";
 import {
   ContentWrapper,
@@ -56,7 +57,7 @@ const ButtonsShowCase = ({}) => {
           </p>
         </Content>
         <ButtonPresentation>
-          <div>
+          {/* <div>
             <p>S (width: 135px, height: 35px)</p>
             <BtnSmallPresent>Button</BtnSmallPresent>
           </div>
@@ -67,7 +68,8 @@ const ButtonsShowCase = ({}) => {
           <div>
             <p>L (width: 285px, height: 55px)</p>
             <BtnLargePresent>Button</BtnLargePresent>
-          </div>
+          </div> */}
+          <img src={buttonSizes}></img>
         </ButtonPresentation>
       </ContentWrapper>
       <Showcase>

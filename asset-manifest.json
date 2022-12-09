@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.e04aa9d6.css",
-    "main.js": "/brand-guidelines/static/js/main.0702f5c1.js",
+    "main.css": "/brand-guidelines/static/css/main.eab18c11.css",
+    "main.js": "/brand-guidelines/static/js/main.87a3a0cc.js",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
-    "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.9187e03c832f5856ff0c.jpg",
-    "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.4701837a0e16ec38f7ea.jpg",
+    "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.1784f4d1e8fda99d8380.jpg",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
-    "static/media/layout4.jpg": "/brand-guidelines/static/media/layout4.3d0fed6b9c04ffd90bc9.jpg",
-    "static/media/layout2.jpg": "/brand-guidelines/static/media/layout2.ab5d0b5f64af5f3c2f09.jpg",
+    "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.077d0ea56415457344b4.jpg",
+    "static/media/layout4.jpg": "/brand-guidelines/static/media/layout4.9a6ff4ed1b09a1e49da2.jpg",
+    "static/media/layout2.jpg": "/brand-guidelines/static/media/layout2.46b5064ba59c94a3e6ab.jpg",
     "static/media/flags.png": "/brand-guidelines/static/media/flags.23aee02bfc8c4b8fe694.png",
     "static/media/card.png": "/brand-guidelines/static/media/card.8ae91b0c13a6cee30a3f.png",
     "static/media/banner4.png": "/brand-guidelines/static/media/banner4.7baa693976e5efd10362.png",
@@ -31,6 +31,7 @@
     "static/media/PublicSans-Regular.woff": "/brand-guidelines/static/media/PublicSans-Regular.6b9d5fd46800c8a6d26e.woff",
     "static/media/place.png": "/brand-guidelines/static/media/place.c93941f24813760374d5.png",
     "static/media/Oswald-Regular.woff": "/brand-guidelines/static/media/Oswald-Regular.99a0a39eaf9eb073897a.woff",
+    "static/media/centerAlign.svg": "/brand-guidelines/static/media/centerAlign.3585432e65d33bc9a5cdc6d4c7c1b111.svg",
     "static/media/mono-negative.png": "/brand-guidelines/static/media/mono-negative.0241bf86a6c1d615c15b.png",
     "static/media/full-positive.png": "/brand-guidelines/static/media/full-positive.bf618b2a96f08c5d01b6.png",
     "static/media/full-negative.png": "/brand-guidelines/static/media/full-negative.f09d5e8b915fb762d2bc.png",
@@ -45,6 +46,10 @@
     "static/media/cartoon5.svg": "/brand-guidelines/static/media/cartoon5.0690bc821d28b9e16424e2d2694bb25c.svg",
     "static/media/cartoon2.svg": "/brand-guidelines/static/media/cartoon2.2c1111806c39a75dd92cbc8719abc90b.svg",
     "static/media/iconClearspace.svg": "/brand-guidelines/static/media/iconClearspace.461a5b4f577217dad22bc7bc56ebe1e0.svg",
+    "static/media/bottomLeft.svg": "/brand-guidelines/static/media/bottomLeft.80b7af3eb9ffbfd26ad59d3ff5f211b3.svg",
+    "static/media/bottomRight.svg": "/brand-guidelines/static/media/bottomRight.609a2ea30dab74ff0ec39220ff2d2e28.svg",
+    "static/media/topRight.svg": "/brand-guidelines/static/media/topRight.99dcacca0bb5558cbbfaa495c1891c3c.svg",
+    "static/media/topLeft.svg": "/brand-guidelines/static/media/topLeft.ab624f851ac025b1c5ea44e7937da40b.svg",
     "static/media/logoVector2.svg": "/brand-guidelines/static/media/logoVector2.8723b6fbcaadd43385c0bc3dae6750a4.svg",
     "static/media/logoVector1.svg": "/brand-guidelines/static/media/logoVector1.fb36f45a5436e14ab077ac46d64f4841.svg",
     "static/media/logoVector3.svg": "/brand-guidelines/static/media/logoVector3.34270c21f78a25d058e6d7b90bb9723c.svg",
@@ -55,6 +60,7 @@
     "static/media/cartoonLogo.svg": "/brand-guidelines/static/media/cartoonLogo.f3e473ee0e0d7fbfef72f3288b92815d.svg",
     "static/media/logo.svg": "/brand-guidelines/static/media/logo.51b35b885d44698dac5c0e19a2aa52c0.svg",
     "static/media/cartoon6.svg": "/brand-guidelines/static/media/cartoon6.89c10c32baeb3cc593b64bdd57da84fc.svg",
+    "static/media/layoutStructure.svg": "/brand-guidelines/static/media/layoutStructure.be0adc954d01d14cd89de4ccec188e3e.svg",
     "static/media/slack.svg": "/brand-guidelines/static/media/slack.3d9d35db8c0ff989873507e9ec5b3a89.svg",
     "index.html": "/brand-guidelines/index.html",
     "static/media/film.svg": "/brand-guidelines/static/media/film.0d359f8729ef17d4f86c3b933b988997.svg",
@@ -86,11 +92,11 @@
     "static/media/code.svg": "/brand-guidelines/static/media/code.f0c7e6b80cb783d2addbda81ad944a86.svg",
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
-    "main.e04aa9d6.css.map": "/brand-guidelines/static/css/main.e04aa9d6.css.map",
-    "main.0702f5c1.js.map": "/brand-guidelines/static/js/main.0702f5c1.js.map"
+    "main.eab18c11.css.map": "/brand-guidelines/static/css/main.eab18c11.css.map",
+    "main.87a3a0cc.js.map": "/brand-guidelines/static/js/main.87a3a0cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e04aa9d6.css",
-    "static/js/main.0702f5c1.js"
+    "static/css/main.eab18c11.css",
+    "static/js/main.87a3a0cc.js"
   ]
 }

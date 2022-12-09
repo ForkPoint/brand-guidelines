@@ -1,5 +1,8 @@
 import React from "react";
 import { Container } from "../Layout/styles";
+import { RiLineHeight } from "react-icons/ri";
+import { CgFontSpacing } from "react-icons/cg";
+import { RiTextSpacing } from "react-icons/ri";
 import {
   TypeStyle,
   PublicSansFont,
@@ -17,7 +20,8 @@ import {
   BoldType,
   RegularType,
   LightType,
-  Montserrat
+  Montserrat,
+  Spacing
 } from "./styles";
 
 const FontVariants = ({}) => {
@@ -50,6 +54,20 @@ const FontVariants = ({}) => {
           <spam>Footnote (16px)</spam>
         </div>
       </TypeStyle>
+      <Spacing>
+        <div>
+          <RiLineHeight />
+          <p>line-height: 1.3</p>
+        </div>
+        <div>
+          <RiTextSpacing />
+          <p>letter-spacing: 1.1</p>
+        </div>
+        <div>
+          <CgFontSpacing />
+          <p>word-spacing: 0.01mm</p>
+        </div>
+      </Spacing>
       <div>
         <Row>
           <FontDeclaration>

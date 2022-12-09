@@ -73,7 +73,13 @@ import layout1 from "./layout1.jpg";
 import layout2 from "./layout2.jpg";
 import layout3 from "./layout3.jpg";
 import layout4 from "./layout4.jpg";
-import buttonLayouts from "./buttonSizes.svg"
+import buttonLayouts from "./buttonSizes.svg";
+import topLeft from "./topLeft.svg";
+import topRight from "./topRight.svg";
+import bottomLeft from "./bottomLeft.svg";
+import bottomRight from "./bottomRight.svg";
+import center from "./centerAlign.svg";
+import structure from "./layoutStructure.svg";
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -151,3 +157,9 @@ export const gridLayout2 = layout2;
 export const gridLayout3 = layout3;
 export const gridLayout4 = layout4;
 export const buttonSizes = buttonLayouts;
+export const topLeftAlign = topLeft;
+export const topRightAlign = topRight;
+export const bottomLeftAlign = bottomLeft;
+export const bottomRightAlign = bottomRight;
+export const centerAlign = center;
+export const layoutStructure = structure

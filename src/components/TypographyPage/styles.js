@@ -10,36 +10,43 @@ export const TypeStyle = styled.div`
   text-align: center;
 `;
 
+export const Spacing = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 36px;
+  text-align: center;
+`;
+
 export const PublicSansFont = styled.div`
-    font-family: 'Public Sans';
+  font-family: "Public Sans";
 `;
 
 export const MuliFont = styled.div`
-    font-family: 'Muli';
+  font-family: "Muli";
 `;
 
 export const RobotoFont = styled.div`
-    font-family: 'Roboto';
+  font-family: "Roboto";
 `;
 
 export const OswaldFont = styled.div`
-    font-family: 'Oswald';
+  font-family: "Oswald";
 `;
 
 export const Montserrat = styled.div`
-    font-family: 'Montserrat';
+  font-family: "Montserrat";
 `;
 
 export const ArkibalFont = styled.div`
-    font-family: 'Arkibal Serif';
+  font-family: "Arkibal Serif";
 `;
 
 export const SaintGeorgeFont = styled.div`
-    font-family: 'Saint George';
+  font-family: "Saint George";
 `;
 
 export const Row = styled.div`
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 15px 10px;
@@ -49,7 +56,7 @@ export const Row = styled.div`
 
 export const FontDeclaration = styled.div`
   flex: 1 20%;
-  color:#587236;
+  color: #587236;
 `;
 
 export const ContentExample = styled.div`
@@ -57,7 +64,7 @@ export const ContentExample = styled.div`
 `;
 
 export const FontShowcase = styled.div`
-    flex: 1 70%;
+  flex: 1 70%;
   font-size: 20px;
   text-align: left;
 `;
@@ -75,13 +82,13 @@ export const FontDivider = styled.hr`
 `;
 
 export const BoldType = styled.p`
-    font-weight: 600;
+  font-weight: 600;
 `;
 
 export const RegularType = styled.p`
-    font-weight: 400;
+  font-weight: 400;
 `;
 
 export const LightType = styled.p`
-    font-weight: 100;
+  font-weight: 100;
 `;

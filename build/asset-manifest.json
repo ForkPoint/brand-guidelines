@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.da0d1f1a.css",
-    "main.js": "/brand-guidelines/static/js/main.8d81d8b5.js",
+    "main.css": "/brand-guidelines/static/css/main.e04aa9d6.css",
+    "main.js": "/brand-guidelines/static/js/main.0702f5c1.js",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.9187e03c832f5856ff0c.jpg",
     "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.4701837a0e16ec38f7ea.jpg",
@@ -27,6 +27,7 @@
     "static/media/cartoon1.svg": "/brand-guidelines/static/media/cartoon1.1e0fcbe8350fac949c86fdac84405471.svg",
     "static/media/constructionLogo.png": "/brand-guidelines/static/media/constructionLogo.8157fe96b938c055eb61.png",
     "static/media/Saint-George.woff": "/brand-guidelines/static/media/Saint-George.dc265028ead89c19a5da.woff",
+    "static/media/buttonSizes.svg": "/brand-guidelines/static/media/buttonSizes.d82331b95741dce8f629e55367e33344.svg",
     "static/media/PublicSans-Regular.woff": "/brand-guidelines/static/media/PublicSans-Regular.6b9d5fd46800c8a6d26e.woff",
     "static/media/place.png": "/brand-guidelines/static/media/place.c93941f24813760374d5.png",
     "static/media/Oswald-Regular.woff": "/brand-guidelines/static/media/Oswald-Regular.99a0a39eaf9eb073897a.woff",
@@ -85,11 +86,11 @@
     "static/media/code.svg": "/brand-guidelines/static/media/code.f0c7e6b80cb783d2addbda81ad944a86.svg",
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
-    "main.da0d1f1a.css.map": "/brand-guidelines/static/css/main.da0d1f1a.css.map",
-    "main.8d81d8b5.js.map": "/brand-guidelines/static/js/main.8d81d8b5.js.map"
+    "main.e04aa9d6.css.map": "/brand-guidelines/static/css/main.e04aa9d6.css.map",
+    "main.0702f5c1.js.map": "/brand-guidelines/static/js/main.0702f5c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.da0d1f1a.css",
-    "static/js/main.8d81d8b5.js"
+    "static/css/main.e04aa9d6.css",
+    "static/js/main.0702f5c1.js"
   ]
 }

@@ -11,5 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${({ theme }) => theme.text};
         font-family: 'Open Sans', sans-serif;
         letter-spacing: 1.1px;
+        line-height: 1.3;
+        word-spacing: 0.01mm;
     }
 `;

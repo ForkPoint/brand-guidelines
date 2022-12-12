@@ -80,6 +80,7 @@ import bottomLeft from "./bottomLeft.svg";
 import bottomRight from "./bottomRight.svg";
 import center from "./centerAlign.svg";
 import structure from "./layoutStructure.svg";
+import buttonEmptySpace from "./buttonPaddings.svg";
 
 export const logoSVG = logo;
 export const homePageHero = brandingHero;
@@ -162,4 +163,5 @@ export const topRightAlign = topRight;
 export const bottomLeftAlign = bottomLeft;
 export const bottomRightAlign = bottomRight;
 export const centerAlign = center;
-export const layoutStructure = structure
+export const layoutStructure = structure;
+export const buttonPaddings = buttonEmptySpace;

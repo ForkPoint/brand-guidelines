@@ -1,13 +1,10 @@
 import React from "react";
-import { buttonSizes } from "../../assets";
+import { buttonPaddings, buttonSizes } from "../../assets";
 import { Container } from "../Layout/styles";
 import {
   ContentWrapper,
   Content,
   ButtonPresentation,
-  BtnSmallPresent,
-  BtnMediumPresent,
-  BtnLargePresent,
   BtnPrimarySmall,
   BtnPrimaryMedium,
   BtnPrimaryLarge,
@@ -20,97 +17,177 @@ import {
   BtnFourthSmall,
   BtnFourthMedium,
   BtnFourthLarge,
-  Showcase
+  Showcase,
+  BtnPrimaryGhostSmall,
+  BtnPrimaryGhostMedium,
+  BtnPrimaryGhostLarge,
+  BtnSecondaryGhostSmall,
+  BtnSecondaryGhostMedium,
+  BtnSecondaryGhostLarge,
+  BtnTertiaryGhostSmall,
+  BtnTertiaryGhostMedium,
+  BtnTertiaryGhostLarge,
+  BtnFourthGhostSmall,
+  BtnFourthGhostMedium,
+  BtnFourthGhostLarge,
+  DarkScreenContainer,
+  BrightScreenContainer,
+  BtnPrimaryTextSmall,
+  BtnPrimaryTextMedium,
+  BtnPrimaryTextLarge,
+  BtnSecondaryTextSmall,
+  BtnSecondaryTextMedium,
+  BtnSecondaryTextLarge,
+  BtnTertiaryTextSmall,
+  BtnTertiaryTextMedium,
+  BtnTertiaryTextLarge,
+  BtnFourthTextSmall,
+  BtnFourthTextMedium,
+  BtnFourthTextLarge,
 } from "./styles";
 
 const ButtonsShowCase = ({}) => {
   return (
-    <Container>
-      <ContentWrapper>
-        <Content>
-          <p>
-            The size of buttons depends on the base font size used which can be
-            adapted to the viewport width.
-          </p>
-          <ul>
-            <li>
-              Small button at a base font size of 16 px, e.g. in a smartphone
-              app.
-            </li>
-            <li>
-              Medium sized button at a base font size of 18 px, e.g. in a tablet
-              app.
-            </li>
-            <li>
-              Large button at a base font size of 20 px, e.g. on a website which
-              is rendered in a wide viewport.
-            </li>
-          </ul>
-          <p>
-            The minimum width of primary and secondary buttons is defined as
-            nine times the base font size. Thus, with a base font size of 16 px,
-            the minimum button width is 9 × 16 px = 144 px.
-          </p>
-          <p>
-            For small viewports, the font size and padding for the label can be
-            adjusted on the left and right.
-          </p>
-        </Content>
-        <ButtonPresentation>
-          {/* <div>
-            <p>S (width: 135px, height: 35px)</p>
-            <BtnSmallPresent>Button</BtnSmallPresent>
+    <>
+      <Container>
+        <h3>Sizes and tap areas</h3>
+        <ContentWrapper>
+          <Content>
+            <p>
+              The size of buttons depends on the base font size used which can
+              be adapted to the viewport width.
+            </p>
+            <ul>
+              <li>
+                Small button at a base font size of 16 px, e.g. in a smartphone
+                app.
+              </li>
+              <li>
+                Medium sized button at a base font size of 18 px, e.g. in a
+                tablet app.
+              </li>
+              <li>
+                Large button at a base font size of 20 px, e.g. on a website
+                which is rendered in a wide viewport.
+              </li>
+            </ul>
+            <p>
+              For small viewports, the font size and padding for the label can
+              be adjusted on the left and right.
+            </p>
+          </Content>
+          <ButtonPresentation>
+            <img src={buttonSizes}></img>
+          </ButtonPresentation>
+        </ContentWrapper>
+        <Showcase>
+          <div>
+            <h5>Primary Buttons</h5>
+            <h6>S</h6>
+            <BtnPrimarySmall>Button</BtnPrimarySmall>
+            <h6>M</h6>
+            <BtnPrimaryMedium>Button Text</BtnPrimaryMedium>
+            <h6>L</h6>
+            <BtnPrimaryLarge>Button Text</BtnPrimaryLarge>
           </div>
           <div>
-            <p>M (width: 245px, height: 45px)</p>
-            <BtnMediumPresent>Button</BtnMediumPresent>
+            <h5>Secondary Buttons</h5>
+            <h6>S</h6>
+            <BtnSecondarySmall>Button</BtnSecondarySmall>
+            <h6>M</h6>
+            <BtnSecondaryMedium>Button Text</BtnSecondaryMedium>
+            <h6>L</h6>
+            <BtnSecondaryLarge>Button Text</BtnSecondaryLarge>
           </div>
           <div>
-            <p>L (width: 285px, height: 55px)</p>
-            <BtnLargePresent>Button</BtnLargePresent>
-          </div> */}
-          <img src={buttonSizes}></img>
-        </ButtonPresentation>
-      </ContentWrapper>
-      <Showcase>
+            <h5>Tertiary Buttons</h5>
+            <h6>S</h6>
+            <BtnTertiarySmall>Button</BtnTertiarySmall>
+            <h6>M</h6>
+            <BtnTertiaryMedium>Button Text</BtnTertiaryMedium>
+            <h6>L</h6>
+            <BtnTertiaryLarge>Button Text</BtnTertiaryLarge>
+          </div>
+          <div>
+            <h5>Fourth Buttons</h5>
+            <h6>S</h6>
+            <BtnFourthSmall>Button</BtnFourthSmall>
+            <h6>M</h6>
+            <BtnFourthMedium>Button Text</BtnFourthMedium>
+            <h6>L</h6>
+            <BtnFourthLarge>Button Text</BtnFourthLarge>
+          </div>
+        </Showcase>
+      </Container>
+      <DarkScreenContainer>
         <div>
-          <h5>Primary Buttons</h5>
+          <h5>Primary Ghost Buttons</h5>
           <h6>S</h6>
-          <BtnPrimarySmall>#8acf31</BtnPrimarySmall>
+          <BtnPrimaryGhostSmall>Button</BtnPrimaryGhostSmall>
           <h6>M</h6>
-          <BtnPrimaryMedium>RGB: 138 207 490</BtnPrimaryMedium>
+          <BtnPrimaryGhostMedium>Button</BtnPrimaryGhostMedium>
           <h6>L</h6>
-          <BtnPrimaryLarge>CMYK: 60 0 100 0</BtnPrimaryLarge>
+          <BtnPrimaryGhostLarge>Button</BtnPrimaryGhostLarge>
+          <div>
+            <h5>Primary Text Buttons</h5>
+            <h6>S</h6>
+            <BtnPrimaryTextSmall>Button</BtnPrimaryTextSmall>
+            <h6>M</h6>
+            <BtnPrimaryTextMedium>Button</BtnPrimaryTextMedium>
+            <h6>L</h6>
+            <BtnPrimaryTextLarge>Button</BtnPrimaryTextLarge>
+          </div>
+        </div>
+        <BrightScreenContainer>
+          <h5>Secondary Ghost Buttons</h5>
+          <h6>S</h6>
+          <BtnSecondaryGhostSmall>Button</BtnSecondaryGhostSmall>
+          <h6>M</h6>
+          <BtnSecondaryGhostMedium>Buttton</BtnSecondaryGhostMedium>
+          <h6>L</h6>
+          <BtnSecondaryGhostLarge>Button</BtnSecondaryGhostLarge>
+          <h5>Secondary Text Buttons</h5>
+          <h6>S</h6>
+          <BtnSecondaryTextSmall>Button</BtnSecondaryTextSmall>
+          <h6>M</h6>
+          <BtnSecondaryTextMedium>Buttton</BtnSecondaryTextMedium>
+          <h6>L</h6>
+          <BtnSecondaryTextLarge>Button</BtnSecondaryTextLarge>
+        </BrightScreenContainer>
+        <div>
+          <h5>Tertiary Ghost Buttons</h5>
+          <h6>S</h6>
+          <BtnTertiaryGhostSmall>Button</BtnTertiaryGhostSmall>
+          <h6>M</h6>
+          <BtnTertiaryGhostMedium>Button</BtnTertiaryGhostMedium>
+          <h6>L</h6>
+          <BtnTertiaryGhostLarge>Button</BtnTertiaryGhostLarge>
+          <h5>Tertiary Text Buttons</h5>
+          <h6>S</h6>
+          <BtnTertiaryTextSmall>Button</BtnTertiaryTextSmall>
+          <h6>M</h6>
+          <BtnTertiaryTextMedium>Button</BtnTertiaryTextMedium>
+          <h6>L</h6>
+          <BtnTertiaryTextLarge>Button</BtnTertiaryTextLarge>
         </div>
         <div>
-          <h5>Secondary Buttons</h5>
+          <h5>Fourth Ghost Buttons</h5>
           <h6>S</h6>
-          <BtnSecondarySmall>#575757</BtnSecondarySmall>
+          <BtnFourthGhostSmall>Button</BtnFourthGhostSmall>
           <h6>M</h6>
-          <BtnSecondaryMedium>RGB: 87 87 87</BtnSecondaryMedium>
+          <BtnFourthGhostMedium>Button</BtnFourthGhostMedium>
           <h6>L</h6>
-          <BtnSecondaryLarge>CMYK: 0 0 0 80</BtnSecondaryLarge>
-        </div>
-        <div>
-          <h5>Tertiary Buttons</h5>
+          <BtnFourthGhostLarge>Button</BtnFourthGhostLarge>
+          <h5>Fourth Text Buttons</h5>
           <h6>S</h6>
-          <BtnTertiarySmall>#11a1e0</BtnTertiarySmall>
+          <BtnFourthTextSmall>Button</BtnFourthTextSmall>
           <h6>M</h6>
-          <BtnTertiaryMedium>RGB: 17 161 224</BtnTertiaryMedium>
+          <BtnFourthTextMedium>Button</BtnFourthTextMedium>
           <h6>L</h6>
-          <BtnTertiaryLarge>CMYK: 92 28 0 12</BtnTertiaryLarge>
+          <BtnFourthTextLarge>Button</BtnFourthTextLarge>
         </div>
-        <div>
-          <h5>Fourth Buttons</h5>
-          <h6>S</h6>
-          <BtnFourthSmall>#FDFD96</BtnFourthSmall>
-          <h6>M</h6>
-          <BtnFourthMedium>RGB: 0 0 0.41 0.01</BtnFourthMedium>
-          <h6>L</h6>
-          <BtnFourthLarge>CMYK: 92 28 0 12</BtnFourthLarge>
-        </div>
-      </Showcase>
-    </Container>
+      </DarkScreenContainer>
+    </>
   );
 };
 

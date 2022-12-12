@@ -3,38 +3,6 @@ import { IconsGrid, GridColumn, Icon } from "./styles";
 import { Container } from "../Layout/styles";
 
 import {
-  FiSearch,
-  FiAlignCenter,
-  FiAlignJustify,
-  FiAlignLeft,
-  FiAlignRight,
-  FiEdit,
-  FiType,
-  FiBold,
-  FiUnderline,
-  FiCopy,
-  FiCrop,
-  FiMonitor,
-  FiCloud,
-  FiCode,
-  FiGlobe,
-  FiHeadphones,
-  FiFacebook,
-  FiInstagram,
-  FiLinkedin,
-  FiTwitter,
-  FiYoutube,
-  FiMail,
-  FiSlack,
-  FiTrello,
-  FiCalendar,
-  FiLink,
-  FiCoffee,
-  FiGift,
-  FiFilm,
-  FiSend,
-} from "react-icons/fi";
-import {
   alignCenter,
   alignJustify,
   alignLeft,
@@ -85,6 +53,7 @@ const IconsTable = ({}) => {
     </Container>
   );
 };
+
 const icons = [
   {
     icon: alignCenter,

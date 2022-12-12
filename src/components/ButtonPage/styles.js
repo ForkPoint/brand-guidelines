@@ -12,6 +12,30 @@ import {
   btnFourthSmall,
   btnFourthMedium,
   btnFourthLarge,
+  btnPrimaryGhostSmall,
+  btnPrimaryGhostMedium,
+  btnPrimaryGhostLarge,
+  btnSecondaryGhostSmall,
+  btnSecondaryGhostMedium,
+  btnSecondaryGhostLarge,
+  btnTertiaryGhostSmall,
+  btnTertiaryGhostMedium,
+  btnTertiaryGhostLarge,
+  btnFourthGhostSmall,
+  btnFourthGhostMedium,
+  btnFourthGhostLarge,
+  btnPrimaryTextSmall,
+  btnPrimaryTextMedium,
+  btnPrimaryTextLarge,
+  btnSecondaryTextSmall,
+  btnSecondaryTextMedium,
+  btnSecondaryTextLarge,
+  btnTertiaryTextSmall,
+  btnTertiaryTextMedium,
+  btnTertiaryTextLarge,
+  btnFourthTextSmall,
+  btnFourthTextMedium,
+  btnFourthTextLarge,
 } from "../../styles/variables";
 
 export const ContentWrapper = styled.div`
@@ -83,50 +107,164 @@ export const Showcase = styled.div`
   text-align: center;
 `;
 
+export const DarkScreenContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #ffffff;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #575757;
+  max-width: 1360px;
+  margin: 0 auto;
+`;
+
+export const BrightScreenContainer = styled.div`
+  background-color: #ffffff;
+  color: #575757;
+  padding: 0px 8px;
+`;
+
 export const BtnPrimarySmall = styled.button`
   ${btnPrimarySmall}
+`;
+
+export const BtnPrimaryGhostSmall = styled.button`
+  ${btnPrimaryGhostSmall}
+`;
+
+export const BtnPrimaryTextSmall = styled.a`
+  ${btnPrimaryTextSmall}
 `;
 
 export const BtnPrimaryMedium = styled.button`
   ${btnPrimaryMedium}
 `;
 
+export const BtnPrimaryTextMedium = styled.a`
+  ${btnPrimaryTextMedium}
+`;
+
+export const BtnPrimaryGhostMedium = styled.button`
+  ${btnPrimaryGhostMedium}
+`;
+
 export const BtnPrimaryLarge = styled.button`
   ${btnPrimaryLarge}
+`;
+
+export const BtnPrimaryGhostLarge = styled.button`
+  ${btnPrimaryGhostLarge}
+`;
+
+export const BtnPrimaryTextLarge = styled.a `
+  ${btnPrimaryTextLarge}
 `;
 
 export const BtnSecondarySmall = styled.button`
   ${btnSecondarySmall}
 `;
 
+export const BtnSecondaryGhostSmall = styled.button`
+  ${btnSecondaryGhostSmall}
+`;
+
+export const BtnSecondaryTextSmall = styled.a `
+  ${btnSecondaryTextSmall}
+`;
+
 export const BtnSecondaryMedium = styled.button`
   ${btnSecondaryMedium}
+`;
+
+export const BtnSecondaryGhostMedium = styled.button`
+  ${btnSecondaryGhostMedium}
+`;
+
+export const BtnSecondaryTextMedium = styled.a `
+  ${btnSecondaryTextMedium}
 `;
 
 export const BtnSecondaryLarge = styled.button`
   ${btnSecondaryLarge}
 `;
 
+export const BtnSecondaryGhostLarge = styled.button`
+  ${btnSecondaryGhostLarge}
+`;
+
+export const BtnSecondaryTextLarge = styled.a `
+  ${btnSecondaryTextLarge}
+`;
+
 export const BtnTertiarySmall = styled.button`
   ${btnTertiarySmall}
+`;
+
+export const BtnTertiaryGhostSmall = styled.button`
+  ${btnTertiaryGhostSmall}
+`;
+
+export const BtnTertiaryTextSmall = styled.a`
+  ${btnTertiaryTextSmall}
 `;
 
 export const BtnTertiaryMedium = styled.button`
   ${btnTertiaryMedium}
 `;
 
+export const BtnTertiaryGhostMedium = styled.button`
+  ${btnTertiaryGhostMedium}
+`;
+
+export const BtnTertiaryTextMedium = styled.a`
+  ${btnTertiaryTextMedium}
+`;
+
 export const BtnTertiaryLarge = styled.button`
   ${btnTertiaryLarge}
+`;
+
+export const BtnTertiaryGhostLarge = styled.button`
+  ${btnTertiaryGhostLarge}
+`;
+
+export const BtnTertiaryTextLarge = styled.a`
+  ${btnTertiaryTextLarge}
 `;
 
 export const BtnFourthSmall = styled.button`
   ${btnFourthSmall}
 `;
 
+export const BtnFourthGhostSmall = styled.button`
+  ${btnFourthGhostSmall}
+`;
+
+export const BtnFourthTextSmall = styled.a`
+  ${btnFourthTextSmall}
+`;
+
 export const BtnFourthMedium = styled.button`
   ${btnFourthMedium}
 `;
 
+export const BtnFourthGhostMedium = styled.button`
+  ${btnFourthGhostMedium}
+`;
+
+export const BtnFourthTextMedium = styled.a`
+  ${btnFourthTextMedium}
+`;
+
 export const BtnFourthLarge = styled.button`
   ${btnFourthLarge}
+`;
+
+export const BtnFourthGhostLarge = styled.button`
+  ${btnFourthGhostLarge}
+`;
+
+export const BtnFourthTextLarge = styled.a`
+  ${btnFourthTextLarge}
 `;

@@ -1,49 +1,25 @@
 import React from "react";
-import { buttonPaddings, buttonSizes } from "../../assets";
+import { buttonSizes } from "../../assets";
 import { Container } from "../Layout/styles";
 import {
   ContentWrapper,
   Content,
   ButtonPresentation,
   BtnPrimarySmall,
-  BtnPrimaryMedium,
-  BtnPrimaryLarge,
   BtnSecondarySmall,
-  BtnSecondaryMedium,
-  BtnSecondaryLarge,
   BtnTertiarySmall,
-  BtnTertiaryMedium,
-  BtnTertiaryLarge,
   BtnFourthSmall,
-  BtnFourthMedium,
-  BtnFourthLarge,
-  Showcase,
   BtnPrimaryGhostSmall,
-  BtnPrimaryGhostMedium,
-  BtnPrimaryGhostLarge,
   BtnSecondaryGhostSmall,
-  BtnSecondaryGhostMedium,
-  BtnSecondaryGhostLarge,
   BtnTertiaryGhostSmall,
-  BtnTertiaryGhostMedium,
-  BtnTertiaryGhostLarge,
   BtnFourthGhostSmall,
-  BtnFourthGhostMedium,
-  BtnFourthGhostLarge,
   DarkScreenContainer,
   BrightScreenContainer,
   BtnPrimaryTextSmall,
-  BtnPrimaryTextMedium,
-  BtnPrimaryTextLarge,
   BtnSecondaryTextSmall,
-  BtnSecondaryTextMedium,
-  BtnSecondaryTextLarge,
   BtnTertiaryTextSmall,
-  BtnTertiaryTextMedium,
-  BtnTertiaryTextLarge,
   BtnFourthTextSmall,
-  BtnFourthTextMedium,
-  BtnFourthTextLarge,
+  ButtonsGrid,
 } from "./styles";
 
 const ButtonsShowCase = ({}) => {
@@ -80,113 +56,57 @@ const ButtonsShowCase = ({}) => {
             <img src={buttonSizes}></img>
           </ButtonPresentation>
         </ContentWrapper>
-        <Showcase>
-          <div>
-            <h5>Primary Buttons</h5>
-            <h6>S</h6>
+        <ButtonsGrid>
+          <BrightScreenContainer>
             <BtnPrimarySmall>Button</BtnPrimarySmall>
-            <h6>M</h6>
-            <BtnPrimaryMedium>Button Text</BtnPrimaryMedium>
-            <h6>L</h6>
-            <BtnPrimaryLarge>Button Text</BtnPrimaryLarge>
-          </div>
-          <div>
-            <h5>Secondary Buttons</h5>
-            <h6>S</h6>
+            <p>Primary Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
             <BtnSecondarySmall>Button</BtnSecondarySmall>
-            <h6>M</h6>
-            <BtnSecondaryMedium>Button Text</BtnSecondaryMedium>
-            <h6>L</h6>
-            <BtnSecondaryLarge>Button Text</BtnSecondaryLarge>
-          </div>
-          <div>
-            <h5>Tertiary Buttons</h5>
-            <h6>S</h6>
+            <p>Secondary Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
             <BtnTertiarySmall>Button</BtnTertiarySmall>
-            <h6>M</h6>
-            <BtnTertiaryMedium>Button Text</BtnTertiaryMedium>
-            <h6>L</h6>
-            <BtnTertiaryLarge>Button Text</BtnTertiaryLarge>
-          </div>
-          <div>
-            <h5>Fourth Buttons</h5>
-            <h6>S</h6>
+            <p>Tertiary Button</p>
+          </BrightScreenContainer>
+          <DarkScreenContainer>
             <BtnFourthSmall>Button</BtnFourthSmall>
-            <h6>M</h6>
-            <BtnFourthMedium>Button Text</BtnFourthMedium>
-            <h6>L</h6>
-            <BtnFourthLarge>Button Text</BtnFourthLarge>
-          </div>
-        </Showcase>
-      </Container>
-      <DarkScreenContainer>
-        <div>
-          <h5>Primary Ghost Buttons</h5>
-          <h6>S</h6>
-          <BtnPrimaryGhostSmall>Button</BtnPrimaryGhostSmall>
-          <h6>M</h6>
-          <BtnPrimaryGhostMedium>Button</BtnPrimaryGhostMedium>
-          <h6>L</h6>
-          <BtnPrimaryGhostLarge>Button</BtnPrimaryGhostLarge>
-          <div>
-            <h5>Primary Text Buttons</h5>
-            <h6>S</h6>
+            <p>Fourth Button</p>
+          </DarkScreenContainer>
+          <BrightScreenContainer>
+            <BtnPrimaryGhostSmall>Button</BtnPrimaryGhostSmall>
+            <p>Outlined/Ghost Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
+            <BtnSecondaryGhostSmall>Button</BtnSecondaryGhostSmall>
+            <p>Outlined/Ghost Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
+            <BtnTertiaryGhostSmall>Button</BtnTertiaryGhostSmall>
+            <p>Outlined/Ghost Button</p>
+          </BrightScreenContainer>
+          <DarkScreenContainer>
+            <BtnFourthGhostSmall>Button</BtnFourthGhostSmall>
+            <p>Outlined/Ghost Button</p>
+          </DarkScreenContainer>
+          <BrightScreenContainer>
             <BtnPrimaryTextSmall>Button</BtnPrimaryTextSmall>
-            <h6>M</h6>
-            <BtnPrimaryTextMedium>Button</BtnPrimaryTextMedium>
-            <h6>L</h6>
-            <BtnPrimaryTextLarge>Button</BtnPrimaryTextLarge>
-          </div>
-        </div>
-        <BrightScreenContainer>
-          <h5>Secondary Ghost Buttons</h5>
-          <h6>S</h6>
-          <BtnSecondaryGhostSmall>Button</BtnSecondaryGhostSmall>
-          <h6>M</h6>
-          <BtnSecondaryGhostMedium>Buttton</BtnSecondaryGhostMedium>
-          <h6>L</h6>
-          <BtnSecondaryGhostLarge>Button</BtnSecondaryGhostLarge>
-          <h5>Secondary Text Buttons</h5>
-          <h6>S</h6>
-          <BtnSecondaryTextSmall>Button</BtnSecondaryTextSmall>
-          <h6>M</h6>
-          <BtnSecondaryTextMedium>Buttton</BtnSecondaryTextMedium>
-          <h6>L</h6>
-          <BtnSecondaryTextLarge>Button</BtnSecondaryTextLarge>
-        </BrightScreenContainer>
-        <div>
-          <h5>Tertiary Ghost Buttons</h5>
-          <h6>S</h6>
-          <BtnTertiaryGhostSmall>Button</BtnTertiaryGhostSmall>
-          <h6>M</h6>
-          <BtnTertiaryGhostMedium>Button</BtnTertiaryGhostMedium>
-          <h6>L</h6>
-          <BtnTertiaryGhostLarge>Button</BtnTertiaryGhostLarge>
-          <h5>Tertiary Text Buttons</h5>
-          <h6>S</h6>
-          <BtnTertiaryTextSmall>Button</BtnTertiaryTextSmall>
-          <h6>M</h6>
-          <BtnTertiaryTextMedium>Button</BtnTertiaryTextMedium>
-          <h6>L</h6>
-          <BtnTertiaryTextLarge>Button</BtnTertiaryTextLarge>
-        </div>
-        <div>
-          <h5>Fourth Ghost Buttons</h5>
-          <h6>S</h6>
-          <BtnFourthGhostSmall>Button</BtnFourthGhostSmall>
-          <h6>M</h6>
-          <BtnFourthGhostMedium>Button</BtnFourthGhostMedium>
-          <h6>L</h6>
-          <BtnFourthGhostLarge>Button</BtnFourthGhostLarge>
-          <h5>Fourth Text Buttons</h5>
-          <h6>S</h6>
-          <BtnFourthTextSmall>Button</BtnFourthTextSmall>
-          <h6>M</h6>
-          <BtnFourthTextMedium>Button</BtnFourthTextMedium>
-          <h6>L</h6>
-          <BtnFourthTextLarge>Button</BtnFourthTextLarge>
-        </div>
-      </DarkScreenContainer>
+            <p>Text Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
+            <BtnSecondaryTextSmall>Button</BtnSecondaryTextSmall>
+            <p>Text Button</p>
+          </BrightScreenContainer>
+          <BrightScreenContainer>
+            <BtnTertiaryTextSmall>Button</BtnTertiaryTextSmall>
+            <p>Text Button</p>
+          </BrightScreenContainer>
+          <DarkScreenContainer>
+            <BtnFourthTextSmall>Button</BtnFourthTextSmall>
+            <p>Text Button</p>
+          </DarkScreenContainer>
+        </ButtonsGrid>
+      </Container>
     </>
   );
 };

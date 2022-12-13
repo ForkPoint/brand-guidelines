@@ -8,6 +8,11 @@ export const TypeStyle = styled.div`
   height: 50px;
   background-color: #fdfd96;
   text-align: center;
+  @media only screen and (max-width: 1080px) {
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    grid-template-rows: repeat(2, 50px);
+    height: 100px;
+  }
 `;
 
 export const Spacing = styled.div`

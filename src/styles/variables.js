@@ -46,10 +46,9 @@ export const btnPrimarySmall = css`
 export const btnPrimaryGhostSmall = css`
   font-size: 16px;
   padding: 7px 35px;
-  background-color: #575757;
   border: 1.5px solid #8acf31;
   color: #8acf31;
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 15px 0;
   cursor: pointer;
   width: 135px;
@@ -58,7 +57,6 @@ export const btnPrimaryGhostSmall = css`
 
 export const btnPrimaryTextSmall = css`
   font-size: 16px;
-  background-color: #575757;
   color: #8acf31;
   cursor: pointer;
 `;
@@ -146,7 +144,7 @@ export const btnSecondaryGhostSmall = css`
   padding: 7px 35px;
   border: 1px solid #575757;
   color: #575757;
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 15px 0;
   cursor: pointer;
   width: 135px;
@@ -237,10 +235,9 @@ export const btnTertiarySmall = css`
 export const btnTertiaryGhostSmall = css`
   font-size: 16px;
   padding: 7px 35px;
-  background-color: #575757;
   border: 1.5px solid #11a1e0;
   color: #11a1e0;
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 15px 0;
   cursor: pointer;
   width: 135px;
@@ -333,10 +330,10 @@ export const btnFourthSmall = css`
 export const btnFourthGhostSmall = css`
   font-size: 16px;
   padding: 7px 35px;
-  background-color: #575757;
   border: 1.5px solid #FDFD96;
+  background-color: #575757;
   color: #FDFD96;
-  border-radius: 1px;
+  border-radius: 3px;
   margin: 15px 0;
   cursor: pointer;
   width: 135px;

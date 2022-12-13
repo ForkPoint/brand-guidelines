@@ -75,7 +75,6 @@ const Sidebar = () => {
           </SLink>
         </SLinkContainer>
       ))}
-      <SDivider />
       <STheme>
         {sidebarOpen && <SThemeLabel>Dark Mode</SThemeLabel>}
         <SThemeToggler

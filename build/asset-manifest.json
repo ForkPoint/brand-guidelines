@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.eab18c11.css",
-    "main.js": "/brand-guidelines/static/js/main.87a3a0cc.js",
+    "main.js": "/brand-guidelines/static/js/main.0e1e5623.js",
     "static/media/salesforce.png": "/brand-guidelines/static/media/salesforce.7413664d396dc85fbb0f.png",
     "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.1784f4d1e8fda99d8380.jpg",
     "static/media/banner1.png": "/brand-guidelines/static/media/banner1.afc548ceee20b499157c.png",
@@ -20,6 +20,7 @@
     "static/media/weAreHiring.png": "/brand-guidelines/static/media/weAreHiring.aaded95501e2ebab38ca.png",
     "static/media/banner3.png": "/brand-guidelines/static/media/banner3.72822f9a8c4f78421139.png",
     "static/media/SFCC.png": "/brand-guidelines/static/media/SFCC.08dc040b0a8b5db9299c.png",
+    "static/media/buttonSizes.svg": "/brand-guidelines/static/media/buttonSizes.b14a8011e4cd3c90acdd42ebbdba2a39.svg",
     "static/media/Montserrat-Regular.woff": "/brand-guidelines/static/media/Montserrat-Regular.21e541a4a652a7fa0d6a.woff",
     "static/media/branding-hero.jpg": "/brand-guidelines/static/media/branding-hero.4197a325b6afe565e095.jpg",
     "static/media/Roboto-Black.woff": "/brand-guidelines/static/media/Roboto-Black.c0379944e86304e2d36e.woff",
@@ -27,7 +28,7 @@
     "static/media/cartoon1.svg": "/brand-guidelines/static/media/cartoon1.1e0fcbe8350fac949c86fdac84405471.svg",
     "static/media/constructionLogo.png": "/brand-guidelines/static/media/constructionLogo.8157fe96b938c055eb61.png",
     "static/media/Saint-George.woff": "/brand-guidelines/static/media/Saint-George.dc265028ead89c19a5da.woff",
-    "static/media/buttonSizes.svg": "/brand-guidelines/static/media/buttonSizes.d82331b95741dce8f629e55367e33344.svg",
+    "static/media/buttonPaddings.svg": "/brand-guidelines/static/media/buttonPaddings.2d101389afba5db57a1c28160303f979.svg",
     "static/media/PublicSans-Regular.woff": "/brand-guidelines/static/media/PublicSans-Regular.6b9d5fd46800c8a6d26e.woff",
     "static/media/place.png": "/brand-guidelines/static/media/place.c93941f24813760374d5.png",
     "static/media/Oswald-Regular.woff": "/brand-guidelines/static/media/Oswald-Regular.99a0a39eaf9eb073897a.woff",
@@ -93,10 +94,10 @@
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
     "main.eab18c11.css.map": "/brand-guidelines/static/css/main.eab18c11.css.map",
-    "main.87a3a0cc.js.map": "/brand-guidelines/static/js/main.87a3a0cc.js.map"
+    "main.0e1e5623.js.map": "/brand-guidelines/static/js/main.0e1e5623.js.map"
   },
   "entrypoints": [
     "static/css/main.eab18c11.css",
-    "static/js/main.87a3a0cc.js"
+    "static/js/main.0e1e5623.js"
   ]
 }

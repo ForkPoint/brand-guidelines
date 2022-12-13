@@ -63,66 +63,31 @@ export const ButtonPresentation = styled.div`
   }
 `;
 
-export const BtnSmallPresent = styled.button`
-  font-size: 16px;
-  padding: 10px 35px;
-  background-color: #575757;
-  color: #ffffff;
-  border: none;
-  border-radius: 1px;
-  margin: 15px 0;
-  width: 135px;
-  height: 35px;
-`;
-
-export const BtnMediumPresent = styled.button`
-  font-size: 18px;
-  padding: 15px 45px;
-  background-color: #575757;
-  color: #ffffff;
-  border: none;
-  border-radius: 1px;
-  margin: 15px 0;
-  width: 245px;
-  height: 45px;
-`;
-
-export const BtnLargePresent = styled.button`
-  font-size: 20px;
-  padding: 15px 60px;
-  background-color: #575757;
-  color: #ffffff;
-  border: none;
-  border-radius: 1px;
-  margin: 15px 0;
-  width: 285px;
-  height: 55px;
-`;
-
-export const Showcase = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-`;
-
 export const DarkScreenContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  padding: 15px 10px;
+  border: 0.5px inset #ffffff;
   color: #ffffff;
-  justify-content: space-evenly;
+  height: 100%;
   text-align: center;
   background-color: #575757;
-  max-width: 1360px;
-  margin: 0 auto;
 `;
 
 export const BrightScreenContainer = styled.div`
-  background-color: #ffffff;
-  color: #575757;
-  padding: 0px 8px;
+  border: 0.5px inset #c5c5c5;
+  height: 100%;
+  padding: 15px 10px;
+  text-align: center;
+`;
+
+export const ButtonsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, minmax(20%, 1fr));
+  grid-template-rows: repeat(3, 130px);
+  align-items: center;
+  @media only screen and (max-width: 1080px) {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-rows: repeat(6, 200px);
+  }
 `;
 
 export const BtnPrimarySmall = styled.button`

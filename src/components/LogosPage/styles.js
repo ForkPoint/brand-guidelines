@@ -26,7 +26,7 @@ export const BackgroundDark = styled.div`
 `;
 
 export const BackgroundBright = styled.div`
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     padding: 10px 20px;
 `;
 

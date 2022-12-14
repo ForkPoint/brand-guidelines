@@ -89,4 +89,5 @@ export const ColorBrightSecondary = styled.div`
 export const ColorDescription = styled.div`
   width: 100%;
   padding: 10px;
+  text-align: center;
 `;

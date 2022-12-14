@@ -23,6 +23,7 @@ import {
   LightType,
   Montserrat,
   Spacing,
+  TextInput,
 } from "./styles";
 
 const FontVariants = ({}) => {
@@ -71,11 +72,11 @@ const FontVariants = ({}) => {
           <p>word-spacing: 0.01mm</p>
         </div>
       </Spacing>
+        <TextInput>
+          <h2>Check your text</h2>
+          <textarea placeholder="Start typing..." onChange={handleChange} />
+        </TextInput>
       <div>
-        <div>
-          <span>Check your text from here:</span>
-          <input onChange={handleChange} />
-        </div>
         <Row>
           <FontDeclaration>
             <h1>Open Sans</h1>

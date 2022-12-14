@@ -15,11 +15,32 @@ export const TypeStyle = styled.div`
   }
 `;
 
+export const TextInput = styled.div`
+  font-size: 22px;
+  text-align: center;
+  color: #575757;
+
+  span {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 7px;
+    font-size: 24px;
+    height: 80px;
+    background-color: #c5c5c5;
+    border-radius: 3px;
+    border: 0.5px solid #575757;
+  }
+`;
+
 export const Spacing = styled.div`
   display: flex;
   justify-content: space-evenly;
   font-size: 36px;
   text-align: center;
+  margin-bottom: 20px;
 `;
 
 export const PublicSansFont = styled.div`
@@ -97,3 +118,5 @@ export const RegularType = styled.p`
 export const LightType = styled.p`
   font-weight: 100;
 `;
+
+

@@ -34,38 +34,64 @@ import {
   centerAlign,
   bottomLeftAlign,
   bottomRightAlign,
-  layoutStructure
+  layoutStructure,
+  squareLayout,
+  portraitLayout,
+  landscapeLayout,
+  structure1,
+  structure2,
+  structure3,
+  structure4,
+  structure5,
+  structure6,
+  gridLayout5,
+  gridLayout6
 } from "../../assets";
 
 const GridLayout = ({}) => {
   return (
     <div className={styles.sectionContainer}>
-        <h2>Spacing</h2>
+        <h1>Post Image</h1>
       <div className={styles.layout}>
-        <div>
-          <img src={topLeftAlign}></img>
-          <p>Top Left Padding</p>
+        <div className={styles.square}>
+          <img src={squareLayout}></img>
+          <h3>SQUARE</h3>
+          <p>Recommended: 1200 X 1200 Pixels.</p>
+          <p>Aspect Ratio 1:1</p>
         </div>
-        <div>
-          <img src={topRightAlign}></img>
-          <p>Top Right Padding</p>
+        <div className={styles.portrait}>
+          <img src={portraitLayout}></img>
+          <h3>PORTRAIT</h3>
+          <p>Recommended: 1080 X 1350 Pixels.</p>
+          <p>Aspect Ratio 4:1</p>
         </div>
-        <div>
-          <img src={centerAlign}></img>
-          <p>Heading and Paragraph spacing</p>
-        </div>
-        <div>
-          <img src={bottomLeftAlign}></img>
-          <p>Bottom Left Padding</p>
-        </div>
-        <div>
-          <img src={bottomRightAlign}></img>
-          <p>Bottom Right Padding</p>
+        <div className={styles.landscape}>
+          <img src={landscapeLayout}></img>
+          <h3>LANDSCAPE</h3>
+          <p>Recommended: 1200 X 627 Pixels.</p>
+          <p>Aspect Ratio 1:91</p>
         </div>
       </div>
-      <h2>Structure</h2>
-      <div className={styles.layoutStructure}>
-        <img src={layoutStructure}></img>
+      <h1>Structures</h1>
+      <div className={styles.structures}>
+        <div>
+          <img src={structure1}></img>
+        </div>
+        <div>
+          <img src={structure2}></img>
+        </div>
+        <div>
+          <img src={structure3}></img>
+        </div>
+        <div>
+          <img src={structure4}></img>
+        </div>
+        <div>
+          <img src={structure5}></img>
+        </div>
+        <div>
+          <img src={structure6}></img>
+        </div>
       </div>
       <div className={styles.grid}>
         <div className={styles.card1}>
@@ -79,6 +105,12 @@ const GridLayout = ({}) => {
         </div>
         <div className={styles.card1}>
           <img src={gridLayout4}></img>
+        </div>
+        <div className={styles.card1}>
+          <img src={gridLayout5}></img>
+        </div>
+        <div className={styles.card1}>
+          <img src={gridLayout6}></img>
         </div>
       </div>
     </div>

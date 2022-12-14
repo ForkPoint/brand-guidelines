@@ -6,9 +6,9 @@
 
 .grid {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(2, minmax(50%, 1fr));
-  grid-template-rows: repeat(3, 600px);
+  grid-gap: 50px;
+  grid-template-columns: 100%;
+  grid-template-rows: 1350px;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -23,7 +23,6 @@
   background-size: cover;
   text-align: center;
   transition: transform .3s;
-  /* position: relative; */
 }
 
 .card1:hover {
@@ -92,9 +91,9 @@
 
 .structures {
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 0.5fr);
+  grid-gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 0.5fr);
   margin-bottom: 30px;
 }
 

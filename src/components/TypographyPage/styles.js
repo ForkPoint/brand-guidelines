@@ -29,9 +29,9 @@ export const TextInput = styled.div`
     padding: 7px;
     font-size: 24px;
     height: 80px;
-    background-color: #c5c5c5;
+    background-color: #f5f5f5;
     border-radius: 3px;
-    border: 0.5px solid #575757;
+    border: 0.5px solid #c5c5c5;
   }
 `;
 

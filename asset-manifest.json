@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.6128d58b.css",
-    "main.js": "/brand-guidelines/static/js/main.2936a157.js",
+    "main.css": "/brand-guidelines/static/css/main.343dc118.css",
+    "main.js": "/brand-guidelines/static/js/main.e897d8a1.js",
     "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.1784f4d1e8fda99d8380.jpg",
     "static/media/layout6.jpg": "/brand-guidelines/static/media/layout6.0ea647d8883eb97ac6c9.jpg",
     "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.19b0ff7999173aa6426b.jpg",
@@ -76,11 +76,11 @@
     "static/media/code.svg": "/brand-guidelines/static/media/code.f0c7e6b80cb783d2addbda81ad944a86.svg",
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
-    "main.6128d58b.css.map": "/brand-guidelines/static/css/main.6128d58b.css.map",
-    "main.2936a157.js.map": "/brand-guidelines/static/js/main.2936a157.js.map"
+    "main.343dc118.css.map": "/brand-guidelines/static/css/main.343dc118.css.map",
+    "main.e897d8a1.js.map": "/brand-guidelines/static/js/main.e897d8a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.6128d58b.css",
-    "static/js/main.2936a157.js"
+    "static/css/main.343dc118.css",
+    "static/js/main.e897d8a1.js"
   ]
 }

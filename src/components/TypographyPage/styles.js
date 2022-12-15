@@ -17,7 +17,7 @@ export const TypeStyle = styled.div`
 
 export const TextInput = styled.div`
   font-size: 22px;
-  text-align: center;
+  text-align: left;
   color: #575757;
 
   span {

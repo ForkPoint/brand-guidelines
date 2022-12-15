@@ -15,13 +15,14 @@ import {
   structure5,
   structure6,
   gridLayout5,
-  gridLayout6
+  gridLayout6,
 } from "../../assets";
+import Heading from "../Layout/Heading";
 
 const GridLayout = ({}) => {
   return (
     <div className={styles.sectionContainer}>
-        <h1>Post Image</h1>
+      <h1>Post Image</h1>
       <div className={styles.layout}>
         <div className={styles.square}>
           <img src={squareLayout}></img>
@@ -65,21 +66,27 @@ const GridLayout = ({}) => {
       </div>
       <div className={styles.grid}>
         <div className={styles.card1}>
+          <Heading text="1. Top Future Trends" />
           <img src={gridLayout1}></img>
         </div>
         <div className={styles.card1}>
+          <Heading text="2. Black Friday in your eCommerce" />
           <img src={gridLayout2}></img>
         </div>
         <div className={styles.card1}>
+          <Heading text="3. Implementation of SFCC" />
           <img src={gridLayout3}></img>
         </div>
         <div className={styles.card1}>
+          <Heading text="4. Hiring and Marketing" />
           <img src={gridLayout4}></img>
         </div>
         <div className={styles.card1}>
+          <Heading text="5. Headless Commerce" />
           <img src={gridLayout5}></img>
         </div>
         <div className={styles.card1}>
+          <Heading text="6. Development" />
           <img src={gridLayout6}></img>
         </div>
       </div>

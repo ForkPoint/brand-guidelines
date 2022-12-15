@@ -73,7 +73,7 @@ const FontVariants = ({}) => {
         </div>
       </Spacing>
         <TextInput>
-          <h2>Check your text</h2>
+          <h4>Check your text</h4>
           <textarea placeholder="Start typing..." onChange={handleChange} />
         </TextInput>
       <div>

@@ -6,7 +6,7 @@
 
 .grid {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 100px;
   grid-template-columns: 100%;
   grid-template-rows: 1350px;
 }
@@ -21,7 +21,7 @@
 .card1 {
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: left;
   transition: transform .3s;
 }
 

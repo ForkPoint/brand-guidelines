@@ -1,13 +1,6 @@
 import React from "react";
 import styles from "./GridLayout.module.css";
 import {
-  forkpointCard,
-  forkpointFlags,
-  logoSVG,
-  cover1,
-  cover2,
-  cover3,
-  cover4,
   drawPrimary,
   drawSecondary,
   draw3,

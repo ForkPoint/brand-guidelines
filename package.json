@@ -9,6 +9,7 @@
         "@testing-library/user-event": "^13.5.0",
         "clipboard-button": "^1.2.0",
         "react": "^17.0.2",
+        "react-copy-to-clipboard": "^5.1.0",
         "react-dom": "^17.0.2",
         "react-helmet": "^6.1.0",
         "react-icons": "^4.3.1",

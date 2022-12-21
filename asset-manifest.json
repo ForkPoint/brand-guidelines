@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/brand-guidelines/static/css/main.343dc118.css",
-    "main.js": "/brand-guidelines/static/js/main.455b4131.js",
+    "main.css": "/brand-guidelines/static/css/main.5f05d846.css",
+    "main.js": "/brand-guidelines/static/js/main.931132a3.js",
     "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.1784f4d1e8fda99d8380.jpg",
     "static/media/layout6.jpg": "/brand-guidelines/static/media/layout6.0ea647d8883eb97ac6c9.jpg",
     "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.19b0ff7999173aa6426b.jpg",
@@ -9,7 +9,7 @@
     "static/media/layout2.jpg": "/brand-guidelines/static/media/layout2.46b5064ba59c94a3e6ab.jpg",
     "static/media/layout5.jpg": "/brand-guidelines/static/media/layout5.45f374f805e64aadaf83.jpg",
     "static/media/forkpointGrandpa.png": "/brand-guidelines/static/media/forkpointGrandpa.88177b312266a95bb081.png",
-    "static/media/photographyTeam.jpg": "/brand-guidelines/static/media/photographyTeam.3ec4e210305952d60e01.jpg",
+    "static/media/photographyTeam.jpg": "/brand-guidelines/static/media/photographyTeam.3ae0545074afc25ddf3b.jpg",
     "static/media/tiktokLayout.jpg": "/brand-guidelines/static/media/tiktokLayout.807ba5338be20e7cc6ce.jpg",
     "static/media/partyDo.jpg": "/brand-guidelines/static/media/partyDo.5dbffbc6ade24f851419.jpg",
     "static/media/instagramLayout.jpg": "/brand-guidelines/static/media/instagramLayout.a9e0a30ac8ef5fedb82f.jpg",
@@ -19,18 +19,18 @@
     "static/media/tshirtsDo.jpg": "/brand-guidelines/static/media/tshirtsDo.38739fe32d1dc8c8d425.jpg",
     "static/media/tshirtsDont.jpg": "/brand-guidelines/static/media/tshirtsDont.313ca8fc66c458606ce1.jpg",
     "static/media/facebookLayout.jpg": "/brand-guidelines/static/media/facebookLayout.229dd917ef65794f3904.jpg",
-    "static/media/photographyPresentation.jpg": "/brand-guidelines/static/media/photographyPresentation.c5bc631c1aa35a227420.jpg",
+    "static/media/photographyAnnya.jpg": "/brand-guidelines/static/media/photographyAnnya.8efb4be83220caa18875.jpg",
     "static/media/compositionDo.jpg": "/brand-guidelines/static/media/compositionDo.bb8f93fddfbb20ff83d2.jpg",
-    "static/media/photographyRelax.jpg": "/brand-guidelines/static/media/photographyRelax.863bd6ce8a28da5d19cf.jpg",
+    "static/media/photographyRelax.jpg": "/brand-guidelines/static/media/photographyRelax.c10c866491b00fc35359.jpg",
     "static/media/compositionDont.jpg": "/brand-guidelines/static/media/compositionDont.f5256c6e0d2b945b5ec3.jpg",
     "static/media/linkedinLayout.jpg": "/brand-guidelines/static/media/linkedinLayout.68733e62013db65bff0f.jpg",
     "static/media/jobsLayout.jpg": "/brand-guidelines/static/media/jobsLayout.b6c654b5491000bcbd49.jpg",
-    "static/media/photographyAnnyaPresent.jpg": "/brand-guidelines/static/media/photographyAnnyaPresent.1ba58e9c0e6e49d24c7a.jpg",
-    "static/media/photographyNewComputers.jpg": "/brand-guidelines/static/media/photographyNewComputers.1b3f6e3dddc65f3f504d.jpg",
+    "static/media/photographyAnnyaPresent.jpg": "/brand-guidelines/static/media/photographyAnnyaPresent.69952aec745860603265.jpg",
+    "static/media/photographyNewComputers.jpg": "/brand-guidelines/static/media/photographyNewComputers.38c4c33c3a4919a76984.jpg",
     "static/media/websiteLayout.jpg": "/brand-guidelines/static/media/websiteLayout.c57ffa3b5b3d297437a4.jpg",
-    "static/media/photographyUniversity.jpg": "/brand-guidelines/static/media/photographyUniversity.1d7daaeeb4dbb07d3b12.jpg",
+    "static/media/photographyUniversity.jpg": "/brand-guidelines/static/media/photographyUniversity.af4b8283ba04d1458b4d.jpg",
     "static/media/packagesDont.jpg": "/brand-guidelines/static/media/packagesDont.202af5e9bf45e73c6e1a.jpg",
-    "static/media/photographyMeeting.jpg": "/brand-guidelines/static/media/photographyMeeting.6e65487a2203a15d7447.jpg",
+    "static/media/photographyMeeting.jpg": "/brand-guidelines/static/media/photographyMeeting.522d7f4b08e26e94dfa4.jpg",
     "static/media/packagesDo.jpg": "/brand-guidelines/static/media/packagesDo.f72377af49880fb0cb49.jpg",
     "static/media/buttonSizes.svg": "/brand-guidelines/static/media/buttonSizes.b14a8011e4cd3c90acdd42ebbdba2a39.svg",
     "static/media/Montserrat-Regular.woff": "/brand-guidelines/static/media/Montserrat-Regular.21e541a4a652a7fa0d6a.woff",
@@ -99,11 +99,11 @@
     "static/media/code.svg": "/brand-guidelines/static/media/code.f0c7e6b80cb783d2addbda81ad944a86.svg",
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
-    "main.343dc118.css.map": "/brand-guidelines/static/css/main.343dc118.css.map",
-    "main.455b4131.js.map": "/brand-guidelines/static/js/main.455b4131.js.map"
+    "main.5f05d846.css.map": "/brand-guidelines/static/css/main.5f05d846.css.map",
+    "main.931132a3.js.map": "/brand-guidelines/static/js/main.931132a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.343dc118.css",
-    "static/js/main.455b4131.js"
+    "static/css/main.5f05d846.css",
+    "static/js/main.931132a3.js"
   ]
 }

@@ -30,8 +30,8 @@ const text = {
 const LogosContainer = ({}) => {
   return (
     <div>
-      <BackgroundBright>
         <Container>
+      <BackgroundBright>
           <Heading text="Logos" label={text.label} />
           <List
             heading={text.heading}
@@ -76,8 +76,8 @@ const LogosContainer = ({}) => {
               </a>
             </LogoColumnPositive>
           </LogoRow>
-        </Container>
       </BackgroundBright>
+        </Container>
       <BackgroundDark>
         <Container>
           <LogoRow>

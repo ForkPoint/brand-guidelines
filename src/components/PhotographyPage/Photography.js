@@ -6,7 +6,6 @@ import {
   PhotographyLayoutsColumn,
   PhotographyLayoutsGrid,
   Textarea,
-  TextAreaCenter,
   YellowBox,
 } from "./styles";
 import {
@@ -62,6 +61,8 @@ const Photography = ({}) => {
           applications. With this in mind, aim for shots that can work well as
           both a portrait (for mobile) and landscape (for desktop).
         </p>
+      </Textarea>
+      <Textarea>
         <div>
           <GreenBox />
           <span>1x1 social crop</span>
@@ -116,7 +117,7 @@ const Photography = ({}) => {
       </Textarea>
       <PhotographyLayoutsGrid>
         <PhotographyLayoutsColumn>
-          <h3>Do</h3>
+          <h3>Do:</h3>
           <ul>
             <li>Include all subjects on the image.</li>
             <li>Ensure the background or work area is organized enough.</li>
@@ -141,7 +142,7 @@ const Photography = ({}) => {
           </ul>
         </PhotographyLayoutsColumn>
         <PhotographyLayoutsColumn>
-          <h3>Don't</h3>
+          <h3>Don't:</h3>
           <ul>
             <li>Avoid busy backgrounds.</li>
             <li>Avoid overly staged posing.</li>
@@ -162,6 +163,7 @@ const Photography = ({}) => {
           </ul>
         </PhotographyLayoutsColumn>
       </PhotographyLayoutsGrid>
+        <h1>Examples:</h1>
       <PhotographyLayoutsGrid>
         <PhotographyLayoutsColumn>
           <img src={compositionDo}></img>
@@ -195,7 +197,7 @@ const Photography = ({}) => {
       <PhotographyLayoutsGrid>
         <PhotographyLayoutsColumn>
           <img src={partyDo}></img>
-          <h4>Do - ???</h4>
+          <h4>Do - Everyone is dressed appropriately and looks comfortable for the photo.</h4>
         </PhotographyLayoutsColumn>
         <PhotographyLayoutsColumn>
           <img src={partyDont}></img>
@@ -212,7 +214,7 @@ const Photography = ({}) => {
           <h4>Don't - Avoid being naked on team photos.</h4>
         </PhotographyLayoutsColumn>
       </PhotographyLayoutsGrid>
-      <h1>Examples of social medias layouts:</h1>
+      <h1>Examples of social media   layouts:</h1>
       <PhotographyLayoutsGrid>
         <PhotographyLayoutsColumn>
           <img src={instagramLayout}></img>

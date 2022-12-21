@@ -25,6 +25,10 @@ import {
   Spacing,
   TextInput,
 } from "./styles";
+import {
+  BtnSecondaryMedium,
+  BtnSecondaryTextLarge,
+} from "../ButtonPage/styles";
 
 const FontVariants = ({}) => {
   const { value: enteredValue, inputChangeHandler: handleChange } =
@@ -72,10 +76,10 @@ const FontVariants = ({}) => {
           <p>word-spacing: 0.01mm</p>
         </div>
       </Spacing>
-        <TextInput>
-          <h4>Check your text</h4>
-          <textarea placeholder="Start typing..." onChange={handleChange} />
-        </TextInput>
+      <TextInput>
+        <h4>Check your text</h4>
+        <textarea placeholder="Start typing..." onChange={handleChange} />
+      </TextInput>
       <div>
         <Row>
           <FontDeclaration>
@@ -90,6 +94,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://fonts.google.com/download?family=Open%20Sans">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">
+              Font info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -119,6 +129,12 @@ const FontVariants = ({}) => {
               {enteredValue ||
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://fonts.google.com/download?family=Public%20Sans">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Public+Sans?query=public+sans">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -149,6 +165,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://www.fontsquirrel.com/fonts/download/muli">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.adobe.com/fonts/muli">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -179,6 +201,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://fonts.google.com/download?family=Roboto">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Roboto?preview.text=Qkokookokk&preview.text_type=custom&query=roboto">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -209,6 +237,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://fonts.google.com/download?family=Oswald">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Oswald?preview.text=Qkokookokk&preview.text_type=custom&query=oswald">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -239,6 +273,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://fonts.google.com/download?family=Montserrat">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Montserrat?preview.text=Qkokookokk&preview.text_type=custom&query=montserrat">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -269,6 +309,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://allbestfonts.com/wp-content/uploads/2017/12/elements-arkibal-serif-58UCG6-2017-03-03.zip">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://allbestfonts.com/arkibal-serif/">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>
@@ -299,6 +345,12 @@ const FontVariants = ({}) => {
                 ? enteredValue
                 : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
             </p>
+            <a href="https://www.fontmirror.com/app_public/files/t/1/family_zip/2022/11/Saint_George_Font_Family_(Fontmirror).zip">
+              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
+            </a>
+            <BtnSecondaryTextLarge href="https://www.dafontfree.co/saint-george-typeface-free/">
+              Font Info
+            </BtnSecondaryTextLarge>
           </ContentExample>
         </Row>
         <Row>

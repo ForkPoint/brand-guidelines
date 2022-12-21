@@ -64,7 +64,7 @@ import structureThree from "./structure3.svg";
 import structureFour from "./structure4.svg";
 import structureFive from "./structure5.svg";
 import structureSix from "./structure6.svg";
-import photography1 from "./photographyPresentation.jpg";
+import photography1 from "./photographyAnnya.jpg";
 import photography2 from "./photographyTeam.jpg";
 import photography3 from "./photographyAnnyaPresent.jpg";
 import photography4 from "./photographyMeeting.jpg";

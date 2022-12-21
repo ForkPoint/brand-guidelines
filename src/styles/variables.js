@@ -37,7 +37,7 @@ export const btnPrimarySmall = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -49,7 +49,7 @@ export const btnPrimaryGhostSmall = css`
   border: 1.5px solid #8acf31;
   color: #8acf31;
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -68,7 +68,7 @@ export const btnPrimaryMedium = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -81,7 +81,7 @@ export const btnPrimaryGhostMedium = css`
   border: 1.5px solid #8acf31;
   color: #8acf31;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -101,7 +101,7 @@ export const btnPrimaryLarge = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -114,7 +114,7 @@ export const btnPrimaryGhostLarge = css`
   border: 1.5px solid #8acf31;
   color: #8acf31;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -133,7 +133,7 @@ export const btnSecondarySmall = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -145,7 +145,7 @@ export const btnSecondaryGhostSmall = css`
   border: 1px solid #575757;
   color: #575757;
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -164,7 +164,7 @@ export const btnSecondaryMedium = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -176,7 +176,7 @@ export const btnSecondaryGhostMedium = css`
   border: 1px solid #575757;
   color: #575757;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -195,7 +195,7 @@ export const btnSecondaryLarge = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -207,7 +207,7 @@ export const btnSecondaryGhostLarge = css`
   border: 1px solid #575757;
   color: #575757;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -226,7 +226,7 @@ export const btnTertiarySmall = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -238,7 +238,7 @@ export const btnTertiaryGhostSmall = css`
   border: 1.5px solid #11a1e0;
   color: #11a1e0;
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -257,7 +257,7 @@ export const btnTertiaryMedium = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -270,7 +270,7 @@ export const btnTertiaryGhostMedium = css`
   border: 1.5px solid #11a1e0;
   color: #11a1e0;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -289,7 +289,7 @@ export const btnTertiaryLarge = css`
   color: #ffffff;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -302,7 +302,7 @@ export const btnTertiaryGhostLarge = css`
   border: 1.5px solid #11a1e0;
   color: #11a1e0;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -321,7 +321,7 @@ export const btnFourthSmall = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -334,7 +334,7 @@ export const btnFourthGhostSmall = css`
   background-color: #575757;
   color: #FDFD96;
   border-radius: 3px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 135px;
   height: 35px;
@@ -353,7 +353,7 @@ export const btnFourthMedium = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -366,7 +366,7 @@ export const btnFourthGhostMedium = css`
   border: 1.5px solid #FDFD96;
   color: #FDFD96;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 245px;
   height: 45px;
@@ -385,7 +385,7 @@ export const btnFourthLarge = css`
   color: #575757;
   border: none;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;
@@ -398,7 +398,7 @@ export const btnFourthGhostLarge = css`
   border: 1.5px solid #FDFD96;
   color: #FDFD96;
   border-radius: 1px;
-  margin: 15px 0;
+  margin: 15px 12px 15px 0;
   cursor: pointer;
   width: 285px;
   height: 55px;

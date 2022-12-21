@@ -13,7 +13,7 @@ export const SMain = styled.main`
 
     h1 {
         font-size: 36px;
-        margin: 7px 0px;
+        margin: 7px 0px 30px 0px;
         font-weight: 600;
     }
 

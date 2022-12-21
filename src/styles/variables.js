@@ -217,6 +217,7 @@ export const btnSecondaryTextLarge = css`
   font-size: 20px;
   color: #575757;
   cursor: pointer;
+  text-decoration: none;
 `;
 
 export const btnTertiarySmall = css`

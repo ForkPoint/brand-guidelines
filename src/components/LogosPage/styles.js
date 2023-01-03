@@ -20,14 +20,16 @@ export const LogoColumnNegative = styled.div`
     color: #ffffff;
 `;
 
+export const ButtonContainer = styled.div`
+    margin-left: 50px;
+`;
+
 export const BackgroundDark = styled.div`
     background-color: #575757;
-    /* padding: 10px 20px; */
 `;
 
 export const BackgroundBright = styled.div`
     background-color: #f5f5f5;
-    /* padding: 10px 20px; */
 `;
 
 export const BtnPrimaryMedium = styled.button`

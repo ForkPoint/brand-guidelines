@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brand-guidelines/static/css/main.5f05d846.css",
-    "main.js": "/brand-guidelines/static/js/main.add536e5.js",
+    "main.js": "/brand-guidelines/static/js/main.7a41adcc.js",
     "static/media/layout1.jpg": "/brand-guidelines/static/media/layout1.1784f4d1e8fda99d8380.jpg",
     "static/media/layout6.jpg": "/brand-guidelines/static/media/layout6.0ea647d8883eb97ac6c9.jpg",
     "static/media/layout3.jpg": "/brand-guidelines/static/media/layout3.19b0ff7999173aa6426b.jpg",
@@ -33,18 +33,26 @@
     "static/media/photographyMeeting.jpg": "/brand-guidelines/static/media/photographyMeeting.522d7f4b08e26e94dfa4.jpg",
     "static/media/packagesDo.jpg": "/brand-guidelines/static/media/packagesDo.f72377af49880fb0cb49.jpg",
     "static/media/buttonSizes.svg": "/brand-guidelines/static/media/buttonSizes.b14a8011e4cd3c90acdd42ebbdba2a39.svg",
+    "static/media/Montserrat-Bold.woff": "/brand-guidelines/static/media/Montserrat-Bold.8ce6f4ee86ac2cbc9b0f.woff",
     "static/media/Montserrat-Regular.woff": "/brand-guidelines/static/media/Montserrat-Regular.21e541a4a652a7fa0d6a.woff",
     "static/media/branding-hero.jpg": "/brand-guidelines/static/media/branding-hero.4197a325b6afe565e095.jpg",
+    "static/media/Montserrat-Light.woff": "/brand-guidelines/static/media/Montserrat-Light.26f739ed3a0348e5d66a.woff",
     "static/media/Roboto-Black.woff": "/brand-guidelines/static/media/Roboto-Black.c0379944e86304e2d36e.woff",
+    "static/media/Roboto-Light.woff": "/brand-guidelines/static/media/Roboto-Light.19a99746405e8730f34c.woff",
     "static/media/constructionLogo.png": "/brand-guidelines/static/media/constructionLogo.8157fe96b938c055eb61.png",
     "static/media/Saint-George.woff": "/brand-guidelines/static/media/Saint-George.dc265028ead89c19a5da.woff",
     "static/media/buttonPaddings.svg": "/brand-guidelines/static/media/buttonPaddings.2d101389afba5db57a1c28160303f979.svg",
+    "static/media/PublicSans-Bold.woff": "/brand-guidelines/static/media/PublicSans-Bold.a239fb971af47134c0c3.woff",
     "static/media/PublicSans-Regular.woff": "/brand-guidelines/static/media/PublicSans-Regular.6b9d5fd46800c8a6d26e.woff",
+    "static/media/PublicSans-Light.woff": "/brand-guidelines/static/media/PublicSans-Light.05ff7d7149c9a6d61fc1.woff",
+    "static/media/Oswald-Bold.woff": "/brand-guidelines/static/media/Oswald-Bold.b347dfc1d8d03250094a.woff",
+    "static/media/Oswald-Light.woff": "/brand-guidelines/static/media/Oswald-Light.4366a682acd04e070ba8.woff",
     "static/media/Oswald-Regular.woff": "/brand-guidelines/static/media/Oswald-Regular.99a0a39eaf9eb073897a.woff",
     "static/media/mono-negative.png": "/brand-guidelines/static/media/mono-negative.0241bf86a6c1d615c15b.png",
     "static/media/full-positive.png": "/brand-guidelines/static/media/full-positive.bf618b2a96f08c5d01b6.png",
     "static/media/full-negative.png": "/brand-guidelines/static/media/full-negative.f09d5e8b915fb762d2bc.png",
     "static/media/mono-positive.png": "/brand-guidelines/static/media/mono-positive.f9fbb5985a76ccb27656.png",
+    "static/media/Muli-Bold.woff": "/brand-guidelines/static/media/Muli-Bold.23eb43a54d67a9535886.woff",
     "static/media/Muli-Light.woff": "/brand-guidelines/static/media/Muli-Light.ae70eb2b1c5cd9775be1.woff",
     "static/media/Muli.woff": "/brand-guidelines/static/media/Muli.8f37b7fcc92f9c5a6810.woff",
     "static/media/portrait.svg": "/brand-guidelines/static/media/portrait.7e039b0152ed075d6ae11249e593e637.svg",
@@ -55,6 +63,8 @@
     "static/media/text.svg": "/brand-guidelines/static/media/text.00bbf08cb18f4eff76ac95c81ef6e0d4.svg",
     "static/media/pencil.svg": "/brand-guidelines/static/media/pencil.da43ca416f223976f01743eae2a79a04.svg",
     "static/media/ArkibalSerif-Regular.woff": "/brand-guidelines/static/media/ArkibalSerif-Regular.10f9f66ac4bec8f2455a.woff",
+    "static/media/ArkibalSerif-Medium.woff": "/brand-guidelines/static/media/ArkibalSerif-Medium.0aac0b5f48dd803b3a94.woff",
+    "static/media/ArkibalSerif-Light.woff": "/brand-guidelines/static/media/ArkibalSerif-Light.3d7fc11e0e6e6ed38e1c.woff",
     "static/media/iconClearspace.svg": "/brand-guidelines/static/media/iconClearspace.461a5b4f577217dad22bc7bc56ebe1e0.svg",
     "static/media/logoVector2.svg": "/brand-guidelines/static/media/logoVector2.8723b6fbcaadd43385c0bc3dae6750a4.svg",
     "static/media/logoVector1.svg": "/brand-guidelines/static/media/logoVector1.fb36f45a5436e14ab077ac46d64f4841.svg",
@@ -100,10 +110,10 @@
     "static/media/facebook.svg": "/brand-guidelines/static/media/facebook.999b12c5e7b2f56b2955a9ef9f217132.svg",
     "static/media/cloud.svg": "/brand-guidelines/static/media/cloud.c6730d57c1390d3aa83fada18d763edd.svg",
     "main.5f05d846.css.map": "/brand-guidelines/static/css/main.5f05d846.css.map",
-    "main.add536e5.js.map": "/brand-guidelines/static/js/main.add536e5.js.map"
+    "main.7a41adcc.js.map": "/brand-guidelines/static/js/main.7a41adcc.js.map"
   },
   "entrypoints": [
     "static/css/main.5f05d846.css",
-    "static/js/main.add536e5.js"
+    "static/js/main.7a41adcc.js"
   ]
 }

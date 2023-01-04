@@ -47,24 +47,68 @@ export const PublicSansFont = styled.div`
   font-family: "Public Sans";
 `;
 
+export const PublicSansBold = styled.div`
+  font-family: "Public Sans Bold";
+`;
+
+export const PublicSansLight = styled.div`
+  font-family: "Public Sans Light";
+`;
+
 export const MuliFont = styled.div`
   font-family: "Muli";
+`;
+
+export const MuliBold = styled.div`
+  font-family: "Muli Bold";
+`;
+
+export const MuliLight = styled.div`
+  font-family: "Muli Light";
 `;
 
 export const RobotoFont = styled.div`
   font-family: "Roboto";
 `;
 
+export const RobotoLight = styled.div`
+  font-family: "Roboto Light";
+`;
+
 export const OswaldFont = styled.div`
   font-family: "Oswald";
+`;
+
+export const OswaldBold = styled.div`
+  font-family: "Oswald Bold";
+`;
+
+export const OswladLight = styled.div`
+  font-family: "Oswald Light";
 `;
 
 export const Montserrat = styled.div`
   font-family: "Montserrat";
 `;
 
+export const MontserratBold = styled.div`
+  font-family: "Montserrat Bold";
+`;
+
+export const MontserratLight = styled.div`
+  font-family: "Montserrat Light";
+`;
+
 export const ArkibalFont = styled.div`
   font-family: "Arkibal Serif";
+`;
+
+export const ArkibalFontBold = styled.div`
+  font-family: "Arkibal Serif Bold";
+`;
+
+export const ArkibalFontLight = styled.div`
+  font-family: "Arkibal Serif Light";
 `;
 
 export const SaintGeorgeFont = styled.div`

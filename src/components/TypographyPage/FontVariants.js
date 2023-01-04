@@ -24,6 +24,17 @@ import {
   Montserrat,
   Spacing,
   TextInput,
+  MuliBold,
+  MuliLight,
+  PublicSansBold,
+  PublicSansLight,
+  RobotoLight,
+  OswladLight,
+  OswaldBold,
+  MontserratLight,
+  MontserratBold,
+  ArkibalFontBold,
+  ArkibalFontLight,
 } from "./styles";
 import {
   BtnSecondaryMedium,
@@ -38,28 +49,28 @@ const FontVariants = ({}) => {
       <h5>Type styles</h5>
       <TypeStyle>
         <div>
-          <spam>H1 (36px)</spam>
+          <span>H1 (36px)</span>
         </div>
         <div>
-          <spam>H2 (32px)</spam>
+          <span>H2 (32px)</span>
         </div>
         <div>
-          <spam>H3 (28px)</spam>
+          <span>H3 (28px)</span>
         </div>
         <div>
-          <spam>H4 (24px)</spam>
+          <span>H4 (24px)</span>
         </div>
         <div>
-          <spam>H5 (22px)</spam>
+          <span>H5 (22px)</span>
         </div>
         <div>
-          <spam>H6 (20px)</spam>
+          <span>H6 (20px)</span>
         </div>
         <div>
-          <spam>Body (18px)</spam>
+          <span>Body (18px)</span>
         </div>
         <div>
-          <spam>Footnote (16px)</spam>
+          <span>Footnote (16px)</span>
         </div>
       </TypeStyle>
       <Spacing>
@@ -120,9 +131,9 @@ const FontVariants = ({}) => {
         <Row>
           <FontDeclaration>
             <h1>Public Sans</h1>
-            <BoldType>Bold</BoldType>
+            <PublicSansBold>Bold</PublicSansBold>
             <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <PublicSansLight>Light</PublicSansLight>
           </FontDeclaration>
           <ContentExample>
             <p>
@@ -155,9 +166,9 @@ const FontVariants = ({}) => {
         <Row>
           <FontDeclaration>
             <h1>Muli</h1>
-            <BoldType>Bold</BoldType>
+            <MuliBold>Bold</MuliBold>
             <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <MuliLight>Light</MuliLight>
           </FontDeclaration>
           <ContentExample>
             <p>
@@ -193,7 +204,7 @@ const FontVariants = ({}) => {
             <h1>Roboto</h1>
             <BoldType>Bold</BoldType>
             <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <RobotoLight>Light</RobotoLight>
           </FontDeclaration>
           <ContentExample>
             <p>
@@ -227,9 +238,9 @@ const FontVariants = ({}) => {
         <Row>
           <FontDeclaration>
             <h1>Oswald</h1>
-            <BoldType>Bold</BoldType>
+            <OswaldBold>Bold</OswaldBold>
             <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <OswladLight>Light</OswladLight>
           </FontDeclaration>
           <ContentExample>
             <p>
@@ -263,9 +274,9 @@ const FontVariants = ({}) => {
         <Row>
           <FontDeclaration>
             <h1>Montserrat</h1>
-            <BoldType>Bold</BoldType>
+            <MontserratBold>Bold</MontserratBold>
             <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <MontserratLight>Light</MontserratLight>
           </FontDeclaration>
           <ContentExample>
             <p>
@@ -299,9 +310,9 @@ const FontVariants = ({}) => {
         <Row>
           <FontDeclaration>
             <h1>Arkibal</h1>
-            <BoldType>Bold</BoldType>
-            <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
+            <RegularType>Bold</RegularType>
+            <ArkibalFontBold>Regular</ArkibalFontBold>
+            <ArkibalFontLight>Light</ArkibalFontLight>
           </FontDeclaration>
           <ContentExample>
             <p>

@@ -11,9 +11,7 @@ import {
   LogoRow,
   LogoColumnPositive,
   LogoColumnNegative,
-  BtnPrimaryMedium,
   BackgroundDark,
-  BackgroundBright,
 } from "./styles";
 import { Container } from "../Layout/styles";
 import Heading from "../Layout/Heading";
@@ -31,56 +29,54 @@ const LogosContainer = ({}) => {
   return (
     <div>
       <Container>
-        <BackgroundBright>
-          <Heading text="Logos" label={text.label} />
-          <List
-            heading={text.heading}
-            item1={text.listItem1}
-            item2={text.listItem2}
-          />
-          <LogoRow>
-            <LogoColumnPositive>
-              <img src={logoClearspaceVector} width="50%" height="150" />
-              <div>
-                <a
-                  href={logoClearspaceVector}
-                  download="Logo Clearspace Vector"
-                  target="_blank"
-                >
-                  <BtnSecondarySmall>Download</BtnSecondarySmall>
-                </a>
-              </div>
-            </LogoColumnPositive>
-            <LogoColumnPositive>
-              <img src={iconClearspaceVector} width="20%" height="150" />
-              <div>
-                <a
-                  href={iconClearspaceVector}
-                  download="Logo Clearspace Vector"
-                  target="_blank"
-                >
-                  <BtnSecondarySmall>Download</BtnSecondarySmall>
-                </a>
-              </div>
-            </LogoColumnPositive>
-          </LogoRow>
-          <LogoRow>
-            <LogoColumnPositive>
-              <p>Full color positive version</p>
-              <img src={logoVector4} width="100%" height="150" />
-              <a href={logoVector4} download="Logo" target="_blank">
+        <Heading text="Logos" label={text.label} />
+        <List
+          heading={text.heading}
+          item1={text.listItem1}
+          item2={text.listItem2}
+        />
+        <LogoRow>
+          <LogoColumnPositive>
+            <img src={logoClearspaceVector} width="50%" height="150" />
+            <div>
+              <a
+                href={logoClearspaceVector}
+                download="Logo Clearspace Vector"
+                target="_blank"
+              >
                 <BtnSecondarySmall>Download</BtnSecondarySmall>
               </a>
-            </LogoColumnPositive>
-            <LogoColumnPositive>
-              <p>Mono color positive version</p>
-              <img src={logoVector3} width="100%" height="150" />
-              <a href={logoVector3} download="Logo" target="_blank">
+            </div>
+          </LogoColumnPositive>
+          <LogoColumnPositive>
+            <img src={iconClearspaceVector} width="20%" height="150" />
+            <div>
+              <a
+                href={iconClearspaceVector}
+                download="Logo Clearspace Vector"
+                target="_blank"
+              >
                 <BtnSecondarySmall>Download</BtnSecondarySmall>
               </a>
-            </LogoColumnPositive>
-          </LogoRow>
-        </BackgroundBright>
+            </div>
+          </LogoColumnPositive>
+        </LogoRow>
+        <LogoRow>
+          <LogoColumnPositive>
+            <p>Full color positive version</p>
+            <img src={logoVector4} width="100%" height="150" />
+            <a href={logoVector4} download="Logo" target="_blank">
+              <BtnSecondarySmall>Download</BtnSecondarySmall>
+            </a>
+          </LogoColumnPositive>
+          <LogoColumnPositive>
+            <p>Mono color positive version</p>
+            <img src={logoVector3} width="100%" height="150" />
+            <a href={logoVector3} download="Logo" target="_blank">
+              <BtnSecondarySmall>Download</BtnSecondarySmall>
+            </a>
+          </LogoColumnPositive>
+        </LogoRow>
       </Container>
       <BackgroundDark>
         <Container>

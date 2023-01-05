@@ -28,10 +28,6 @@ export const BackgroundDark = styled.div`
     background-color: #575757;
 `;
 
-export const BackgroundBright = styled.div`
-    background-color: #f5f5f5;
-`;
-
 export const BtnPrimaryMedium = styled.button`
     ${btnPrimaryMedium}
 `;

@@ -11,9 +11,9 @@ const ColorsPage = () => {
   return (
     <div>
       <Heading text="Colors" label={text.label} />
-      <Heading text="Primary colors"/>
+      <Heading text="Primary Brand Colors" label="The primary colors define Forkpoint's brand identity. Forkpoint Green is our signature accent and CTA color, balanced by Dark Space as our primary neutral." />
       <PrimaryColorCard />
-      <Heading text="Secondary colors"/>
+      <Heading text="Supporting Neutrals & Monochrome" label="Black, neutral grays, and white provide contrast and hierarchy across backgrounds, cards, typography, and inverted UI states." />
       <SecondaryColorCard />
     </div>
   );

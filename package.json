@@ -1,6 +1,6 @@
 {
-    "homepage": "http://ForkPoint.github.io/brand-guidelines",
-    "name": "2-sidebar-react",
+    "homepage": "https://forkpoint.github.io/brand-guidelines",
+    "name": "forkpoint-brand-guidelines",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

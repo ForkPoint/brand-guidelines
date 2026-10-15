@@ -1,166 +1,161 @@
 import styled from "styled-components";
 
-export const TypeStyle = styled.div`
+export const TypeScaleGrid = styled.div`
   display: grid;
-  align-items: center;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
   margin: 20px 0;
-  height: 50px;
-  background-color: #fdfd96;
   text-align: center;
-  @media only screen and (max-width: 1080px) {
-    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
-    grid-template-rows: repeat(2, 50px);
-    height: 100px;
+`;
+
+export const TypeScaleCard = styled.div`
+  background: ${({ theme }) => theme.bgAlpha || "#f5f6f8"};
+  border: 1px solid ${({ theme }) => theme.bg3 || "#e1e4e8"};
+  border-radius: 6px;
+  padding: 12px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  .level {
+    font-weight: 700;
+    color: #8acf31;
+    font-size: 16px;
+  }
+  .size {
+    font-size: 13px;
+    opacity: 0.75;
   }
 `;
 
-export const TextInput = styled.div`
-  font-size: 22px;
-  text-align: left;
-  color: #575757;
+export const SpacingBar = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 16px;
+  margin: 20px 0;
+  background: ${({ theme }) => theme.bgAlpha || "#f5f6f8"};
+  border-radius: 8px;
+  border-left: 4px solid #8acf31;
 
-  span {
-    margin-right: 10px;
+  .spec-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+
+    svg {
+      font-size: 20px;
+      color: #8acf31;
+    }
+    strong {
+      color: ${({ theme }) => theme.text};
+    }
+  }
+`;
+
+export const TextInputWrapper = styled.div`
+  margin: 24px 0;
+  text-align: left;
+
+  h4 {
+    margin-bottom: 8px;
+    font-size: 18px;
   }
 
   textarea {
     width: 100%;
-    padding: 7px;
-    font-size: 24px;
-    height: 80px;
-    background-color: #f5f5f5;
-    border-radius: 3px;
-    border: 0.5px solid #c5c5c5;
+    padding: 12px 16px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    min-height: 80px;
+    background: ${({ theme }) => theme.bgAlpha || "#ffffff"};
+    color: ${({ theme }) => theme.text};
+    border-radius: 6px;
+    border: 1px solid ${({ theme }) => theme.bg3 || "#d0d7de"};
+    outline: none;
+    resize: vertical;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      border-color: #8acf31;
+      box-shadow: 0 0 0 2px rgba(138, 207, 49, 0.2);
+    }
   }
 `;
 
-export const Spacing = styled.div`
+export const SpecimenCard = styled.div`
+  background: ${({ theme }) => theme.bgAlpha || "#ffffff"};
+  border: 1px solid ${({ theme }) => theme.bg3 || "#e1e4e8"};
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+`;
+
+export const SpecimenHeader = styled.div`
   display: flex;
-  justify-content: space-evenly;
-  font-size: 36px;
-  text-align: center;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid ${({ theme }) => theme.bg3 || "#eaecef"};
+  margin-bottom: 16px;
+
+  .title-group {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+
+    h3 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .weight-tag {
+      font-size: 13px;
+      padding: 3px 8px;
+      background: #8acf31;
+      color: #ffffff;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+  }
+
+  .usage-note {
+    font-size: 14px;
+    opacity: 0.75;
+  }
 `;
 
-export const PublicSansFont = styled.div`
-  font-family: "Public Sans";
+export const SpecimenSample = styled.div`
+  font-family: "Open Sans", sans-serif;
+  font-weight: ${({ weight }) => weight || 400};
+  font-size: ${({ size }) => size || "18px"};
+  line-height: 1.4;
+  margin: 14px 0;
+  word-break: break-word;
 `;
 
-export const PublicSansBold = styled.div`
-  font-family: "Public Sans Bold";
+export const SpecimenGlyphs = styled.div`
+  font-family: "Open Sans", sans-serif;
+  font-weight: ${({ weight }) => weight || 400};
+  font-size: 15px;
+  opacity: 0.7;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed ${({ theme }) => theme.bg3 || "#e1e4e8"};
 `;
 
-export const PublicSansLight = styled.div`
-  font-family: "Public Sans Light";
-`;
-
-export const MuliFont = styled.div`
-  font-family: "Muli";
-`;
-
-export const MuliBold = styled.div`
-  font-family: "Muli Bold";
-`;
-
-export const MuliLight = styled.div`
-  font-family: "Muli Light";
-`;
-
-export const RobotoFont = styled.div`
-  font-family: "Roboto";
-`;
-
-export const RobotoLight = styled.div`
-  font-family: "Roboto Light";
-`;
-
-export const OswaldFont = styled.div`
-  font-family: "Oswald";
-`;
-
-export const OswaldBold = styled.div`
-  font-family: "Oswald Bold";
-`;
-
-export const OswladLight = styled.div`
-  font-family: "Oswald Light";
-`;
-
-export const Montserrat = styled.div`
-  font-family: "Montserrat";
-`;
-
-export const MontserratBold = styled.div`
-  font-family: "Montserrat Bold";
-`;
-
-export const MontserratLight = styled.div`
-  font-family: "Montserrat Light";
-`;
-
-export const ArkibalFont = styled.div`
-  font-family: "Arkibal Serif";
-`;
-
-export const ArkibalFontBold = styled.div`
-  font-family: "Arkibal Serif Bold";
-`;
-
-export const ArkibalFontLight = styled.div`
-  font-family: "Arkibal Serif Light";
-`;
-
-export const SaintGeorgeFont = styled.div`
-  font-family: "Saint George";
-`;
-
-export const Row = styled.div`
+export const FontActionBar = styled.div`
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  padding: 15px 10px;
-  align-items: baseline;
-  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
 `;
-
-export const FontDeclaration = styled.div`
-  flex: 1 20%;
-  color: #587236;
-`;
-
-export const ContentExample = styled.div`
-  flex: 1 70%;
-`;
-
-export const FontShowcase = styled.div`
-  flex: 1 70%;
-  font-size: 20px;
-  text-align: left;
-`;
-
-export const AlphabetIntro = styled.div`
-  flex: 1 20%;
-  font-size: 60px;
-  text-align: left;
-`;
-
-export const FontDivider = styled.hr`
-  background-color: #587236;
-  height: 5px;
-  width: 100%;
-`;
-
-export const BoldType = styled.p`
-  font-weight: 600;
-`;
-
-export const RegularType = styled.p`
-  font-weight: 400;
-`;
-
-export const LightType = styled.p`
-  font-weight: 100;
-`;
-
-

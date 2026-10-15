@@ -23,7 +23,7 @@ const Routes = () => {
       <Route exact path="/typography">
         <TypographyPage />
       </Route>
-      <Route exact path="/button">
+      <Route exact path={["/buttons", "/button"]}>
         <ButtonPage />
       </Route>
       <Route exact path="/grid">

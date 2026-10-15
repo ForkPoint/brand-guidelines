@@ -10,6 +10,8 @@ export const Container = styled.div`
 
 export const SMain = styled.main`
     padding: calc(${v.smSpacing} * 2);
+    margin-left: 90px;
+    transition: margin-left 0.2s ease;
 
     h1 {
         font-size: 36px;

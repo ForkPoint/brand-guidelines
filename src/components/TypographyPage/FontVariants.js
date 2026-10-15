@@ -1,382 +1,162 @@
 import React from "react";
 import useTextChange from "../../hooks/change-typography-text";
 import { Container } from "../Layout/styles";
-import { RiLineHeight } from "react-icons/ri";
+import { RiLineHeight, RiTextSpacing } from "react-icons/ri";
 import { CgFontSpacing } from "react-icons/cg";
-import { RiTextSpacing } from "react-icons/ri";
 import {
-  TypeStyle,
-  PublicSansFont,
-  MuliFont,
-  RobotoFont,
-  OswaldFont,
-  ArkibalFont,
-  SaintGeorgeFont,
-  Row,
-  FontDeclaration,
-  ContentExample,
-  FontShowcase,
-  AlphabetIntro,
-  FontDivider,
-  BoldType,
-  RegularType,
-  LightType,
-  Montserrat,
-  Spacing,
-  TextInput,
-  MuliBold,
-  MuliLight,
-  PublicSansBold,
-  PublicSansLight,
-  RobotoLight,
-  OswladLight,
-  OswaldBold,
-  MontserratLight,
-  MontserratBold,
-  ArkibalFontBold,
-  ArkibalFontLight,
+  TypeScaleGrid,
+  TypeScaleCard,
+  SpacingBar,
+  TextInputWrapper,
+  SpecimenCard,
+  SpecimenHeader,
+  SpecimenSample,
+  SpecimenGlyphs,
+  FontActionBar,
 } from "./styles";
 import {
-  BtnSecondaryMedium,
-  BtnSecondaryTextLarge,
+  BtnPrimarySmall,
+  BtnSecondarySmall,
 } from "../ButtonPage/styles";
 
-const FontVariants = ({}) => {
+const OPEN_SANS_WEIGHTS = [
+  {
+    name: "Open Sans Light",
+    weight: 300,
+    tag: "300 Light",
+    usage: "Long-form editorial, subtle caption notes, and delicate display copy.",
+    sample: "Every great digital experience begins with thoughtful commerce architecture.",
+  },
+  {
+    name: "Open Sans Regular",
+    weight: 400,
+    tag: "400 Regular",
+    usage: "Default body copy, navigation labels, inputs, and functional UI elements.",
+    sample: "Forkpoint creates scalable, human-centered commerce platforms that elevate brand performance.",
+  },
+  {
+    name: "Open Sans Semi-Bold",
+    weight: 600,
+    tag: "600 Semi-Bold",
+    usage: "Section headers, card titles, table headings, and emphasized callouts.",
+    sample: "Embrace Commerce with reliable high-performance engineering.",
+  },
+  {
+    name: "Open Sans Bold",
+    weight: 700,
+    tag: "700 Bold",
+    usage: "Primary page headings, modal titles, and prominent calls to action.",
+    sample: "Accelerate your digital potential with future-ready solutions.",
+  },
+  {
+    name: "Open Sans Extra-Bold",
+    weight: 800,
+    tag: "800 Extra-Bold",
+    usage: "Hero headlines, campaign key statements, and high-impact numerical figures.",
+    sample: "FORKPOINT — DRIVING BOLD COMMERCE INNOVATION",
+  },
+];
+
+const TYPE_SCALE = [
+  { label: "H1", size: "36px", weight: "Bold (700)" },
+  { label: "H2", size: "32px", weight: "Bold (700)" },
+  { label: "H3", size: "28px", weight: "Semi-Bold (600)" },
+  { label: "H4", size: "24px", weight: "Semi-Bold (600)" },
+  { label: "H5", size: "22px", weight: "Regular (400)" },
+  { label: "H6", size: "20px", weight: "Regular (400)" },
+  { label: "Body", size: "18px", weight: "Regular (400)" },
+  { label: "Footnote", size: "14px", weight: "Light (300)" },
+];
+
+const FontVariants = () => {
   const { value: enteredValue, inputChangeHandler: handleChange } =
     useTextChange((value) => value);
+
   return (
     <Container>
-      <h5>Type styles</h5>
-      <TypeStyle>
-        <div>
-          <span>H1 (36px)</span>
-        </div>
-        <div>
-          <span>H2 (32px)</span>
-        </div>
-        <div>
-          <span>H3 (28px)</span>
-        </div>
-        <div>
-          <span>H4 (24px)</span>
-        </div>
-        <div>
-          <span>H5 (22px)</span>
-        </div>
-        <div>
-          <span>H6 (20px)</span>
-        </div>
-        <div>
-          <span>Body (18px)</span>
-        </div>
-        <div>
-          <span>Footnote (16px)</span>
-        </div>
-      </TypeStyle>
-      <Spacing>
-        <div>
+      <h3>Type Hierarchy & Scale</h3>
+      <p style={{ opacity: 0.8, marginBottom: "16px" }}>
+        Consistent typography establishes clear hierarchy and optimal legibility across digital touchpoints.
+      </p>
+
+      <TypeScaleGrid>
+        {TYPE_SCALE.map(({ label, size, weight }) => (
+          <TypeScaleCard key={label}>
+            <span className="level">{label}</span>
+            <span className="size">{size}</span>
+            <span className="size">{weight}</span>
+          </TypeScaleCard>
+        ))}
+      </TypeScaleGrid>
+
+      <SpacingBar>
+        <div className="spec-item">
           <RiLineHeight />
-          <p>line-height: 1.3</p>
+          <span>Line Height: <strong>1.3 – 1.4</strong></span>
         </div>
-        <div>
+        <div className="spec-item">
           <RiTextSpacing />
-          <p>letter-spacing: 1.1</p>
+          <span>Letter Spacing: <strong>1.1px</strong></span>
         </div>
-        <div>
+        <div className="spec-item">
           <CgFontSpacing />
-          <p>word-spacing: 0.01mm</p>
+          <span>Word Spacing: <strong>0.01mm</strong></span>
         </div>
-      </Spacing>
-      <TextInput>
-        <h4>Check your text</h4>
-        <textarea placeholder="Start typing..." onChange={handleChange} />
-      </TextInput>
-      <div>
-        <Row>
-          <FontDeclaration>
-            <h1>Open Sans</h1>
-            <BoldType>Bold</BoldType>
-            <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://fonts.google.com/download?family=Open%20Sans">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Open+Sans?query=open+sans">
-              Font info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
+      </SpacingBar>
+
+      <TextInputWrapper>
+        <h4>Live Type Tester</h4>
+        <textarea
+          placeholder="Type here to test copy live across all Open Sans brand weights..."
+          onChange={handleChange}
+        />
+      </TextInputWrapper>
+
+      <div style={{ marginBottom: "20px" }}>
+        <h3 style={{ marginBottom: "6px" }}>Official Primary Typeface: Open Sans</h3>
+        <p style={{ opacity: 0.8, marginBottom: "20px" }}>
+          Open Sans is a humanist sans-serif typeface designed with an upright feel, open forms, and neutral yet friendly appearance across print and web interfaces.
+        </p>
+
+        {OPEN_SANS_WEIGHTS.map(({ name, weight, tag, usage, sample }) => (
+          <SpecimenCard key={name}>
+            <SpecimenHeader>
+              <div className="title-group">
+                <h3>{name}</h3>
+                <span className="weight-tag">{tag}</span>
+              </div>
+              <span className="usage-note">{usage}</span>
+            </SpecimenHeader>
+
+            <SpecimenSample weight={weight} size={weight >= 700 ? "24px" : "18px"}>
+              {enteredValue || sample}
+            </SpecimenSample>
+
+            <SpecimenGlyphs weight={weight}>
+              ABCDEFGHIJKLMNOPQRSTUVWXYZ • abcdefghijklmnopqrstuvwxyz • 0123456789 • !@#$%^&*()
+            </SpecimenGlyphs>
+          </SpecimenCard>
+        ))}
+
+        <FontActionBar>
+          <a
+            href="https://fonts.google.com/download?family=Open%20Sans"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <BtnPrimarySmall>Download Font</BtnPrimarySmall>
+          </a>
+          <a
+            href="https://fonts.google.com/specimen/Open+Sans"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <BtnSecondarySmall>Google Fonts Specimen</BtnSecondarySmall>
+          </a>
+        </FontActionBar>
       </div>
-      <PublicSansFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Public Sans</h1>
-            <PublicSansBold>Bold</PublicSansBold>
-            <RegularType>Regular</RegularType>
-            <PublicSansLight>Light</PublicSansLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue ||
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://fonts.google.com/download?family=Public%20Sans">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Public+Sans?query=public+sans">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </PublicSansFont>
-      <MuliFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Muli</h1>
-            <MuliBold>Bold</MuliBold>
-            <RegularType>Regular</RegularType>
-            <MuliLight>Light</MuliLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://www.fontsquirrel.com/fonts/download/muli">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.adobe.com/fonts/muli">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </MuliFont>
-      <RobotoFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Roboto</h1>
-            <BoldType>Bold</BoldType>
-            <RegularType>Regular</RegularType>
-            <RobotoLight>Light</RobotoLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://fonts.google.com/download?family=Roboto">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Roboto?preview.text=Qkokookokk&preview.text_type=custom&query=roboto">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </RobotoFont>
-      <OswaldFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Oswald</h1>
-            <OswaldBold>Bold</OswaldBold>
-            <RegularType>Regular</RegularType>
-            <OswladLight>Light</OswladLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://fonts.google.com/download?family=Oswald">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Oswald?preview.text=Qkokookokk&preview.text_type=custom&query=oswald">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </OswaldFont>
-      <Montserrat>
-        <Row>
-          <FontDeclaration>
-            <h1>Montserrat</h1>
-            <MontserratBold>Bold</MontserratBold>
-            <RegularType>Regular</RegularType>
-            <MontserratLight>Light</MontserratLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://fonts.google.com/download?family=Montserrat">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://fonts.google.com/specimen/Montserrat?preview.text=Qkokookokk&preview.text_type=custom&query=montserrat">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </Montserrat>
-      <ArkibalFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Arkibal</h1>
-            <RegularType>Bold</RegularType>
-            <ArkibalFontBold>Regular</ArkibalFontBold>
-            <ArkibalFontLight>Light</ArkibalFontLight>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://allbestfonts.com/wp-content/uploads/2017/12/elements-arkibal-serif-58UCG6-2017-03-03.zip">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://allbestfonts.com/arkibal-serif/">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-        <FontDivider />
-      </ArkibalFont>
-      <SaintGeorgeFont>
-        <Row>
-          <FontDeclaration>
-            <h1>Saint George</h1>
-            <BoldType>Bold</BoldType>
-            <RegularType>Regular</RegularType>
-            <LightType>Light</LightType>
-          </FontDeclaration>
-          <ContentExample>
-            <p>
-              {enteredValue
-                ? enteredValue
-                : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat. Duis aute irure dolor inreprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
-            </p>
-            <a href="https://www.fontmirror.com/app_public/files/t/1/family_zip/2022/11/Saint_George_Font_Family_(Fontmirror).zip">
-              <BtnSecondaryMedium>Download Font</BtnSecondaryMedium>
-            </a>
-            <BtnSecondaryTextLarge href="https://www.dafontfree.co/saint-george-typeface-free/">
-              Font Info
-            </BtnSecondaryTextLarge>
-          </ContentExample>
-        </Row>
-        <Row>
-          <AlphabetIntro>
-            <span>Aa</span>
-          </AlphabetIntro>
-          <FontShowcase>
-            <span>
-              Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv
-              Ww Xx Yy Zz
-            </span>
-            <p>01 02 03 04 05 06 07 08 09</p>
-          </FontShowcase>
-        </Row>
-      </SaintGeorgeFont>
     </Container>
   );
 };

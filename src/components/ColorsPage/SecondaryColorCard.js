@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BtnSecondarySmall } from "../ButtonPage/styles";
-import {CopyToClipboard} from 'react-copy-to-clipboard';
+import { CopyToClipboard } from "react-copy-to-clipboard";
 import { Container } from "../Layout/styles";
 import { ColorColumn, ColorDescription, ColorGrid } from "./stylesPrimary";
 
@@ -16,15 +16,15 @@ import {
   ColorBrightTertiary,
 } from "./stylesSecondary";
 
-const SecondaryColorCard = ({}) => {
+const SecondaryColorCard = () => {
   const colors = {
-    firstColor: "#11a1e0",
-    secondaryColor: "#587236",
-    tertiaryColor: "#FDFD96"
-  }
-  const [copiedPrimary, setCopiedPrimary] = useState(false);
-  const [copiedSecondary, setCopiedSecondary] = useState(false);
-  const [copiedTertiary, setCopiedTertiary] = useState(false);
+    black: "#000000",
+    gray: "#818181",
+    white: "#ffffff",
+  };
+  const [copiedBlack, setCopiedBlack] = useState(false);
+  const [copiedGray, setCopiedGray] = useState(false);
+  const [copiedWhite, setCopiedWhite] = useState(false);
 
   return (
     <Container>
@@ -36,18 +36,22 @@ const SecondaryColorCard = ({}) => {
             </ColorPale>
           </ColorBright>
           <ColorDescription>
+            <h4 style={{ margin: "10px 0 5px" }}>Pure Black</h4>
             <p>
-              <strong>RGB:</strong> 17 161 224
+              <strong>RGB:</strong> 0 0 0
             </p>
             <p>
-              <strong>CMYK:</strong> 92 28 0 12
+              <strong>CMYK:</strong> 0 0 0 100
             </p>
             <p>
-              <strong>HEX:</strong> 11a1e0
+              <strong>HEX:</strong> #000000
             </p>
-            <CopyToClipboard text={colors.firstColor} onCopy={() => setCopiedPrimary(true)}><BtnSecondarySmall>{copiedPrimary ? <span>Copied!</span> : 'Copy'}</BtnSecondarySmall></CopyToClipboard>
+            <CopyToClipboard text={colors.black} onCopy={() => setCopiedBlack(true)}>
+              <BtnSecondarySmall>{copiedBlack ? <span>Copied!</span> : "Copy HEX"}</BtnSecondarySmall>
+            </CopyToClipboard>
           </ColorDescription>
         </ColorColumn>
+
         <ColorColumn>
           <ColorBrightSecondary>
             <ColorPaleSecondary>
@@ -55,18 +59,22 @@ const SecondaryColorCard = ({}) => {
             </ColorPaleSecondary>
           </ColorBrightSecondary>
           <ColorDescription>
+            <h4 style={{ margin: "10px 0 5px" }}>Neutral Gray (50%)</h4>
             <p>
-              <strong>RGB:</strong> 88 114 54
+              <strong>RGB:</strong> 129 129 129
             </p>
             <p>
-              <strong>CMYK:</strong> 0.23 0 0.53 0.55
+              <strong>CMYK:</strong> 0 0 0 50
             </p>
             <p>
-              <strong>HEX:</strong> 587236
+              <strong>HEX:</strong> #818181
             </p>
-            <CopyToClipboard text={colors.secondaryColor} onCopy={() => setCopiedSecondary(true)}><BtnSecondarySmall>{copiedSecondary ? <span>Copied!</span> : 'Copy'}</BtnSecondarySmall></CopyToClipboard>
+            <CopyToClipboard text={colors.gray} onCopy={() => setCopiedGray(true)}>
+              <BtnSecondarySmall>{copiedGray ? <span>Copied!</span> : "Copy HEX"}</BtnSecondarySmall>
+            </CopyToClipboard>
           </ColorDescription>
         </ColorColumn>
+
         <ColorColumn>
           <ColorBrightTertiary>
             <ColorPaleTertiary>
@@ -74,16 +82,19 @@ const SecondaryColorCard = ({}) => {
             </ColorPaleTertiary>
           </ColorBrightTertiary>
           <ColorDescription>
+            <h4 style={{ margin: "10px 0 5px" }}>Pure White</h4>
             <p>
-              <strong>RGB:</strong> 253 253 150
+              <strong>RGB:</strong> 255 255 255
             </p>
             <p>
-              <strong>CMYK:</strong> 0 0 0.41 0.01
+              <strong>CMYK:</strong> 0 0 0 0
             </p>
             <p>
-              <strong>HEX:</strong> FDFD96
+              <strong>HEX:</strong> #ffffff
             </p>
-            <CopyToClipboard text={colors.tertiaryColor} onCopy={() => setCopiedTertiary(true)}><BtnSecondarySmall>{copiedTertiary ? <span>Copied!</span> : 'Copy'}</BtnSecondarySmall></CopyToClipboard>
+            <CopyToClipboard text={colors.white} onCopy={() => setCopiedWhite(true)}>
+              <BtnSecondarySmall>{copiedWhite ? <span>Copied!</span> : "Copy HEX"}</BtnSecondarySmall>
+            </CopyToClipboard>
           </ColorDescription>
         </ColorColumn>
       </ColorGrid>
@@ -92,3 +103,4 @@ const SecondaryColorCard = ({}) => {
 };
 
 export default SecondaryColorCard;
+

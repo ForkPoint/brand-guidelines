@@ -22,7 +22,7 @@ import {
   ButtonsGrid,
 } from "./styles";
 
-const ButtonsShowCase = ({}) => {
+const ButtonsShowCase = () => {
   return (
     <>
       <Container>
@@ -53,57 +53,74 @@ const ButtonsShowCase = ({}) => {
             </p>
           </Content>
           <ButtonPresentation>
-            <img src={buttonSizes}></img>
+            <img src={buttonSizes} alt="Forkpoint button sizes and tap area guidelines" />
           </ButtonPresentation>
         </ContentWrapper>
         <ButtonsGrid>
+          {/* Row 1: Solid Buttons */}
           <BrightScreenContainer>
-            <BtnPrimarySmall>Button</BtnPrimarySmall>
-            <p>Primary Button</p>
+            <BtnPrimarySmall>Action</BtnPrimarySmall>
+            <p><strong>Primary Solid</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Forkpoint Green</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnSecondarySmall>Button</BtnSecondarySmall>
-            <p>Secondary Button</p>
+            <BtnSecondarySmall>Action</BtnSecondarySmall>
+            <p><strong>Secondary Solid</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Dark Space</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnTertiarySmall>Button</BtnTertiarySmall>
-            <p>Tertiary Button</p>
+            <BtnTertiarySmall>Action</BtnTertiarySmall>
+            <p><strong>Neutral Solid</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Pure Black</span>
           </BrightScreenContainer>
           <DarkScreenContainer>
-            <BtnFourthSmall>Button</BtnFourthSmall>
-            <p>Fourth Button</p>
+            <BtnFourthSmall>Action</BtnFourthSmall>
+            <p><strong>Inverted Solid</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.85 }}>White on Dark</span>
           </DarkScreenContainer>
+
+          {/* Row 2: Outlined / Ghost Buttons */}
           <BrightScreenContainer>
-            <BtnPrimaryGhostSmall>Button</BtnPrimaryGhostSmall>
-            <p>Outlined/Ghost Button</p>
+            <BtnPrimaryGhostSmall>Action</BtnPrimaryGhostSmall>
+            <p><strong>Primary Outlined</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Green Border</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnSecondaryGhostSmall>Button</BtnSecondaryGhostSmall>
-            <p>Outlined/Ghost Button</p>
+            <BtnSecondaryGhostSmall>Action</BtnSecondaryGhostSmall>
+            <p><strong>Secondary Outlined</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Dark Space Border</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnTertiaryGhostSmall>Button</BtnTertiaryGhostSmall>
-            <p>Outlined/Ghost Button</p>
+            <BtnTertiaryGhostSmall>Action</BtnTertiaryGhostSmall>
+            <p><strong>Neutral Outlined</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Black Border</span>
           </BrightScreenContainer>
           <DarkScreenContainer>
-            <BtnFourthGhostSmall>Button</BtnFourthGhostSmall>
-            <p>Outlined/Ghost Button</p>
+            <BtnFourthGhostSmall>Action</BtnFourthGhostSmall>
+            <p><strong>Inverted Outlined</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.85 }}>White Border on Dark</span>
           </DarkScreenContainer>
+
+          {/* Row 3: Text Link Buttons */}
           <BrightScreenContainer>
-            <BtnPrimaryTextSmall>Button</BtnPrimaryTextSmall>
-            <p>Text Button</p>
+            <BtnPrimaryTextSmall>Action Link →</BtnPrimaryTextSmall>
+            <p><strong>Primary Text</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Green Link</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnSecondaryTextSmall>Button</BtnSecondaryTextSmall>
-            <p>Text Button</p>
+            <BtnSecondaryTextSmall>Action Link →</BtnSecondaryTextSmall>
+            <p><strong>Secondary Text</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Dark Space Link</span>
           </BrightScreenContainer>
           <BrightScreenContainer>
-            <BtnTertiaryTextSmall>Button</BtnTertiaryTextSmall>
-            <p>Text Button</p>
+            <BtnTertiaryTextSmall>Action Link →</BtnTertiaryTextSmall>
+            <p><strong>Neutral Text</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.7 }}>Black Link</span>
           </BrightScreenContainer>
           <DarkScreenContainer>
-            <BtnFourthTextSmall>Button</BtnFourthTextSmall>
-            <p>Text Button</p>
+            <BtnFourthTextSmall>Action Link →</BtnFourthTextSmall>
+            <p><strong>Inverted Text</strong></p>
+            <span style={{ fontSize: "13px", opacity: 0.85 }}>White Link on Dark</span>
           </DarkScreenContainer>
         </ButtonsGrid>
       </Container>

@@ -150,4 +150,36 @@ export const Content = styled.div`
   width: 350px;
   padding: 35px 15px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
+
+export const DownloadPdfButton = styled.a`
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 12px 24px;
+  background-color: #8ACF31;
+  color: #222222;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(138, 207, 49, 0.35);
+  transition: all 0.2s ease;
+
+  &:hover {
+    background-color: #7ab92a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(138, 207, 49, 0.5);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #575757;
+    outline-offset: 2px;
+  }
+`;
+

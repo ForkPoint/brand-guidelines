@@ -24,7 +24,6 @@ import {
   AiOutlineLeft,
 } from "react-icons/ai";
 import { IoLogoSlack } from "react-icons/io";
-import { BiConfused } from "react-icons/bi";
 import { MdPhotoCamera } from "react-icons/md";
 import { BsFillMenuButtonWideFill, BsGrid1X2Fill } from "react-icons/bs";
 
@@ -105,12 +104,6 @@ const linksArray = [
     label: "Colors",
     icon: <AiOutlineBgColors />,
     to: "/colors",
-    notification: 0,
-  },
-  {
-    label: "Icon",
-    icon: <BiConfused />,
-    to: "/icon",
     notification: 0,
   },
   {
